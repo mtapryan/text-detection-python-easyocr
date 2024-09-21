@@ -22,6 +22,15 @@
             margin-bottom: 20px;
         }
 
+        .results-container {
+            max-width: 1000px;
+            /* Limit overall width */
+            overflow-x: auto;
+            /* Enable horizontal scrolling */
+            margin: 0 auto;
+            /* Center the container */
+        }
+
         .result-container {
             display: flex;
             flex-direction: column;
@@ -31,15 +40,25 @@
             border-radius: 8px;
             padding: 10px;
             background-color: #222;
+            transition: transform 0.3s;
+            /* Smooth transition for hover effect */
+        }
+
+        .result-container:hover {
+            transform: scale(1.02);
+            /* Slightly enlarge on hover */
         }
 
         .result-container img {
             max-width: 100%;
             /* Responsive image */
+            width: 1000px;
+            /* Fixed width */
             border: 1px solid #fff;
             /* Optional border */
             border-radius: 4px;
-            margin-bottom: 10px;
+            cursor: pointer;
+            /* Pointer cursor for clickable images */
         }
 
         .text-results {
@@ -76,32 +95,106 @@
             background-color: #45a049;
             /* Darker green on hover */
         }
+
+        /* Modal styles */
+        #imageModal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            z-index: 1;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.8);
+            /* Black background with transparency */
+        }
+
+        #modalContent {
+            margin: 15% auto;
+            /* 15% from the top and centered */
+            display: block;
+            max-width: 80%;
+            /* Max width of modal */
+            max-height: 80%;
+            /* Max height of modal */
+        }
+
+        .close {
+            color: #aaa;
+            /* Light grey */
+            float: right;
+            /* Float to the right */
+            font-size: 28px;
+            /* Large text */
+            font-weight: bold;
+            /* Bold text */
+            margin: 10px;
+            /* Add some spacing */
+        }
+
+        .close:hover,
+        .close:focus {
+            color: white;
+            /* Change to white on hover */
+            text-decoration: none;
+            /* Remove underline */
+            cursor: pointer;
+            /* Pointer cursor on hover */
+        }
     </style>
 </head>
 
 <body>
     <h1>OCR Results</h1>
 
-    <!-- Display the modified images -->
-    <h2>Detected Text Images</h2>
-    {% for i in range(result_images|length) %}
-    <div>
-        <img src="{{ result_images[i] }}" alt="Detected Text" style="max-width: 100%; height: auto;" />
-        <ul>
-            {% for res in results[i] %}
-            {% if res.text.isdigit() %}  <!-- Check if the text is all digits -->
-            <li>
-                <strong>Text:</strong> {{ res.text }} (Score: {{ res.score }})
-                <br>
-                <strong>Bounding Box:</strong> {{ res.bbox }}
-            </li>
-            {% endif %}
-            {% endfor %}
-        </ul>
+    <div class="results-container">
+        {% for index in range(result_images|length) %}
+        <div class="result-container">
+            <img src="{{ result_images[index] }}" alt="Detected Text Image" onclick="openModal(this.src)">
+            <div class="text-results">
+                <ul>
+                    {% for res in results[index] %}
+                    {% if res.text.isdigit() %} <!-- Check if the text is all digits -->
+                    <li>
+                        <strong>Text:</strong> {{ res.text }} (Score: {{ res.score }})
+                        <br>
+                        <strong>Bounding Box:</strong> {{ res.bbox }}
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 
     <a href="/" class="back-button">Go Back</a>
+
+    <!-- Modal for image preview -->
+    <div id="imageModal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalContent" src="" alt="Image Preview">
+    </div>
+
+    <script>
+        function openModal(src) {
+            const modal = document.getElementById("imageModal");
+            const modalImg = document.getElementById("modalContent");
+            modal.style.display = "block";
+            modalImg.src = src;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById("imageModal");
+            modal.style.display = "none";
+        }
+    </script>
 </body>
 
 </html>

@@ -60,11 +60,11 @@ def upload_multiple():
 
         # Process image and store results
         image_results, result_image_path = process_image(filepath, uploads_dir)
-        results.append(image_results)
+        results.append(image_results)  # Append the results for each image
         result_images.append(result_image_path)
 
     # Pass each image's results to the template
-    return render_template('results_multiple.html', results=zip(results, result_images))
+    return render_template('results_multiple.html', results=results, result_images=result_images)
 
 def process_image(filepath, uploads_dir):
     img = cv2.imread(filepath)
@@ -76,23 +76,24 @@ def process_image(filepath, uploads_dir):
     text_ = reader.readtext(img)
 
     results = []
+    threshold = 0.25  # Set threshold for score
     for t in text_:
         bbox, text, score = t
-        clean_text = ''.join(filter(str.isdigit, text))  # Clean non-digit characters
-        if clean_text:  # Ensure there's something left after cleaning
-            results.append({
-                'bbox': bbox,
-                'text': clean_text,
-                'score': score
-            })
-            bbox = np.array(bbox).astype(int)
-            cv2.rectangle(img, tuple(bbox[0]), tuple(bbox[2]), (0, 255, 0), 2)
+        if score > threshold:  # Check if the score is above the threshold
+            clean_text = ''.join(filter(str.isdigit, text))  # Clean non-digit characters
+            if clean_text:  # Ensure there's something left after cleaning
+                results.append({
+                    'bbox': bbox,
+                    'text': clean_text,
+                    'score': score
+                })
+                bbox = np.array(bbox).astype(int)
+                cv2.rectangle(img, tuple(bbox[0]), tuple(bbox[2]), (0, 255, 0), 2)
 
     result_image_path = os.path.join(uploads_dir, 'result_' + os.path.basename(filepath))
     cv2.imwrite(result_image_path, img)
 
     return results, f'/uploads/{os.path.basename(result_image_path)}'
-
 
 @app.route('/uploads/<path:filename>')
 def uploaded_file(filename):

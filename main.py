@@ -56,13 +56,12 @@ def upload_multiple():
 
         # Process image and store results
         image_results, result_image_path = process_image(filepath, uploads_dir)
-        results.extend(image_results)
+        results.append(image_results)
         result_images.append(result_image_path)
 
     return render_template('results_multiple.html', results=results, result_images=result_images)
 
 def process_image(filepath, uploads_dir):
-    # Perform OCR on the uploaded image
     img = cv2.imread(filepath)
     ssl._create_default_https_context = ssl._create_unverified_context
     reader = easyocr.Reader(['en'], gpu=False)
@@ -71,21 +70,21 @@ def process_image(filepath, uploads_dir):
     results = []
     for t in text_:
         bbox, text, score = t
-        if text.isdigit():  # Include all detected text (text.isdigit() for digits only)
+        clean_text = ''.join(filter(str.isdigit, text))  # Clean non-digit characters
+        if clean_text:  # Ensure there's something left after cleaning
             results.append({
                 'bbox': bbox,
-                'text': text,
+                'text': clean_text,
                 'score': score
             })
-            # Draw bounding box on the image
             bbox = np.array(bbox).astype(int)
             cv2.rectangle(img, tuple(bbox[0]), tuple(bbox[2]), (0, 255, 0), 2)
 
-    # Save the modified image with bounding boxes
     result_image_path = os.path.join(uploads_dir, 'result_' + os.path.basename(filepath))
     cv2.imwrite(result_image_path, img)
 
     return results, f'/uploads/{os.path.basename(result_image_path)}'
+
 
 @app.route('/uploads/<path:filename>')
 def uploaded_file(filename):

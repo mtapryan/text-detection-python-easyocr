@@ -12,17 +12,21 @@
 
     <!-- Display the modified images -->
     <h2>Detected Text Images</h2>
-    {% for result_image in result_images %}
-    <img src="{{ result_image }}" alt="Detected Text" style="max-width: 100%; height: auto;" />
-    <ul>
-        {% for result in results %}
-        <li>
-            <strong>Text:</strong> {{ result.text }} (Score: {{ result.score }})
-            <br>
-            <strong>Bounding Box:</strong> {{ result.bbox }}
-        </li>
-        {% endfor %}
-    </ul>
+    {% for i in range(result_images|length) %}
+    <div>
+        <img src="{{ result_images[i] }}" alt="Detected Text" style="max-width: 100%; height: auto;" />
+        <ul>
+            {% for res in results[i] %}
+            {% if res.text.isdigit() %}  <!-- Check if the text is all digits -->
+            <li>
+                <strong>Text:</strong> {{ res.text }} (Score: {{ res.score }})
+                <br>
+                <strong>Bounding Box:</strong> {{ res.bbox }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
     {% endfor %}
 
     <a href="/">Go back</a>

@@ -5,20 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Detection Upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        /* Additional styles for image preview */
+        #singleImagePreview,
+        #multipleImagePreview {
+            margin-top: 20px;
+            display: flex;
+            /* Use flexbox for multiple images */
+            flex-wrap: wrap;
+            /* Allow wrapping of images */
+        }
+
+        #singleImagePreview img,
+        #multipleImagePreview img {
+            max-width: 100px;
+            /* Set a max width for each preview */
+            max-height: 100px;
+            /* Set a max height for each preview */
+            margin: 5px;
+            /* Add some spacing between images */
+            border: 1px solid #fff;
+            /* Optional border for aesthetics */
+            cursor: pointer;
+            /* Change cursor to pointer for clickable images */
+        }
+
+        /* Modal styles */
+        #imageModal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            z-index: 1;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.8);
+            /* Black background with transparency */
+        }
+
+        #modalContent {
+            margin: 15% auto;
+            /* 15% from the top and centered */
+            display: block;
+            max-width: 80%;
+            /* Max width of modal */
+            max-height: 80%;
+            /* Max height of modal */
+        }
+
+        .close {
+            color: #aaa;
+            /* Light grey */
+            float: right;
+            /* Float to the right */
+            font-size: 28px;
+            /* Large text */
+            font-weight: bold;
+            /* Bold text */
+            margin: 10px;
+            /* Add some spacing */
+        }
+
+        .close:hover,
+        .close:focus {
+            color: white;
+            /* Change to white on hover */
+            text-decoration: none;
+            /* Remove underline */
+            cursor: pointer;
+            /* Pointer cursor on hover */
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Upload an Image for Text Detection</h1>
+    <!-- <h1>Upload an Image for Text Detection</h1>
+
     <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*" required>
+        <input type="file" name="image" accept="image/*" required onchange="previewSingleImage(event)">
+        <h2>Single Image Preview</h2>
+        <div id="singleImagePreview" class="center"></div> 
         <button type="submit">Upload Single Image</button>
-    </form> 
+    </form>  -->
+
+    
 
     <h1>Upload Multiple Images for Text Detection</h1>
     <form action="/upload_multiple" method="post" enctype="multipart/form-data">
-        <input type="file" name="images" accept="image/*" multiple required>
+        <input type="file" name="images" accept="image/*" multiple required onchange="previewMultipleImages(event)">
+        <h2>Multiple Images Preview</h2>
+        <div id="multipleImagePreview" class="center"></div> <!-- Container for multiple images preview -->
         <button type="submit">Upload Multiple Images</button>
     </form>
+    <div id="loadingModal" style="display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7);">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; text-align: center;">
+            <h2>Loading...</h2>
+            <p>Please wait while we process your upload.</p>
+        </div>
+    </div>
+    <!-- Modal for image preview -->
+    <div id="imageModal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalContent" src="" alt="Image Preview">
+    </div>
+
+    <script>
+
+document.querySelector('form').addEventListener('submit', function() {
+        // Show the loading modal
+        document.getElementById('loadingModal').style.display = 'block';
+
+        // Disable the submit button to prevent multiple submissions
+        const submitButton = this.querySelector('button[type="submit"]');
+        submitButton.disabled = true;
+        submitButton.innerText = 'Uploading...';
+    });
+        function previewSingleImage(event) {
+            const singleImagePreview = document.getElementById('singleImagePreview');
+            singleImagePreview.innerHTML = ''; // Clear previous previews
+            const img = document.createElement('img');
+            img.src = URL.createObjectURL(event.target.files[0]);
+            img.onclick = function () { openModal(img.src); }; // Open modal on click
+            singleImagePreview.appendChild(img); // Show the single image
+        }
+
+        function previewMultipleImages(event) {
+            const files = event.target.files;
+            const previewContainer = document.getElementById('multipleImagePreview');
+            previewContainer.innerHTML = ''; // Clear previous previews
+            for (let i = 0; i < files.length; i++) {
+                const img = document.createElement('img');
+                img.src = URL.createObjectURL(files[i]);
+                img.onclick = function () { openModal(img.src); }; // Open modal on click
+                previewContainer.appendChild(img); // Show each selected image
+            }
+        }
+
+        function openModal(src) {
+            const modal = document.getElementById("imageModal");
+            const modalImg = document.getElementById("modalContent");
+            modal.style.display = "block";
+            modalImg.src = src;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById("imageModal");
+            modal.style.display = "none";
+        }
+    </script>
 </body>
 
 </html>

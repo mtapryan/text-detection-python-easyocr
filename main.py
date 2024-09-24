@@ -1,4 +1,4 @@
-from flask import Flask, render_template,session, request,redirect,url_for, send_from_directory
+from flask import Flask, render_template, request,session, send_from_directory
 import cv2
 import ssl
 import easyocr
@@ -15,10 +15,10 @@ def index():
 @app.route('/upload', methods=['POST'])
 def upload():
     if 'image' not in request.files:
-        return "No file part"
+        return "No file part", 400  # HTTP status code for bad request
     file = request.files['image']
     if file.filename == '':
-        return "No selected file"
+        return "No selected file", 400  # Bad request if no file is selected
     
     # Create uploads directory if it doesn't exist
     uploads_dir = 'uploads'
@@ -29,19 +29,23 @@ def upload():
     filepath = os.path.join(uploads_dir, file.filename)
     file.save(filepath)
 
-    return process_image(filepath, uploads_dir)
+    # Process the image and get results
+    results, result_image_url = process_image(filepath, uploads_dir)
+
+    # Render the results template with the processed data
+    return render_template('results.html', results=results, result_image=result_image_url)
 
 @app.route('/upload_multiple', methods=['POST'])
 def upload_multiple():
     if 'images' not in request.files:
-        return "No file part"
+        return "No file part", 400  # Bad request if no files are found
     
     files = request.files.getlist('images')
     if not files:
-        return "No selected files"
+        return "No selected files", 400  # Bad request if no files are selected
 
-    results = []
-    result_images = []
+    results = []  # This will hold the results for all images
+    result_images = []  # This will hold the paths for the processed images
     uploads_dir = 'uploads'
     if not os.path.exists(uploads_dir):
         os.makedirs(uploads_dir)
@@ -57,47 +61,49 @@ def upload_multiple():
 
         # Process image and store results
         image_results, result_image_path = process_image(filepath, uploads_dir)
-        results.extend(image_results)
+        results.append(image_results)  # Append the results for each image
         result_images.append(result_image_path)
-# Simpan hasilnya di session agar bisa digunakan di halaman lain
+    # Store the results in session
     session['results'] = results
     session['result_images'] = result_images
-
+    # Pass each image's results to the template
     return render_template('results_multiple.html', results=results, result_images=result_images)
 
-def page2():
-    # Ambil data dari session
+@app.route('/thumbnails')
+def thumbnails():
+    # Retrieve results from session
     results = session.get('results', [])
     result_images = session.get('result_images', [])
-    
-    # Jika tidak ada data, redirect kembali ke halaman upload
-    if not results or not result_images:
-        return redirect(url_for('upload_multiple'))
-    
-    # Render page2 dengan data yang sudah ada
+
     return render_template('thumbnails.html', results=results, result_images=result_images)
 
 def process_image(filepath, uploads_dir):
-    # Perform OCR on the uploaded image
     img = cv2.imread(filepath)
+    if img is None:
+        return [], "Image not found or couldn't be loaded."
+
     ssl._create_default_https_context = ssl._create_unverified_context
     reader = easyocr.Reader(['en'], gpu=False)
     text_ = reader.readtext(img)
 
     results = []
+    threshold = 0.25  # Set threshold for score
     for t in text_:
         bbox, text, score = t
-        if text.isdigit():  # Include all detected text (text.isdigit() for digits only)
+        clean_text = ''.join(filter(str.isdigit, text))  # Clean non-digit characters
+        
+        if clean_text and score > threshold:  # Check if text exists and score is above threshold
             results.append({
-                'bbox': bbox,
-                'text': text,
-                'score': score
+                'bbox': [tuple(map(int, point)) for point in bbox],  # Convert bbox points to standard Python integers
+                'text': clean_text,
+                'score': float(score)  # Ensure score is a float
             })
-            # Draw bounding box on the image
+            
+            # Convert bbox points to integer tuples and draw the rectangle on the image
             bbox = np.array(bbox).astype(int)
             cv2.rectangle(img, tuple(bbox[0]), tuple(bbox[2]), (0, 255, 0), 2)
 
-    # Save the modified image with bounding boxes
+    # Save the resulting image with bounding boxes
     result_image_path = os.path.join(uploads_dir, 'result_' + os.path.basename(filepath))
     cv2.imwrite(result_image_path, img)
 

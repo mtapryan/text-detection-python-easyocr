@@ -1,10 +1,173 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OCR Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .results-container {
+            max-width: 1000px;
+            overflow-x: auto;
+            margin: 0 auto;
+        }
+
+        .result-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+            border: 1px solid #444;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #222;
+            transition: transform 0.3s;
+        }
+
+        .result-container:hover {
+            transform: scale(1.02);
+        }
+
+        .result-container img {
+            max-width: 100%;
+            width: 1000px;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .text-results {
+            text-align: center;
+        }
+
+        .text-results ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .text-results li {
+            margin: 5px 0;
+        }
+
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            width: 200px;
+        }
+
+        .back-button:hover {
+            background-color: #45a049;
+        }
+
+        #imageModal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        #modalContent {
+            margin: 15% auto;
+            display: block;
+            max-width: 80%;
+            max-height: 80%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-    test
+    <h1>OCR Results</h1>
+
+    <div class="results-container">
+        {% for index in range(result_images|length) %}
+        <div class="result-container">
+            <img src="{{ result_images[index] }}" alt="Detected Text Image" onclick="openModal(this.src)">
+            <div class="text-results">
+                <ul>
+                    {% set found_text = False %}
+                    {% for res in results[index] %}
+                        {% if res.text.isdigit() and not found_text %}
+                        <li>
+                            <strong>Text:</strong> {{ res.text }} (Score: {{ res.score }})
+                            <br>
+                            <strong>Bounding Box:</strong> {{ res.bbox }}
+                        </li>
+                        {% set found_text = True %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if not found_text %}
+                        <li>No numeric text detected.</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    
+    
+
+    <a href="/" class="back-button">Home</a>
+
+    <!-- Modal for image preview -->
+    <div id="imageModal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalContent" src="" alt="Image Preview">
+    </div>
+
+    <script>
+        function openModal(src) {
+            const modal = document.getElementById("imageModal");
+            const modalImg = document.getElementById("modalContent");
+            modal.style.display = "block";
+            modalImg.src = src;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById("imageModal");
+            modal.style.display = "none";
+        }
+    </script>
 </body>
+
 </html>

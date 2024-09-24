@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template,session, request,redirect,url_for, send_from_directory
 import cv2
 import ssl
 import easyocr
@@ -6,6 +6,7 @@ import numpy as np
 import os
 
 app = Flask(__name__)
+app.secret_key = 'your_secret_key'
 
 @app.route('/')
 def index():
@@ -58,8 +59,23 @@ def upload_multiple():
         image_results, result_image_path = process_image(filepath, uploads_dir)
         results.extend(image_results)
         result_images.append(result_image_path)
+# Simpan hasilnya di session agar bisa digunakan di halaman lain
+    session['results'] = results
+    session['result_images'] = result_images
 
     return render_template('results_multiple.html', results=results, result_images=result_images)
+
+def page2():
+    # Ambil data dari session
+    results = session.get('results', [])
+    result_images = session.get('result_images', [])
+    
+    # Jika tidak ada data, redirect kembali ke halaman upload
+    if not results or not result_images:
+        return redirect(url_for('upload_multiple'))
+    
+    # Render page2 dengan data yang sudah ada
+    return render_template('thumbnails.html', results=results, result_images=result_images)
 
 def process_image(filepath, uploads_dir):
     # Perform OCR on the uploaded image

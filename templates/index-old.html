@@ -86,6 +86,14 @@
 </head>
 
 <body>
+    <h1>Upload an Image for Text Detection</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required onchange="previewSingleImage(event)">
+        <h2>Single Image Preview</h2>
+        <div id="singleImagePreview" class="center"></div>
+        <button type="submit">Upload Single Image</button>
+    </form>
+
     <h1>Upload Multiple Images for Text Detection</h1>
     <form action="/upload_multiple" method="post" enctype="multipart/form-data">
         <input type="file" name="images" accept="image/*" multiple required onchange="previewMultipleImages(event)">
@@ -94,6 +102,7 @@
         <button type="submit">Upload Multiple Images</button>
     </form>
 
+    <!-- Modal for image preview -->
     <div id="imageModal">
         <span class="close" onclick="closeModal()">&times;</span>
         <img id="modalContent" src="" alt="Image Preview">

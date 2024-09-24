@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, send_from_directory
+from collections import defaultdict
 import cv2
 import ssl
 import easyocr
@@ -63,8 +64,15 @@ def upload_multiple():
         results.append(image_results)  # Append the results for each image
         result_images.append(result_image_path)
 
+    # Group results by text
+    grouped_results = defaultdict(list)
+    for index in range(len(results)):
+        for res in results[index]:
+            if res['text'].isdigit():
+                grouped_results[res['text']].append((res, result_images[index]))
+
     # Pass each image's results to the template
-    return render_template('results_multiple.html', results=results, result_images=result_images)
+    return render_template('results_multiple.html', grouped_results=grouped_results)
 
 def process_image(filepath, uploads_dir):
     img = cv2.imread(filepath)

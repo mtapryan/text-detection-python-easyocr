@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images for {{ text }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+            cursor: pointer; /* Changes cursor to pointer */
+        }
+
+        .image-container:hover {
+            transform: scale(1.05);
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #fff;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .download-button {
+            display: block;
+            text-align: center;
+            padding: 5px 10px;
+            margin-top: 5px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #45a049;
+        }
+
+        .single-image {
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 80%; /* Max width for modal content */
+            max-height: 80%; /* Max height for modal content */
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            width: 200px;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Number: {{ text }}</h1>
+
+    <div class="image-list">
+        {% if image_urls | length == 1 %}
+        <div>
+        <div class="single-image">
+            <div class="image-container" onclick="openModal('{{ image_urls[0] }}')">
+                <img src="{{ image_urls[0] }}" alt="Image related to {{ text }}">
+               
+            </div>
+           
+        </div>
+         <a href="{{ image_urls[0] }}" download class="download-button">Download</a>
+    </div>
+        {% else %}
+        {% for img_url in image_urls %}
+        <div>
+        <div class="image-container" onclick="openModal('{{ img_url }}')">
+            <img src="{{ img_url }}" alt="Image related to {{ text }}">
+            
+        </div>
+        <a href="{{ img_url }}" download class="download-button">Download</a>
+    </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script>
+        // Open modal and display the clicked image
+        function openModal(imageUrl) {
+            document.getElementById("myModal").style.display = "block";
+            document.getElementById("modalImage").src = imageUrl;
+        }
+
+        // Close the modal
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        // Close modal when clicking outside of the image
+        window.onclick = function(event) {
+            const modal = document.getElementById("myModal");
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+    </script>
+      <!-- <a href="{{ url_for('upload_multiple') }}" class="back-button">Back to Results</a> -->
+</body>
+
+</html>

@@ -82,12 +82,31 @@
             cursor: pointer;
             /* Pointer cursor on hover */
         }
+
+        /* Loading overlay styles */
+        #loadingOverlay {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed position */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            z-index: 2; /* Above everything else */
+            justify-content: center; /* Center the content */
+            align-items: center; /* Center the content */
+        }
+
+        #loadingText {
+            color: white; /* White text */
+            font-size: 24px; /* Larger font */
+        }
     </style>
 </head>
 
 <body>
-    <h1>Upload Multiple Images for Text Detection</h1>
-    <form action="/upload_multiple" method="post" enctype="multipart/form-data">
+    <h1>Upload Images</h1>
+    <form action="/upload_multiple" method="post" enctype="multipart/form-data" onsubmit="showLoading()">
         <input type="file" name="images" accept="image/*" multiple required onchange="previewMultipleImages(event)">
         <h2>Multiple Images Preview</h2>
         <div id="multipleImagePreview" class="center"></div>
@@ -97,6 +116,11 @@
     <div id="imageModal">
         <span class="close" onclick="closeModal()">&times;</span>
         <img id="modalContent" src="" alt="Image Preview">
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay">
+        <div id="loadingText">Loading, please wait...</div>
     </div>
 
     <script>
@@ -131,6 +155,11 @@
         function closeModal() {
             const modal = document.getElementById("imageModal");
             modal.style.display = "none";
+        }
+
+        function showLoading() {
+            const loadingOverlay = document.getElementById('loadingOverlay');
+            loadingOverlay.style.display = 'flex'; // Show the loading overlay
         }
     </script>
 </body>

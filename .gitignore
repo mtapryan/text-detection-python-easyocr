@@ -3,3 +3,5 @@
 .DS_Store
 /uploads
 /node_modules
+/public/uploads
+.DS_Store

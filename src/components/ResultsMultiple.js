@@ -1,40 +1,65 @@
 import React from "react";
+import {
+  Box,
+  Typography,
+  Grid,
+  Card,
+  CardContent,
+  CardMedia,
+  Button,
+} from "@mui/material";
 import "./../App.css";
 
 const ResultsMultiple = ({ groupedResults }) => {
-    console.log(groupedResults);
+  console.log("Grouped Results in ResultsMultiple:", groupedResults);
+
   return (
-    <div>
-      <h1>Results</h1>
-      <div className="results-container">
+    <Box sx={{ padding: 3 }}>
+      <Typography variant="h4" gutterBottom>
+        Results
+      </Typography>
+      <Grid container spacing={3} className="results-container">
         {Object.entries(groupedResults).map(([text, images], index) => (
-          <div className="result-group" key={index}>
-            <h2>{text}</h2>
-            {images.map((imageResult, imgIndex) => (
-              <div key={imgIndex} className="image-result">
-                <img
-                  src={`http://localhost:3000/${imageResult.image_url}`}
-                  alt={`Result for ${text}`}
-                  style={{
-                    maxWidth: "200px",
-                    maxHeight: "200px",
-                    margin: "10px",
-                    border: "1px solid #fff",
-                  }}
-                />
-                <p>Score: {imageResult.score}</p>
-                <p>Bounding Box: {JSON.stringify(imageResult.bbox)}</p>
-              </div>
-            ))}
-          </div>
+          <Grid item xs={12} key={index}>
+            <Card>
+              <CardContent>
+                <Typography variant="h5">{text}</Typography>
+                <Grid container spacing={2}>
+                  {images.map((imageResult, imgIndex) => (
+                    <Grid item key={imgIndex}>
+                      <CardMedia
+                        component="img"
+                        image={`http://localhost:3001${imageResult.image_url}`}
+                        alt={`Result for ${text}`}
+                        sx={{
+                          maxWidth: "200px",
+                          maxHeight: "200px",
+                          margin: "10px",
+                          border: "1px solid #fff",
+                        }}
+                      />
+                      <Typography>Score: {imageResult.score}</Typography>
+                      <Typography>
+                        Bounding Box: {JSON.stringify(imageResult.bbox)}
+                      </Typography>
+                    </Grid>
+                  ))}
+                </Grid>
+              </CardContent>
+            </Card>
+          </Grid>
         ))}
-      </div>
-      <a href="/" className="back-button">
+      </Grid>
+      <Button
+        href="/"
+        variant="contained"
+        color="primary"
+        sx={{ marginTop: 2 }}
+      >
         Go Back
-      </a>
-    </div>
+      </Button>
+    </Box>
   );
 };
 
-// Add the default export here
 export default ResultsMultiple;

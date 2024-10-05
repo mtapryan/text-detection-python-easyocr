@@ -46,6 +46,9 @@ def convert_types(obj):
 
 @app.route('/upload_multiple', methods=['POST'])
 def upload_multiple():
+    # Clear the uploads folder before saving new files
+    clear_uploads_folder()
+    
     if 'images' not in request.files:
         return jsonify({"error": "No file part"}), 400
     
@@ -79,7 +82,7 @@ def upload_multiple():
                 # Convert bbox to list of lists to ensure JSON serializability
                 res['bbox'] = [list(point) for point in res['bbox']]
                 res['score'] = float(res['score'])  # Ensure score is a float
-                res['image_url'] = f'/uploads/{os.path.basename(saved_images[index])}'  # Point to the React public/uploads folder
+                res['image_url'] = f'/uploads/{os.path.basename(all_saved_images[index])}'  # Point to the React public/uploads folder
                 grouped_results[res['text']].append(res)
 
     # Convert defaultdict to regular dict for JSON serialization
@@ -87,6 +90,9 @@ def upload_multiple():
 
     # Ensure all types in grouped_results are JSON serializable
     grouped_results = convert_types(grouped_results)
+
+    # Log the response
+    print("Grouped Results:", grouped_results)
 
     return jsonify({"grouped_results": grouped_results})
 
@@ -139,4 +145,5 @@ def uploaded_file(filename):
     return send_from_directory(os.path.join(os.getcwd(), 'public', 'uploads'), filename)
 
 if __name__ == "__main__":
+    clear_uploads_folder()  # Clear the uploads folder when the app starts
     app.run(host='0.0.0.0', port=3001, debug=True)

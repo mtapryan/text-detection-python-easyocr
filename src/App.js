@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   CssBaseline,
@@ -42,6 +42,20 @@ const App = () => {
   const [resultImage, setResultImage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
+  useEffect(() => {
+    const clearUploads = async () => {
+      try {
+        await fetch("http://localhost:3001/clear_uploads", {
+          method: "POST",
+        });
+      } catch (error) {
+        console.error("Error clearing uploads folder:", error);
+      }
+    };
+
+    clearUploads();
+  }, []);
+
   const handleUpload = async (files) => {
     const formData = new FormData();
     for (let i = 0; i < files.length; i++) {
@@ -72,7 +86,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/carifoto">
         <Header />
         <Container maxWidth="md" sx={{ mt: 8 }}>
           <Box sx={{ my: 4 }}>
@@ -121,7 +135,7 @@ const App = () => {
                   color="primary"
                   gutterBottom
                 >
-                  FotoCap is a user-friendly photo capture and upload platform
+                  CariFoto is a user-friendly photo capture and upload platform
                   that allows you to instantly share your special moments.
                   Easily upload and manage high-quality images with seamless
                   integration, powered by Dunia Inovasi Teknologi.

@@ -51,7 +51,7 @@ const ResultsMultiple = ({ groupedResults }) => {
         ))}
       </Grid>
       <Button
-        href="/"
+        href="/carifoto"
         variant="contained"
         color="primary"
         sx={{ marginTop: 2 }}

@@ -11,7 +11,6 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for the Flask app
 
 # Define the uploads directory to point to the React public/uploads folder
-# Adjust this path depending on where your main.py is located relative to the React project
 uploads_dir = os.path.join(os.getcwd(), 'public', 'uploads')
 
 def clear_uploads_folder():

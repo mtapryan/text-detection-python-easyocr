@@ -28,6 +28,17 @@ def clear_uploads():
     clear_uploads_folder()
     return jsonify({"message": "Uploads folder cleared!"})
 
+@app.route('/login', methods=['POST'])
+def login():
+    data = request.get_json()
+    username = data.get("username")
+    password = data.get("password")
+
+    if username == "admin" and password == "123456":
+        return jsonify({"success": True})
+    else:
+        return jsonify({"success": False}), 401
+
 # Function to handle non-serializable types
 def convert_types(obj):
     """Recursively convert non-serializable types to JSON serializable types."""

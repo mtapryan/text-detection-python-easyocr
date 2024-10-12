@@ -1,21 +1,27 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+} from "react-router-dom";
 import {
   CssBaseline,
-  CircularProgress,
-  Box,
   Container,
   createTheme,
   ThemeProvider,
-  Card,
-  CardContent,
-  Typography,
+  Box,
 } from "@mui/material";
 import Upload from "./components/Upload";
 import Results from "./components/Results";
 import ResultsMultiple from "./components/ResultsMultiple";
 import Header from "./components/Header";
-import "./App.css"; // Import style CSS
+import Login from "./components/Login";
+import Profile from "./components/Profile";
+import Footer from "./components/Footer";
+import Sidebar from "./components/Sidebar";
+import Feed from "./components/Feed";
+import "./App.css";
 
 const theme = createTheme({
   palette: {
@@ -36,117 +42,53 @@ const theme = createTheme({
   },
 });
 
-const App = () => {
-  const [results, setResults] = useState([]);
-  const [groupedResults, setGroupedResults] = useState({});
-  const [resultImage, setResultImage] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+const AppContent = () => {
+  const location = useLocation();
+  const showHeader = location.pathname !== "/";
+  const showSidebar = location.pathname !== "/login";
+  const [images, setImages] = useState([]);
 
   useEffect(() => {
-    const clearUploads = async () => {
-      try {
-        await fetch("http://localhost:3001/clear_uploads", {
-          method: "POST",
-        });
-      } catch (error) {
-        console.error("Error clearing uploads folder:", error);
-      }
-    };
-
-    clearUploads();
+    // Fetch images from PHP endpoint
+    fetch("http://localhost:8000/GetImagesService.php")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data.images); // Log the images data
+        setImages(data.images);
+      })
+      .catch((error) => console.error("Error fetching images:", error));
   }, []);
 
-  const handleUpload = async (files) => {
-    const formData = new FormData();
-    for (let i = 0; i < files.length; i++) {
-      formData.append("images", files[i]);
-    }
-
-    try {
-      setIsLoading(true); // Show loading overlay when uploading images
-      const response = await fetch("http://localhost:3001/upload_multiple", {
-        method: "POST",
-        body: formData,
-      });
-      const data = await response.json();
-
-      // Log the data received from the backend
-      console.log("Data received from backend:", data);
-
-      setGroupedResults(data.grouped_results);
-      setResults(data.results);
-      setResultImage(data.result_image);
-    } catch (error) {
-      console.error("Error uploading images:", error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  console.log(images);
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Router basename="/carifoto">
-        <Header />
+    <div className="main-container">
+      {showSidebar && <Sidebar />}
+      <Box sx={{ display: "flex", flexDirection: "column", flex: 1 }}>
+        {showHeader && <Header />}
         <Container maxWidth="md" sx={{ mt: 8 }}>
-          <Box sx={{ my: 4 }}>
-            {isLoading && (
-              <Box
-                id="loadingOverlay"
-                sx={{
-                  position: "fixed",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  height: "100%",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  backgroundColor: "rgba(0, 0, 0, 0.5)",
-                  zIndex: 9999,
-                }}
-              >
-                <CircularProgress color="inherit" />
-              </Box>
-            )}
-
-            <Routes>
-              <Route
-                exact
-                path="/"
-                element={<Upload onUpload={handleUpload} />}
-              />
-              <Route
-                path="/results"
-                element={
-                  <Results results={results} resultImage={resultImage} />
-                }
-              />
-              <Route
-                path="/results-multiple"
-                element={<ResultsMultiple groupedResults={groupedResults} />}
-              />
-            </Routes>
-            <Card sx={{ mt: 4, backgroundColor: "#f5f5f5" }}>
-              <CardContent>
-                <Typography
-                  variant="body1"
-                  component="p"
-                  color="primary"
-                  gutterBottom
-                >
-                  CariFoto is a user-friendly photo capture and upload platform
-                  that allows you to instantly share your special moments.
-                  Easily upload and manage high-quality images with seamless
-                  integration, powered by Dunia Inovasi Teknologi.
-                </Typography>
-              </CardContent>
-            </Card>
-          </Box>
+          <Routes>
+            <Route exact path="/" element={<Feed images={images} />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/upload" element={<Upload />} />
+            <Route path="/results" element={<Results />} />
+            <Route path="/results-multiple" element={<ResultsMultiple />} />
+            <Route path="/profile" element={<Profile />} />
+          </Routes>
         </Container>
-      </Router>
-    </ThemeProvider>
+        {showHeader && <Footer />}
+      </Box>
+    </div>
   );
 };
+
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <Router basename="/carifoto">
+      <AppContent />
+    </Router>
+  </ThemeProvider>
+);
 
 export default App;

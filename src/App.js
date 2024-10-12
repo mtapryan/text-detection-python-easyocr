@@ -21,6 +21,7 @@ import Profile from "./components/Profile";
 import Footer from "./components/Footer";
 import Sidebar from "./components/Sidebar";
 import Feed from "./components/Feed";
+import axios from "axios";
 import "./App.css";
 
 const theme = createTheme({
@@ -50,11 +51,11 @@ const AppContent = () => {
 
   useEffect(() => {
     // Fetch images from PHP endpoint
-    fetch("http://localhost:8000/GetImagesService.php")
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data.images); // Log the images data
-        setImages(data.images);
+    axios
+      .get("http://localhost:8000/GetImagesService.php")
+      .then((response) => {
+        console.log(response.data.images); // Log the images data
+        setImages(response.data.images);
       })
       .catch((error) => console.error("Error fetching images:", error));
   }, []);

@@ -1,7 +1,14 @@
 <?php
-header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Origin: http://localhost:3000");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
-header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
+header("Access-Control-Allow-Credentials: true");
+
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    // Handle preflight request
+    header("HTTP/1.1 200 OK");
+    exit();
+}
 
 require_once 'config.php'; // Include the database configuration file
 
@@ -24,16 +31,19 @@ class LoginService {
                     return json_encode(["success" => false]);
                 }
             } else {
+                error_log("Execution failed: " . mysqli_error($this->link));
                 return json_encode(["success" => false, "error" => "Execution failed"]);
             }
             mysqli_stmt_close($stmt);
         } else {
+            error_log("Preparation failed: " . mysqli_error($this->link));
             return json_encode(["success" => false, "error" => "Preparation failed"]);
         }
     }
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    error_log("POST request received");
     $data = json_decode(file_get_contents('php://input'), true);
     $username = $data['username'];
     $password = $data['password'];

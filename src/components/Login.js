@@ -8,6 +8,7 @@ import {
   Container,
   Alert,
 } from "@mui/material";
+import axios from "axios";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -20,15 +21,21 @@ const Login = () => {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:8000/LoginService.php", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await axios.post(
+        "http://localhost:8000/LoginService.php",
+        {
+          username,
+          password,
         },
-        body: JSON.stringify({ username, password }),
-      });
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+          withCredentials: true,
+        }
+      );
 
-      const data = await response.json();
+      const data = response.data;
 
       if (data.success) {
         navigate("/upload");

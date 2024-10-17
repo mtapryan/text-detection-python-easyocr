@@ -10,11 +10,11 @@ import {
 } from "@mui/material";
 import "./../App.css";
 
-const ResultsMultiple = ({ groupedResults }) => {
+const ResultsMultiple = ({ groupedResults = {} }) => {
   console.log("Grouped Results in ResultsMultiple:", groupedResults);
 
   return (
-    <Box sx={{ padding: 3 }}>
+    <Box className="main-content">
       <Typography variant="h4" gutterBottom>
         Results
       </Typography>

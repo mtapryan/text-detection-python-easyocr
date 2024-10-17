@@ -48,11 +48,14 @@ const AppContent = () => {
   const showHeader = location.pathname !== "/";
   const showSidebar = location.pathname !== "/login";
   const [images, setImages] = useState([]);
+  const [groupedResults, setGroupedResults] = useState({});
 
   useEffect(() => {
     // Fetch images from PHP endpoint
     axios
-      .get("http://localhost:8000/GetImagesService.php")
+      .get(
+        "https://dev.duniadalamdigital.com/carifoto/php-service/GetImagesService.php"
+      )
       .then((response) => {
         console.log(response.data.images); // Log the images data
         setImages(response.data.images);
@@ -60,7 +63,29 @@ const AppContent = () => {
       .catch((error) => console.error("Error fetching images:", error));
   }, []);
 
-  console.log(images);
+  const handleUpload = async (files) => {
+    const formData = new FormData();
+    for (let i = 0; i < files.length; i++) {
+      formData.append("images", files[i]);
+    }
+
+    try {
+      const response = await fetch("http://localhost:3001/upload_multiple", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to upload images");
+      }
+
+      const data = await response.json();
+      console.log("Upload successful:", data);
+      setGroupedResults(data.grouped_results); // Save grouped results to state
+    } catch (error) {
+      console.error("Error uploading images:", error);
+    }
+  };
 
   return (
     <div className="main-container">
@@ -71,9 +96,15 @@ const AppContent = () => {
           <Routes>
             <Route exact path="/" element={<Feed images={images} />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/upload" element={<Upload />} />
+            <Route
+              path="/upload"
+              element={<Upload onUpload={handleUpload} />}
+            />
+            <Route
+              path="/results-multiple"
+              element={<ResultsMultiple groupedResults={groupedResults} />}
+            />
             <Route path="/results" element={<Results />} />
-            <Route path="/results-multiple" element={<ResultsMultiple />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
         </Container>

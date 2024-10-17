@@ -93,6 +93,7 @@ body,
 }
 
 .sidebar {
+  flex: 0.3;
   width: 250px;
   padding: 10px;
   background-color: #f0f0f0;
@@ -121,7 +122,7 @@ body,
 }
 
 .feed {
-  flex: 1;
+  flex: 0.7;
   margin-left: 270px;
   /* Adjust margin to accommodate fixed sidebar */
   padding: 20px;
@@ -150,12 +151,4 @@ body,
 
 .post-caption {
   margin-top: 10px;
-}
-
-.sidebar {
-  flex: 0.3;
-}
-
-.feed {
-  flex: 0.7;
 }

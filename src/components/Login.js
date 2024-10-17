@@ -22,7 +22,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/LoginService.php",
+        `https://dev.duniadalamdigital.com/carifoto/php-service/LoginService.php`,
         {
           username,
           password,

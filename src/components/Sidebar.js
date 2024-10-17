@@ -1,11 +1,6 @@
 import React from "react";
 import { List, ListItem, ListItemText, ListItemIcon } from "@mui/material";
-import {
-  Home,
-  AccountCircle,
-  Nature,
-  Camera,
-} from "@mui/icons-material";
+import { Home, AccountCircle, Nature, Camera } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
 
@@ -18,7 +13,13 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar">
-      <List>
+      <List style={{ paddingTop: "20" }}>
+        <ListItem button onClick={() => handleNavigation("/login")}>
+          <ListItemIcon>
+            <AccountCircle />
+          </ListItemIcon>
+          <ListItemText primary="Akun Saya" />
+        </ListItem>
         <ListItem button onClick={() => handleNavigation("/")}>
           <ListItemIcon>
             <Home />
@@ -30,12 +31,6 @@ const Sidebar = () => {
             <Camera />
           </ListItemIcon>
           <ListItemText primary="Galeri" />
-        </ListItem>
-        <ListItem button onClick={() => handleNavigation("/login")}>
-          <ListItemIcon>
-            <AccountCircle />
-          </ListItemIcon>
-          <ListItemText primary="Akun Saya" />
         </ListItem>
         <ListItem button>
           <ListItemIcon>

@@ -1,0 +1,9 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Check if the requested filename is not a file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite the URL to append .php
+RewriteRule ^(.*)$ $1.php [L,QSA]

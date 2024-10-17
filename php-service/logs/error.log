@@ -1,0 +1,1149 @@
+[2024-10-12 12:28:53] Starting registration process
+[2024-10-12 12:28:53] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:28:54] Starting registration process
+[2024-10-12 12:28:54] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:28:56] Starting registration process
+[2024-10-12 12:28:56] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:29:00] Starting registration process
+[2024-10-12 12:29:00] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:29:05] Starting registration process
+[2024-10-12 12:29:05] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:29:10] Starting registration process
+[2024-10-12 12:29:10] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:30:18] Starting registration process
+[2024-10-12 12:30:18] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:30:21] Starting registration process
+[2024-10-12 12:30:21] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:30:25] Starting registration process
+[2024-10-12 12:30:25] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:30:29] Starting registration process
+[2024-10-12 12:30:29] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:15] Starting registration process
+[2024-10-12 12:32:15] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:17] Starting registration process
+[2024-10-12 12:32:17] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:18] Starting registration process
+[2024-10-12 12:32:18] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:19] Starting registration process
+[2024-10-12 12:32:19] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:19] Starting registration process
+[2024-10-12 12:32:19] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:20] Starting registration process
+[2024-10-12 12:32:20] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:21] Starting registration process
+[2024-10-12 12:32:21] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:31] Starting registration process
+[2024-10-12 12:32:31] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:32:33] Starting registration process
+[2024-10-12 12:32:33] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:37:47] Starting registration process
+[2024-10-12 12:37:47] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:37:48] Starting registration process
+[2024-10-12 12:37:48] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:37:49] Starting registration process
+[2024-10-12 12:37:49] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:39:29] Starting registration process
+[2024-10-12 12:39:29] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:45:28] Starting getUserInfo process
+[2024-10-12 12:45:28] Decoding token
+[2024-10-12 12:45:28] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:45:28] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:45:39] Starting getUserInfo process
+[2024-10-12 12:45:39] Decoding token
+[2024-10-12 12:45:39] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:45:39] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:45:48] Starting getUserInfo process
+[2024-10-12 12:45:48] Decoding token
+[2024-10-12 12:45:48] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:45:48] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:45:55] Invalid token
+[2024-10-12 12:46:02] Invalid token
+[2024-10-12 12:46:11] Invalid token
+[2024-10-12 12:46:27] Invalid token
+[2024-10-12 12:46:32] Starting getUserInfo process
+[2024-10-12 12:46:32] Decoding token
+[2024-10-12 12:46:32] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:46:32] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:46:36] Starting registration process
+[2024-10-12 12:46:36] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:46:41] Invalid token
+[2024-10-12 12:48:16] Starting getSummary process
+[2024-10-12 12:48:16] Decoding token
+[2024-10-12 12:48:16] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 
+[2024-10-12 12:48:29] Starting getUserInfo process
+[2024-10-12 12:48:29] Decoding token
+[2024-10-12 12:48:29] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:48:29] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:48:32] Starting getUserInfo process
+[2024-10-12 12:48:32] Decoding token
+[2024-10-12 12:48:32] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:48:32] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:48:36] Starting getSummary process
+[2024-10-12 12:48:36] Decoding token
+[2024-10-12 12:48:36] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 
+[2024-10-12 12:48:41] Starting getSummary process
+[2024-10-12 12:48:41] Decoding token
+[2024-10-12 12:48:41] Invalid token signature
+[2024-10-12 12:48:41] Invalid token
+[2024-10-12 12:48:45] Starting getSummary process
+[2024-10-12 12:48:45] Decoding token
+[2024-10-12 12:48:45] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 
+[2024-10-12 12:50:37] Starting registration process
+[2024-10-12 12:50:37] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:50:41] Starting registration process
+[2024-10-12 12:50:41] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:51:33] Starting registration process
+[2024-10-12 12:51:33] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:52:08] Starting registration process
+[2024-10-12 12:52:08] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-12 12:52:08] User table insertion successful
+[2024-10-12 12:52:08] Login table insertion successful
+[2024-10-12 12:55:57] Starting getUserInfo process
+[2024-10-12 12:55:57] Decoding token
+[2024-10-12 12:55:57] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 12:55:57] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 13:04:47] Starting getUserInfo process
+[2024-10-12 13:04:47] Decoding token
+[2024-10-12 13:04:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 13:04:47] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 13:05:11] Starting getUserInfo process
+[2024-10-12 13:05:11] Decoding token
+[2024-10-12 13:05:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 13:05:11] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-12 13:05:38] Starting getSummary process
+[2024-10-12 13:05:38] Decoding token
+[2024-10-12 13:05:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 
+[2024-10-13 12:59:51] Starting getUserInfo process
+[2024-10-13 12:59:51] Decoding token
+[2024-10-13 12:59:51] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-13 12:59:51] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-13 12:59:58] Starting getSummary process
+[2024-10-13 12:59:58] Decoding token
+[2024-10-13 12:59:58] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 
+[2024-10-13 13:02:17] Invalid credentials for username: dimas@mail.com
+[2024-10-13 13:07:30] Starting getUserInfo process
+[2024-10-13 13:07:30] Decoding token
+[2024-10-13 13:07:30] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-13 13:07:30] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-13 13:07:40] Starting getSummary process
+[2024-10-13 13:07:40] Decoding token
+[2024-10-13 13:07:40] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 
+[2024-10-13 13:09:43] Starting registration process
+[2024-10-13 13:09:43] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-13 13:09:48] Starting registration process
+[2024-10-13 13:09:48] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-13 13:10:20] Starting registration process
+[2024-10-13 13:10:20] Data received: {"username":"ryan1","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-13 13:10:20] User table insertion successful
+[2024-10-13 13:10:20] Login table insertion successful
+[2024-10-13 13:12:40] Starting registration process
+[2024-10-13 13:12:40] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok"}
+[2024-10-13 13:12:40] Username, email, or phone already exists
+[2024-10-13 13:16:56] Starting registration process
+[2024-10-13 13:16:56] Data received: {"username":"ryan","fullname":"rumion apryan","email":"ryan@mail.com","phone":"08123456781","password":"123456","address":"jalan depok","user_type":1001}
+[2024-10-13 13:16:56] Username, email, or phone already exists
+[2024-10-13 13:17:20] Starting registration process
+[2024-10-13 13:17:20] Data received: {"username":"uci","fullname":"uci baetulloh","email":"uci@mail.com","phone":"08123456781","password":"123456","address":"jalan tasik","user_type":1001}
+[2024-10-13 13:17:20] Username, email, or phone already exists
+[2024-10-13 13:17:30] Starting registration process
+[2024-10-13 13:17:30] Data received: {"username":"uci","fullname":"uci baetulloh","email":"uci@mail.com","phone":"08123456783","password":"123456","address":"jalan tasik","user_type":1002}
+[2024-10-13 13:17:30] User table insertion successful
+[2024-10-13 13:17:30] Login table insertion successful
+[2024-10-13 13:18:19] Starting getSummary process
+[2024-10-13 13:18:19] Decoding token
+[2024-10-13 13:18:19] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 
+[2024-10-13 13:21:33] Starting getSummary process
+[2024-10-13 13:21:33] Decoding token
+[2024-10-13 13:21:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 
+[2024-10-13 17:10:54] Starting getSummary process
+[2024-10-13 17:10:54] Decoding token
+[2024-10-13 17:10:54] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:11:21] Starting getSummary process
+[2024-10-13 17:11:21] Decoding token
+[2024-10-13 17:11:21] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:11:39] Starting getSummary process
+[2024-10-13 17:11:39] Decoding token
+[2024-10-13 17:11:39] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece, userType: 1004
+[2024-10-13 17:11:56] Starting getSummary process
+[2024-10-13 17:11:56] Decoding token
+[2024-10-13 17:11:56] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:19:52] Starting getUsers process
+[2024-10-13 17:20:36] Starting getUsers process
+[2024-10-13 17:23:07] Starting getUsers process
+[2024-10-13 17:23:07] Decoding token
+[2024-10-13 17:23:07] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:23:17] Starting getUsers process
+[2024-10-13 17:23:17] Decoding token
+[2024-10-13 17:23:17] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:23:48] Starting getUsers process
+[2024-10-13 17:23:48] Decoding token
+[2024-10-13 17:23:48] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece, userType: 1004
+[2024-10-13 17:23:48] Access denied for user ID: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-13 17:24:33] Starting getUsers process
+[2024-10-13 17:24:33] Decoding token
+[2024-10-13 17:24:33] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece, userType: 1004
+[2024-10-13 17:24:33] Access denied for user ID: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-13 17:24:51] Starting getUsers process
+[2024-10-13 17:24:51] Decoding token
+[2024-10-13 17:24:51] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:24:55] Starting getUsers process
+[2024-10-13 17:24:55] Decoding token
+[2024-10-13 17:24:55] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:25:00] Starting getUsers process
+[2024-10-13 17:25:00] Decoding token
+[2024-10-13 17:25:00] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:25:04] Starting getUsers process
+[2024-10-13 17:25:04] Decoding token
+[2024-10-13 17:25:04] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:26:02] Starting getUsers process
+[2024-10-13 17:26:02] Decoding token
+[2024-10-13 17:26:02] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:26:04] Starting getUsers process
+[2024-10-13 17:26:04] Decoding token
+[2024-10-13 17:26:04] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:30:53] Starting getUsers process
+[2024-10-13 17:30:53] Decoding token
+[2024-10-13 17:30:53] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:31:00] Starting getUsers process
+[2024-10-13 17:31:00] Decoding token
+[2024-10-13 17:31:00] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:31:06] Starting getUsers process
+[2024-10-13 17:31:06] Decoding token
+[2024-10-13 17:31:06] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:31:11] Starting getUsers process
+[2024-10-13 17:31:11] Decoding token
+[2024-10-13 17:31:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:31:36] Starting getUsers process
+[2024-10-13 17:31:36] Decoding token
+[2024-10-13 17:31:36] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:31:42] Starting getUsers process
+[2024-10-13 17:31:42] Decoding token
+[2024-10-13 17:31:42] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:32:16] Starting getUsers process
+[2024-10-13 17:32:16] Decoding token
+[2024-10-13 17:32:16] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:32:25] Starting getUsers process
+[2024-10-13 17:32:25] Decoding token
+[2024-10-13 17:32:25] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:41:06] Starting getUsers process
+[2024-10-13 17:41:06] Decoding token
+[2024-10-13 17:41:06] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:41:13] Starting getUsers process
+[2024-10-13 17:41:13] Decoding token
+[2024-10-13 17:41:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:41:25] Starting getUsers process
+[2024-10-13 17:41:25] Decoding token
+[2024-10-13 17:41:25] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:41:38] Starting getUsers process
+[2024-10-13 17:41:38] Decoding token
+[2024-10-13 17:41:38] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece, userType: 1004
+[2024-10-13 17:41:38] Access denied for user ID: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-13 17:41:54] Starting getUsers process
+[2024-10-13 17:41:54] Decoding token
+[2024-10-13 17:41:54] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:41:57] Starting getUsers process
+[2024-10-13 17:41:57] Decoding token
+[2024-10-13 17:41:57] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:44:53] Starting getSummary process
+[2024-10-13 17:44:53] Decoding token
+[2024-10-13 17:44:53] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:45:29] Starting getSummary process
+[2024-10-13 17:45:29] Decoding token
+[2024-10-13 17:45:29] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece, userType: 1004
+[2024-10-13 17:45:47] Starting getSummary process
+[2024-10-13 17:45:47] Decoding token
+[2024-10-13 17:45:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:49:10] Starting getSummary process
+[2024-10-13 17:49:10] Decoding token
+[2024-10-13 17:49:10] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:49:16] Starting getUsers process
+[2024-10-13 17:49:16] Decoding token
+[2024-10-13 17:49:16] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-13 17:49:20] Starting getUserInfo process
+[2024-10-13 17:49:20] Decoding token
+[2024-10-13 17:49:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-13 17:49:20] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-13 17:49:29] Starting registration process
+[2024-10-13 17:49:29] Data received: {"username":"uci","fullname":"uci baetulloh","email":"uci@mail.com","phone":"08123456783","password":"123456","address":"jalan tasik","user_type":1002}
+[2024-10-13 17:49:29] Username, email, or phone already exists
+[2024-10-13 17:49:43] Starting getSummary process
+[2024-10-13 17:49:43] Decoding token
+[2024-10-13 17:49:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 07:24:21] Invalid credentials for username: 
+[2024-10-14 07:24:31] Invalid credentials for username: 
+[2024-10-14 07:27:48] Invalid credentials for username: 
+[2024-10-14 07:28:12] Invalid credentials for username: dimas@mail.com
+[2024-10-14 07:28:53] Invalid credentials for username: 
+[2024-10-14 07:29:27] Invalid credentials for username: 
+[2024-10-14 07:35:07] Invalid credentials for username: dimas@mail.com
+[2024-10-14 07:35:18] Invalid credentials for username: dimas
+[2024-10-14 14:37:49] Starting getUserInfo process
+[2024-10-14 14:37:49] Decoding token
+[2024-10-14 14:37:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 14:37:49] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 14:38:49] Starting getUserInfo process
+[2024-10-14 14:38:49] Decoding token
+[2024-10-14 14:38:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 14:38:49] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 14:39:43] Starting getSummary process
+[2024-10-14 14:39:43] Decoding token
+[2024-10-14 14:39:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 14:39:48] Starting getUsers process
+[2024-10-14 14:39:48] Decoding token
+[2024-10-14 14:39:48] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 14:40:00] Starting getSummary process
+[2024-10-14 14:40:00] Decoding token
+[2024-10-14 14:40:00] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 22:29:15] Starting getUserInfo process
+[2024-10-14 22:29:15] Decoding token
+[2024-10-14 22:29:15] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:29:15] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:33:35] Invalid credentials for username: 
+[2024-10-14 22:33:54] Invalid credentials for username: 
+[2024-10-14 22:35:00] Invalid credentials for username: dimas@mail.com
+[2024-10-14 22:40:29] Starting getUserInfo process
+[2024-10-14 22:40:29] Decoding token
+[2024-10-14 22:40:29] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:40:29] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:45:14] Starting getUserInfo process
+[2024-10-14 22:45:14] Decoding token
+[2024-10-14 22:45:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:45:14] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:49:41] Starting getUserInfo process
+[2024-10-14 22:49:41] Decoding token
+[2024-10-14 22:49:41] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:49:41] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:57:26] Starting getUserInfo process
+[2024-10-14 22:57:26] Decoding token
+[2024-10-14 22:57:26] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 22:57:26] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 23:02:06] Starting getUserInfo process
+[2024-10-14 23:02:06] Decoding token
+[2024-10-14 23:02:06] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 23:02:06] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 23:02:59] Starting getUserInfo process
+[2024-10-14 23:02:59] Decoding token
+[2024-10-14 23:02:59] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 23:02:59] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-14 23:08:20] Starting getSummary process
+[2024-10-14 23:08:20] Decoding token
+[2024-10-14 23:08:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:23:00] Starting getSummary process
+[2024-10-14 23:23:00] Decoding token
+[2024-10-14 23:23:00] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:23:38] Starting getSummary process
+[2024-10-14 23:23:38] Decoding token
+[2024-10-14 23:23:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:23:56] Starting getSummary process
+[2024-10-14 23:23:56] Decoding token
+[2024-10-14 23:23:56] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:24:03] Starting getSummary process
+[2024-10-14 23:24:03] Decoding token
+[2024-10-14 23:24:03] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:32:53] Starting getSummary process
+[2024-10-14 23:32:53] Decoding token
+[2024-10-14 23:32:53] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:32:53] Starting getSummary process
+[2024-10-14 23:32:53] Decoding token
+[2024-10-14 23:32:53] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:32:55] Starting getSummary process
+[2024-10-14 23:32:55] Decoding token
+[2024-10-14 23:32:55] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:33:38] Starting getSummary process
+[2024-10-14 23:33:38] Decoding token
+[2024-10-14 23:33:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-14 23:36:57] Starting getUsers process
+[2024-10-14 23:36:57] Decoding token
+[2024-10-14 23:36:57] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:00:09] Invalid credentials for username: dimas@mail.com
+[2024-10-15 04:00:21] Invalid credentials for username: dimas@mail.com
+[2024-10-15 04:00:28] Starting getUserInfo process
+[2024-10-15 04:00:28] Decoding token
+[2024-10-15 04:00:28] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-15 04:00:28] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-15 04:00:31] Starting getSummary process
+[2024-10-15 04:00:31] Decoding token
+[2024-10-15 04:00:31] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:02:50] Starting getSummary process
+[2024-10-15 04:02:50] Decoding token
+[2024-10-15 04:02:50] Invalid token format
+[2024-10-15 04:02:50] Invalid token
+[2024-10-15 04:07:18] Starting getSummary process
+[2024-10-15 04:07:18] Decoding token
+[2024-10-15 04:07:18] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:07:33] Starting getSummary process
+[2024-10-15 04:07:33] Decoding token
+[2024-10-15 04:07:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:07:38] Starting getSummary process
+[2024-10-15 04:07:38] Decoding token
+[2024-10-15 04:07:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:09:22] Starting getSummary process
+[2024-10-15 04:09:22] Decoding token
+[2024-10-15 04:09:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:10:43] Starting getSummary process
+[2024-10-15 04:10:43] Decoding token
+[2024-10-15 04:10:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:10:43] Starting getSummary process
+[2024-10-15 04:10:43] Decoding token
+[2024-10-15 04:10:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:12:22] Starting getSummary process
+[2024-10-15 04:12:22] Decoding token
+[2024-10-15 04:12:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:12:23] Starting getSummary process
+[2024-10-15 04:12:23] Decoding token
+[2024-10-15 04:12:23] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:12:34] Starting getSummary process
+[2024-10-15 04:12:34] Decoding token
+[2024-10-15 04:12:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:13:22] Starting getSummary process
+[2024-10-15 04:13:22] Decoding token
+[2024-10-15 04:13:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:15:22] Starting getSummary process
+[2024-10-15 04:15:22] Decoding token
+[2024-10-15 04:15:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:15:50] Starting getSummary process
+[2024-10-15 04:15:50] Decoding token
+[2024-10-15 04:15:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:16:33] Starting getSummary process
+[2024-10-15 04:16:33] Decoding token
+[2024-10-15 04:16:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:16:38] Starting getSummary process
+[2024-10-15 04:16:38] Decoding token
+[2024-10-15 04:16:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:17:06] Starting getSummary process
+[2024-10-15 04:17:06] Decoding token
+[2024-10-15 04:17:06] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:17:17] Starting getSummary process
+[2024-10-15 04:17:17] Decoding token
+[2024-10-15 04:17:17] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:17:51] Starting getSummary process
+[2024-10-15 04:17:51] Decoding token
+[2024-10-15 04:17:51] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:18:25] Starting getSummary process
+[2024-10-15 04:18:25] Decoding token
+[2024-10-15 04:18:25] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 04:18:43] Starting getUsers process
+[2024-10-15 04:18:43] Decoding token
+[2024-10-15 04:18:43] Invalid token format
+[2024-10-15 04:18:43] Invalid token
+[2024-10-15 04:45:03] Starting getUsers process
+[2024-10-15 04:45:03] Decoding token
+[2024-10-15 04:45:03] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:04:40] Starting getUsers process
+[2024-10-15 05:04:40] Decoding token
+[2024-10-15 05:04:40] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:14:03] Starting getUsers process
+[2024-10-15 05:14:03] Decoding token
+[2024-10-15 05:14:04] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:15:38] Starting getUsers process
+[2024-10-15 05:15:38] Decoding token
+[2024-10-15 05:15:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:16:22] Starting getUsers process
+[2024-10-15 05:16:22] Decoding token
+[2024-10-15 05:16:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:16:22] Starting getUsers process
+[2024-10-15 05:16:22] Decoding token
+[2024-10-15 05:16:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:17:43] Starting getUsers process
+[2024-10-15 05:17:43] Decoding token
+[2024-10-15 05:17:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:19:47] Starting getUsers process
+[2024-10-15 05:19:47] Decoding token
+[2024-10-15 05:19:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:19:47] Starting getUsers process
+[2024-10-15 05:19:47] Decoding token
+[2024-10-15 05:19:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:19:47] Starting getUsers process
+[2024-10-15 05:19:47] Decoding token
+[2024-10-15 05:19:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:23:04] Starting getUsers process
+[2024-10-15 05:23:04] Decoding token
+[2024-10-15 05:23:04] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:24:27] Starting getUsers process
+[2024-10-15 05:24:27] Decoding token
+[2024-10-15 05:24:27] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:24:38] Starting getUsers process
+[2024-10-15 05:24:38] Decoding token
+[2024-10-15 05:24:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:26:38] Starting getUsers process
+[2024-10-15 05:26:38] Decoding token
+[2024-10-15 05:26:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:28:01] Starting getUsers process
+[2024-10-15 05:28:01] Decoding token
+[2024-10-15 05:28:01] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:28:45] Starting getSummary process
+[2024-10-15 05:28:45] Decoding token
+[2024-10-15 05:28:45] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:30:19] Starting getUsers process
+[2024-10-15 05:30:19] Decoding token
+[2024-10-15 05:30:19] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 05:59:38] Starting getUsers process
+[2024-10-15 05:59:38] Decoding token
+[2024-10-15 05:59:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 06:11:12] Starting registration process
+[2024-10-15 06:11:12] Data received: {"email":"alifan.dimas24@gmail.com","fullname":"Alifan Dimas","password":"1234567","username":"Alifan","phone":"89655541218","address":"Cisauk","user_type":1001}
+[2024-10-15 06:11:12] User table insertion successful
+[2024-10-15 06:11:12] Login table insertion successful
+[2024-10-15 06:11:13] Starting getUsers process
+[2024-10-15 06:11:13] Decoding token
+[2024-10-15 06:11:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 06:11:39] Starting getUsers process
+[2024-10-15 06:11:39] Decoding token
+[2024-10-15 06:11:39] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 06:11:45] Starting getUsers process
+[2024-10-15 06:11:45] Decoding token
+[2024-10-15 06:11:45] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 06:40:20] Starting getUsers process
+[2024-10-15 06:40:20] Decoding token
+[2024-10-15 06:40:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 06:40:27] Starting getUsers process
+[2024-10-15 06:40:27] Decoding token
+[2024-10-15 06:40:27] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 06:42:53] Starting registration process
+[2024-10-15 06:42:53] Data received: {"email":"dimas@mail.com","fullname":"Dimas Dimas","password":"1234567","username":"Dimas","phone":"0896123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:42:53] Username, email, or phone already exists
+[2024-10-15 06:44:58] Starting registration process
+[2024-10-15 06:44:58] Data received: {"email":"dimas@mail.com","fullname":"Dimas Dimas","password":"1234567","username":"Dimas","phone":"0896123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:44:58] Username, email, or phone already exists
+[2024-10-15 06:45:04] Starting registration process
+[2024-10-15 06:45:04] Data received: {"email":"dimas@mail.com","fullname":"Dimas Dimas","password":"1234567","username":"Dimas","phone":"0896123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:45:04] Username, email, or phone already exists
+[2024-10-15 06:45:16] Starting registration process
+[2024-10-15 06:45:16] Data received: {"email":"dimas@mail.com","fullname":"Dimas Dimas","password":"1234567","username":"Dimas","phone":"0896123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:45:16] Username, email, or phone already exists
+[2024-10-15 06:45:29] Starting registration process
+[2024-10-15 06:45:29] Data received: {"email":"dimas12@mail.com","fullname":"Dimas Dimas","password":"1234567","username":"Dimas","phone":"0896123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:45:29] Username, email, or phone already exists
+[2024-10-15 06:45:44] Starting registration process
+[2024-10-15 06:45:44] Data received: {"email":"dimas12123123@mail.com","fullname":"Dimas Dimas","password":"1234567","username":"Dimas","phone":"0896123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:45:44] Username, email, or phone already exists
+[2024-10-15 06:45:59] Starting registration process
+[2024-10-15 06:45:59] Data received: {"email":"dimass@mail.com","fullname":"Dimas Dimas","password":"1234567","username":"Dimas","phone":"123123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:45:59] Username, email, or phone already exists
+[2024-10-15 06:46:14] Starting getUsers process
+[2024-10-15 06:46:14] Decoding token
+[2024-10-15 06:46:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 06:46:47] Starting registration process
+[2024-10-15 06:46:47] Data received: {"email":"a@a.com","fullname":"Alifan Dimas","password":"1234567","username":"Alifan Dimas","phone":"82226043132","address":"Cisauk","user_type":1001}
+[2024-10-15 06:46:47] User table insertion successful
+[2024-10-15 06:46:47] Login table insertion successful
+[2024-10-15 06:46:47] Starting getUsers process
+[2024-10-15 06:46:47] Decoding token
+[2024-10-15 06:46:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 06:47:46] Starting registration process
+[2024-10-15 06:47:46] Data received: {"email":"dimas21@gmail.com","fullname":"dimas","password":"1234567","username":"dimas","phone":"0123123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:47:46] Username, email, or phone already exists
+[2024-10-15 06:47:58] Starting registration process
+[2024-10-15 06:47:58] Data received: {"email":"aadrawing@gmail.com","fullname":"dimas","password":"1234567","username":"dimas","phone":"0123123123","address":"Cisauk","user_type":1001}
+[2024-10-15 06:47:58] Username, email, or phone already exists
+[2024-10-15 06:48:15] Starting registration process
+[2024-10-15 06:48:15] Data received: {"email":"aadrawing@gmail.com","fullname":"dimas","password":"1234567","username":"dimas","phone":"0123123123323223","address":"Cisauk","user_type":1001}
+[2024-10-15 06:48:15] Username, email, or phone already exists
+[2024-10-15 06:48:33] Starting registration process
+[2024-10-15 06:48:33] Data received: {"email":"aadrawing@gmail.com","fullname":"dimas","password":"1234567","username":"dimas123312","phone":"0123123123323223","address":"Cisauk","user_type":1001}
+[2024-10-15 06:48:34] User table insertion successful
+[2024-10-15 06:48:34] Login table insertion successful
+[2024-10-15 06:48:34] Starting getUsers process
+[2024-10-15 06:48:34] Decoding token
+[2024-10-15 06:48:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 08:20:55] Starting getUsers process
+[2024-10-15 08:20:55] Decoding token
+[2024-10-15 08:20:55] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 09:06:51] Starting getUsers process
+[2024-10-15 09:06:51] Decoding token
+[2024-10-15 09:06:51] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 09:07:17] Starting registration process
+[2024-10-15 09:07:17] Data received: {"email":"beben@mail.com","fullname":"beben","password":"123456","username":"beben1","phone":"0812391239","address":"cisauk","user_type":1003}
+[2024-10-15 09:07:17] Username, email, or phone already exists
+[2024-10-15 09:07:27] Starting registration process
+[2024-10-15 09:07:27] Data received: {"email":"beben@mail.com","fullname":"beben","password":"123456","username":"beben121","phone":"0812391239","address":"cisauk","user_type":1003}
+[2024-10-15 09:07:27] Username, email, or phone already exists
+[2024-10-15 09:07:33] Starting registration process
+[2024-10-15 09:07:33] Data received: {"email":"beben123@mail.com","fullname":"beben","password":"123456","username":"beben121","phone":"0812391239","address":"cisauk","user_type":1003}
+[2024-10-15 09:07:33] User table insertion successful
+[2024-10-15 09:07:33] Login table insertion successful
+[2024-10-15 09:07:33] Starting getUsers process
+[2024-10-15 09:07:33] Decoding token
+[2024-10-15 09:07:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-15 09:07:53] Starting getUsers process
+[2024-10-15 09:07:53] Decoding token
+[2024-10-15 09:07:53] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 00:34:13] Starting getUserInfo process
+[2024-10-16 00:34:13] Decoding token
+[2024-10-16 00:34:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-16 00:34:13] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-16 00:34:18] Starting getSummary process
+[2024-10-16 00:34:18] Decoding token
+[2024-10-16 00:34:18] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 00:34:25] Starting getUsers process
+[2024-10-16 00:34:25] Decoding token
+[2024-10-16 00:34:25] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:07:00] Starting getUsers process
+[2024-10-16 01:07:00] Decoding token
+[2024-10-16 01:07:00] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:08:18] Starting getUsers process
+[2024-10-16 01:08:18] Decoding token
+[2024-10-16 01:08:18] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:09:58] Starting getUsers process
+[2024-10-16 01:09:58] Decoding token
+[2024-10-16 01:09:58] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:11:21] Starting getUsers process
+[2024-10-16 01:11:21] Decoding token
+[2024-10-16 01:11:21] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:11:30] Starting getUsers process
+[2024-10-16 01:11:30] Decoding token
+[2024-10-16 01:11:30] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:11:35] Starting getUsers process
+[2024-10-16 01:11:35] Decoding token
+[2024-10-16 01:11:35] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:11:42] Starting getUsers process
+[2024-10-16 01:11:42] Decoding token
+[2024-10-16 01:11:42] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:11:45] Starting getUsers process
+[2024-10-16 01:11:45] Decoding token
+[2024-10-16 01:11:45] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:12:03] Starting getUsers process
+[2024-10-16 01:12:03] Decoding token
+[2024-10-16 01:12:03] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:12:20] Starting getUsers process
+[2024-10-16 01:12:20] Decoding token
+[2024-10-16 01:12:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 01:12:32] Starting getUsers process
+[2024-10-16 01:12:33] Decoding token
+[2024-10-16 01:12:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:16:29] Starting getUsers process
+[2024-10-16 04:16:29] Decoding token
+[2024-10-16 04:16:29] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:24:40] Invalid credentials for username: dimas@mail.com
+[2024-10-16 04:25:07] Invalid credentials for username: dimas@mail.com
+[2024-10-16 04:25:11] Starting getUserInfo process
+[2024-10-16 04:25:11] Decoding token
+[2024-10-16 04:25:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-16 04:25:11] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-16 04:25:14] Starting getSummary process
+[2024-10-16 04:25:14] Decoding token
+[2024-10-16 04:25:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:34:17] Starting getUsers process
+[2024-10-16 04:34:17] Decoding token
+[2024-10-16 04:34:17] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:34:57] Starting getUsers process
+[2024-10-16 04:34:57] Decoding token
+[2024-10-16 04:34:57] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:34:57] Starting getUsers process
+[2024-10-16 04:34:57] Decoding token
+[2024-10-16 04:34:57] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:35:08] Starting getUsers process
+[2024-10-16 04:35:08] Decoding token
+[2024-10-16 04:35:08] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:35:11] Starting getUsers process
+[2024-10-16 04:35:11] Decoding token
+[2024-10-16 04:35:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:39:35] Starting getUsers process
+[2024-10-16 04:39:35] Decoding token
+[2024-10-16 04:39:35] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:40:06] Starting getUsers process
+[2024-10-16 04:40:06] Decoding token
+[2024-10-16 04:40:06] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:40:30] Starting getUsers process
+[2024-10-16 04:40:30] Decoding token
+[2024-10-16 04:40:30] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:41:09] Starting getUsers process
+[2024-10-16 04:41:09] Decoding token
+[2024-10-16 04:41:09] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:41:15] Starting getUsers process
+[2024-10-16 04:41:15] Decoding token
+[2024-10-16 04:41:15] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:41:18] Starting getUsers process
+[2024-10-16 04:41:18] Decoding token
+[2024-10-16 04:41:18] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:41:41] Starting getUsers process
+[2024-10-16 04:41:41] Decoding token
+[2024-10-16 04:41:41] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:42:22] Starting getUsers process
+[2024-10-16 04:42:22] Decoding token
+[2024-10-16 04:42:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:42:45] Starting getUsers process
+[2024-10-16 04:42:45] Decoding token
+[2024-10-16 04:42:45] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:42:50] Starting getUsers process
+[2024-10-16 04:42:50] Decoding token
+[2024-10-16 04:42:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:42:52] Starting getUsers process
+[2024-10-16 04:42:52] Decoding token
+[2024-10-16 04:42:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:42:57] Starting getUsers process
+[2024-10-16 04:42:57] Decoding token
+[2024-10-16 04:42:57] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:42:59] Starting getUsers process
+[2024-10-16 04:42:59] Decoding token
+[2024-10-16 04:42:59] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:43:31] Starting getUsers process
+[2024-10-16 04:43:31] Decoding token
+[2024-10-16 04:43:31] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:43:49] Starting getUsers process
+[2024-10-16 04:43:49] Decoding token
+[2024-10-16 04:43:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:44:21] Starting getUsers process
+[2024-10-16 04:44:21] Decoding token
+[2024-10-16 04:44:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:45:17] Starting getUsers process
+[2024-10-16 04:45:17] Decoding token
+[2024-10-16 04:45:17] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:45:34] Starting getUsers process
+[2024-10-16 04:45:34] Decoding token
+[2024-10-16 04:45:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:45:38] Starting getUsers process
+[2024-10-16 04:45:38] Decoding token
+[2024-10-16 04:45:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:45:40] Starting getUsers process
+[2024-10-16 04:45:40] Decoding token
+[2024-10-16 04:45:40] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:45:48] Starting getUsers process
+[2024-10-16 04:45:48] Decoding token
+[2024-10-16 04:45:48] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:45:52] Starting getUsers process
+[2024-10-16 04:45:52] Decoding token
+[2024-10-16 04:45:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:45:58] Starting getUsers process
+[2024-10-16 04:45:58] Decoding token
+[2024-10-16 04:45:58] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:46:10] Starting getUsers process
+[2024-10-16 04:46:10] Decoding token
+[2024-10-16 04:46:10] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:46:11] Starting getUsers process
+[2024-10-16 04:46:11] Decoding token
+[2024-10-16 04:46:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:46:13] Starting getUsers process
+[2024-10-16 04:46:13] Decoding token
+[2024-10-16 04:46:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:47:08] Starting getUsers process
+[2024-10-16 04:47:08] Decoding token
+[2024-10-16 04:47:08] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:47:18] Starting getUsers process
+[2024-10-16 04:47:18] Decoding token
+[2024-10-16 04:47:18] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:47:24] Starting getUsers process
+[2024-10-16 04:47:24] Decoding token
+[2024-10-16 04:47:24] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:47:26] Starting getUsers process
+[2024-10-16 04:47:26] Decoding token
+[2024-10-16 04:47:26] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:47:27] Starting getUsers process
+[2024-10-16 04:47:27] Decoding token
+[2024-10-16 04:47:27] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:47:28] Starting getSummary process
+[2024-10-16 04:47:28] Decoding token
+[2024-10-16 04:47:28] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:47:33] Starting getUsers process
+[2024-10-16 04:47:33] Decoding token
+[2024-10-16 04:47:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 04:47:34] Starting getUsers process
+[2024-10-16 04:47:34] Decoding token
+[2024-10-16 04:47:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:13:03] Starting getUsers process
+[2024-10-16 05:13:03] Decoding token
+[2024-10-16 05:13:03] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:13:04] Starting getUsers process
+[2024-10-16 05:13:04] Decoding token
+[2024-10-16 05:13:04] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:14:01] Starting getUsers process
+[2024-10-16 05:14:01] Decoding token
+[2024-10-16 05:14:01] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:14:33] Starting getUsers process
+[2024-10-16 05:14:33] Decoding token
+[2024-10-16 05:14:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:14:47] Starting getUsers process
+[2024-10-16 05:14:47] Decoding token
+[2024-10-16 05:14:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:15:00] Starting getUsers process
+[2024-10-16 05:15:00] Decoding token
+[2024-10-16 05:15:00] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:15:27] Starting getUsers process
+[2024-10-16 05:15:27] Decoding token
+[2024-10-16 05:15:27] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:16:17] Starting getUsers process
+[2024-10-16 05:16:17] Decoding token
+[2024-10-16 05:16:17] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:16:25] Starting getUsers process
+[2024-10-16 05:16:25] Decoding token
+[2024-10-16 05:16:25] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:16:34] Starting getUsers process
+[2024-10-16 05:16:34] Decoding token
+[2024-10-16 05:16:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:17:21] Starting getUsers process
+[2024-10-16 05:17:21] Decoding token
+[2024-10-16 05:17:21] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:17:42] Starting getUsers process
+[2024-10-16 05:17:42] Decoding token
+[2024-10-16 05:17:42] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:17:42] Starting getUsers process
+[2024-10-16 05:17:42] Decoding token
+[2024-10-16 05:17:42] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:20:14] Starting getUsers process
+[2024-10-16 05:20:14] Decoding token
+[2024-10-16 05:20:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:22:01] Starting getUsers process
+[2024-10-16 05:22:01] Decoding token
+[2024-10-16 05:22:01] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:22:05] Starting getUsers process
+[2024-10-16 05:22:05] Decoding token
+[2024-10-16 05:22:05] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:23:09] Starting getUsers process
+[2024-10-16 05:23:09] Decoding token
+[2024-10-16 05:23:09] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:23:12] Starting getUsers process
+[2024-10-16 05:23:12] Decoding token
+[2024-10-16 05:23:12] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:23:15] Starting getUsers process
+[2024-10-16 05:23:15] Decoding token
+[2024-10-16 05:23:15] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:23:16] Starting getUsers process
+[2024-10-16 05:23:16] Decoding token
+[2024-10-16 05:23:16] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:24:37] Starting registration process
+[2024-10-16 05:24:37] Data received: {"email":"dimas@dimas.com","fullname":"Dimasgg","password":"123456","username":"Dimas GG","phone":"09123123","address":"dimas","user_type":1004}
+[2024-10-16 05:24:37] User table insertion successful
+[2024-10-16 05:24:37] Login table insertion successful
+[2024-10-16 05:24:37] Starting getUsers process
+[2024-10-16 05:24:37] Decoding token
+[2024-10-16 05:24:37] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:24:41] Starting getUsers process
+[2024-10-16 05:24:41] Decoding token
+[2024-10-16 05:24:41] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:24:58] Starting getUsers process
+[2024-10-16 05:24:58] Decoding token
+[2024-10-16 05:24:58] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:25:04] Starting getUsers process
+[2024-10-16 05:25:04] Decoding token
+[2024-10-16 05:25:05] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:25:06] Starting getUsers process
+[2024-10-16 05:25:06] Decoding token
+[2024-10-16 05:25:06] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:25:39] Starting getUsers process
+[2024-10-16 05:25:39] Decoding token
+[2024-10-16 05:25:39] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:25:52] Starting getUsers process
+[2024-10-16 05:25:52] Decoding token
+[2024-10-16 05:25:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:26:07] Starting getUsers process
+[2024-10-16 05:26:07] Decoding token
+[2024-10-16 05:26:07] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:26:11] Starting getUsers process
+[2024-10-16 05:26:11] Decoding token
+[2024-10-16 05:26:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 05:26:14] Starting getUsers process
+[2024-10-16 05:26:14] Decoding token
+[2024-10-16 05:26:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:10:18] Starting getUsers process
+[2024-10-16 06:10:18] Decoding token
+[2024-10-16 06:10:18] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:10:29] Starting getUsers process
+[2024-10-16 06:10:29] Decoding token
+[2024-10-16 06:10:29] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:13:27] Starting getUsers process
+[2024-10-16 06:13:27] Decoding token
+[2024-10-16 06:13:27] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:13:28] Starting getUsers process
+[2024-10-16 06:13:28] Decoding token
+[2024-10-16 06:13:28] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:15:43] Starting getUsers process
+[2024-10-16 06:15:43] Decoding token
+[2024-10-16 06:15:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:16:31] Starting registration process
+[2024-10-16 06:16:31] Data received: {"email":"uci@gmail2.com","fullname":"uci2","password":"123456","username":"uci2","phone":"0123091203","address":"cisauk","user_type":1004}
+[2024-10-16 06:16:31] User table insertion successful
+[2024-10-16 06:16:31] Login table insertion successful
+[2024-10-16 06:16:31] Starting getUsers process
+[2024-10-16 06:16:31] Decoding token
+[2024-10-16 06:16:31] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:16:33] Starting getUsers process
+[2024-10-16 06:16:33] Decoding token
+[2024-10-16 06:16:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:17:01] Starting getUsers process
+[2024-10-16 06:17:01] Decoding token
+[2024-10-16 06:17:01] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:17:04] Starting getUsers process
+[2024-10-16 06:17:04] Decoding token
+[2024-10-16 06:17:04] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:17:23] Starting getUsers process
+[2024-10-16 06:17:23] Decoding token
+[2024-10-16 06:17:23] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:17:41] Starting getUsers process
+[2024-10-16 06:17:41] Decoding token
+[2024-10-16 06:17:41] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:18:14] Starting registration process
+[2024-10-16 06:18:14] Data received: {"email":"UCI2@GMAIL.COM","fullname":"UCI2","password":"1231233","username":"UCI2","phone":"19230120","address":"CISAUK","user_type":1002}
+[2024-10-16 06:18:14] Username, email, or phone already exists
+[2024-10-16 06:18:21] Starting registration process
+[2024-10-16 06:18:21] Data received: {"email":"UCI2213@GMAIL.COM","fullname":"UCI2","password":"1231233","username":"UCI2123","phone":"19230120","address":"CISAUK","user_type":1002}
+[2024-10-16 06:18:21] User table insertion successful
+[2024-10-16 06:18:21] Login table insertion successful
+[2024-10-16 06:18:21] Starting getUsers process
+[2024-10-16 06:18:21] Decoding token
+[2024-10-16 06:18:21] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:18:29] Starting getUsers process
+[2024-10-16 06:18:29] Decoding token
+[2024-10-16 06:18:29] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:18:31] Starting getUsers process
+[2024-10-16 06:18:31] Decoding token
+[2024-10-16 06:18:31] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:18:34] Starting getUsers process
+[2024-10-16 06:18:34] Decoding token
+[2024-10-16 06:18:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:18:36] Starting getUsers process
+[2024-10-16 06:18:36] Decoding token
+[2024-10-16 06:18:36] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:18:39] Starting getUsers process
+[2024-10-16 06:18:39] Decoding token
+[2024-10-16 06:18:39] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:18:45] Starting getUsers process
+[2024-10-16 06:18:45] Decoding token
+[2024-10-16 06:18:45] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 06:18:49] Starting getUsers process
+[2024-10-16 06:18:49] Decoding token
+[2024-10-16 06:18:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 07:47:31] Starting getSummary process
+[2024-10-16 07:47:31] Decoding token
+[2024-10-16 07:47:31] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 08:24:40] Starting getSummary process
+[2024-10-16 08:24:40] Decoding token
+[2024-10-16 08:24:40] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 12:26:46] Starting getUsers process
+[2024-10-16 12:26:46] Decoding token
+[2024-10-16 12:26:46] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 12:26:50] Starting getUsers process
+[2024-10-16 12:26:50] Decoding token
+[2024-10-16 12:26:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-16 20:29:41] Starting createPost process
+[2024-10-16 20:29:41] Decoding token
+[2024-10-16 20:29:41] Image upload failed
+[2024-10-16 20:30:17] Starting createPost process
+[2024-10-16 20:30:17] Decoding token
+[2024-10-16 20:30:17] Image upload failed
+[2024-10-16 20:31:03] Starting createPost process
+[2024-10-16 20:31:03] Decoding token
+[2024-10-16 20:41:05] Starting createPost process
+[2024-10-16 20:41:05] Decoding token
+[2024-10-16 20:49:38] Fetching all posts
+[2024-10-17 04:38:05] Starting getSummary process
+[2024-10-17 04:38:05] Decoding token
+[2024-10-17 04:38:05] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:38:10] Invalid credentials for username: dimas@mail.com
+[2024-10-17 04:38:16] Invalid credentials for username: dimas@mail.com
+[2024-10-17 04:38:20] Starting getUserInfo process
+[2024-10-17 04:38:20] Decoding token
+[2024-10-17 04:38:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-17 04:38:20] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-17 04:38:23] Starting getSummary process
+[2024-10-17 04:38:23] Decoding token
+[2024-10-17 04:38:23] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:38:48] Starting getUsers process
+[2024-10-17 04:38:48] Decoding token
+[2024-10-17 04:38:48] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:38:49] Starting getUsers process
+[2024-10-17 04:38:49] Decoding token
+[2024-10-17 04:38:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:39:05] Starting getUsers process
+[2024-10-17 04:39:05] Decoding token
+[2024-10-17 04:39:05] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:40:49] Starting getUsers process
+[2024-10-17 04:40:49] Decoding token
+[2024-10-17 04:40:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:40:54] Starting getUsers process
+[2024-10-17 04:40:54] Decoding token
+[2024-10-17 04:40:54] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:40:55] Starting getUsers process
+[2024-10-17 04:40:55] Decoding token
+[2024-10-17 04:40:55] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:40:58] Starting getUsers process
+[2024-10-17 04:40:58] Decoding token
+[2024-10-17 04:40:58] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 04:42:31] Fetching all posts
+[2024-10-17 05:22:06] Starting getSummary process
+[2024-10-17 05:22:06] Decoding token
+[2024-10-17 05:22:06] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 05:22:09] Starting getUsers process
+[2024-10-17 05:22:09] Decoding token
+[2024-10-17 05:22:09] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 05:22:10] Starting getSummary process
+[2024-10-17 05:22:10] Decoding token
+[2024-10-17 05:22:10] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 05:22:11] Starting getUsers process
+[2024-10-17 05:22:11] Decoding token
+[2024-10-17 05:22:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 05:22:11] Starting getUsers process
+[2024-10-17 05:22:11] Decoding token
+[2024-10-17 05:22:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 05:22:13] Starting getUsers process
+[2024-10-17 05:22:13] Decoding token
+[2024-10-17 05:22:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 06:17:06] Invalid credentials for username: dimas@mail.com
+[2024-10-17 06:17:11] Starting getUserInfo process
+[2024-10-17 06:17:11] Decoding token
+[2024-10-17 06:17:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-17 06:17:11] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-17 06:17:13] Starting getSummary process
+[2024-10-17 06:17:13] Decoding token
+[2024-10-17 06:17:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 06:17:20] Starting getSummary process
+[2024-10-17 06:17:20] Decoding token
+[2024-10-17 06:17:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 06:32:36] Fetching all posts
+[2024-10-17 06:32:43] Fetching all posts
+[2024-10-17 06:34:36] Fetching all posts
+[2024-10-17 06:34:36] Fetching all posts
+[2024-10-17 06:35:03] Fetching all posts
+[2024-10-17 06:35:18] Fetching all posts
+[2024-10-17 06:35:34] Fetching all posts
+[2024-10-17 06:35:56] Invalid credentials for username: dimas@mail.com
+[2024-10-17 06:36:04] Starting getUserInfo process
+[2024-10-17 06:36:04] Decoding token
+[2024-10-17 06:36:04] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-17 06:36:04] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-17 06:36:07] Starting getSummary process
+[2024-10-17 06:36:07] Decoding token
+[2024-10-17 06:36:07] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 06:36:14] Fetching all posts
+[2024-10-17 06:36:37] Fetching all posts
+[2024-10-17 06:37:58] Fetching all posts
+[2024-10-17 06:37:58] Fetching all posts
+[2024-10-17 06:38:12] Fetching all posts
+[2024-10-17 06:49:54] Starting getUsers process
+[2024-10-17 06:49:54] Decoding token
+[2024-10-17 06:49:54] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 06:50:04] Fetching all posts
+[2024-10-17 06:53:39] Fetching all posts
+[2024-10-17 06:53:52] Fetching all posts
+[2024-10-17 06:54:07] Fetching all posts
+[2024-10-17 06:54:28] Fetching all posts
+[2024-10-17 06:54:36] Fetching all posts
+[2024-10-17 06:54:52] Fetching all posts
+[2024-10-17 06:55:00] Fetching all posts
+[2024-10-17 06:55:02] Fetching all posts
+[2024-10-17 06:55:27] Starting getUsers process
+[2024-10-17 06:55:27] Decoding token
+[2024-10-17 06:55:27] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 06:55:43] Starting getUsers process
+[2024-10-17 06:55:43] Decoding token
+[2024-10-17 06:55:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 06:57:29] Starting getUsers process
+[2024-10-17 06:57:29] Decoding token
+[2024-10-17 06:57:29] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 06:58:00] Starting getUsers process
+[2024-10-17 06:58:00] Decoding token
+[2024-10-17 06:58:00] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:02:43] Starting getUsers process
+[2024-10-17 07:02:43] Decoding token
+[2024-10-17 07:02:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:03:54] Starting getUsers process
+[2024-10-17 07:03:54] Decoding token
+[2024-10-17 07:03:54] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:07:47] Starting getUsers process
+[2024-10-17 07:07:47] Decoding token
+[2024-10-17 07:07:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:07:52] Starting getUsers process
+[2024-10-17 07:07:52] Decoding token
+[2024-10-17 07:07:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:08:01] Starting getUsers process
+[2024-10-17 07:08:01] Decoding token
+[2024-10-17 07:08:01] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:08:33] Starting getUsers process
+[2024-10-17 07:08:33] Decoding token
+[2024-10-17 07:08:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:08:38] Starting getUsers process
+[2024-10-17 07:08:38] Decoding token
+[2024-10-17 07:08:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:08:51] Starting getUsers process
+[2024-10-17 07:08:51] Decoding token
+[2024-10-17 07:08:51] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:09:18] Starting getUsers process
+[2024-10-17 07:09:18] Decoding token
+[2024-10-17 07:09:18] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:09:24] Starting getUsers process
+[2024-10-17 07:09:24] Decoding token
+[2024-10-17 07:09:24] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:09:27] Starting getUsers process
+[2024-10-17 07:09:27] Decoding token
+[2024-10-17 07:09:27] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:09:50] Starting getUsers process
+[2024-10-17 07:09:50] Decoding token
+[2024-10-17 07:09:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:09:56] Starting getUsers process
+[2024-10-17 07:09:56] Decoding token
+[2024-10-17 07:09:56] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:09:59] Starting getUsers process
+[2024-10-17 07:09:59] Decoding token
+[2024-10-17 07:09:59] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:10:13] Starting getUsers process
+[2024-10-17 07:10:13] Decoding token
+[2024-10-17 07:10:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:10:22] Starting getUsers process
+[2024-10-17 07:10:22] Decoding token
+[2024-10-17 07:10:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:10:46] Starting getUsers process
+[2024-10-17 07:10:46] Decoding token
+[2024-10-17 07:10:46] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:11:40] Starting getUsers process
+[2024-10-17 07:11:40] Decoding token
+[2024-10-17 07:11:40] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:11:45] Starting getUsers process
+[2024-10-17 07:11:45] Decoding token
+[2024-10-17 07:11:45] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:12:20] Starting getUsers process
+[2024-10-17 07:12:20] Decoding token
+[2024-10-17 07:12:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:12:24] Starting getUsers process
+[2024-10-17 07:12:24] Decoding token
+[2024-10-17 07:12:24] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:12:57] Starting getUsers process
+[2024-10-17 07:12:57] Decoding token
+[2024-10-17 07:12:57] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:12:58] Starting getUsers process
+[2024-10-17 07:12:58] Decoding token
+[2024-10-17 07:12:58] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:12:58] Starting getUsers process
+[2024-10-17 07:12:58] Decoding token
+[2024-10-17 07:12:58] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:13:02] Starting getUsers process
+[2024-10-17 07:13:02] Decoding token
+[2024-10-17 07:13:02] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:13:03] Starting getUsers process
+[2024-10-17 07:13:03] Decoding token
+[2024-10-17 07:13:03] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:14:30] Starting getUsers process
+[2024-10-17 07:14:30] Decoding token
+[2024-10-17 07:14:30] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:14:47] Starting getUsers process
+[2024-10-17 07:14:47] Decoding token
+[2024-10-17 07:14:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:14:52] Starting getUsers process
+[2024-10-17 07:14:52] Decoding token
+[2024-10-17 07:14:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:14:56] Starting getUsers process
+[2024-10-17 07:14:56] Decoding token
+[2024-10-17 07:14:56] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:15:34] Starting getUsers process
+[2024-10-17 07:15:34] Decoding token
+[2024-10-17 07:15:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:15:46] Starting getUsers process
+[2024-10-17 07:15:46] Decoding token
+[2024-10-17 07:15:46] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 07:15:48] Fetching all posts
+[2024-10-17 07:16:50] Fetching all posts
+[2024-10-17 07:17:31] Fetching all posts
+[2024-10-17 07:23:39] Fetching all posts
+[2024-10-17 07:24:56] Fetching all posts
+[2024-10-17 07:25:00] Fetching all posts
+[2024-10-17 07:25:09] Fetching all posts
+[2024-10-17 07:25:22] Starting createPost process
+[2024-10-17 07:25:22] Decoding token
+[2024-10-17 07:25:22] Invalid token format
+[2024-10-17 07:25:22] Invalid token
+[2024-10-17 07:25:59] Starting createPost process
+[2024-10-17 07:25:59] Decoding token
+[2024-10-17 07:26:07] Starting createPost process
+[2024-10-17 07:26:07] Decoding token
+[2024-10-17 07:26:07] Invalid token signature
+[2024-10-17 07:26:07] Invalid token
+[2024-10-17 07:26:26] Starting createPost process
+[2024-10-17 07:26:26] Decoding token

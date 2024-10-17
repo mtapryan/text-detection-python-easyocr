@@ -21,9 +21,11 @@ define('DB_NAME', 'db_carifoto');
 /* Attempt to connect to MariaDB database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME, DB_PORT);
 
-// Check connection
 if($link === false){
+    error_log("ERROR: Could not connect. " . mysqli_connect_error());
     die("ERROR: Could not connect. " . mysqli_connect_error());
+} else {
+    error_log("Database connection successful.");
 }
 
 // SSH configuration (if needed for reference)

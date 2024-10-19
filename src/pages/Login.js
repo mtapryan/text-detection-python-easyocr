@@ -37,7 +37,8 @@ const Login = () => {
 
       const data = response.data;
 
-      if (data.success) {
+      if (data.status === "success") {
+        localStorage.setItem("token", data?.data?.token);
         navigate("/upload");
       } else {
         setError("Invalid username or password");

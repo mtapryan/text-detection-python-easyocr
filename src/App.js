@@ -1,10 +1,5 @@
-import React, { useEffect, useState } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useLocation,
-} from "react-router-dom";
+import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 import {
   CssBaseline,
   Container,
@@ -12,17 +7,10 @@ import {
   ThemeProvider,
   Box,
 } from "@mui/material";
-import Upload from "./components/Upload";
-import Results from "./components/Results";
-import ResultsMultiple from "./components/ResultsMultiple";
 import Header from "./components/Header";
-import Login from "./components/Login";
-import Profile from "./components/Profile";
 import Footer from "./components/Footer";
-import Sidebar from "./components/Sidebar";
-import Feed from "./components/Feed";
-import axios from "axios";
-import "./App.css";
+import AppRoutes from "./routes/Routes";
+import "./styles/App.css";
 
 const theme = createTheme({
   palette: {
@@ -33,7 +21,7 @@ const theme = createTheme({
       main: "#ff4081",
     },
     background: {
-      default: "#e3f2fd",
+      default: "#A9A9A9",
     },
   },
   typography: {
@@ -46,22 +34,7 @@ const theme = createTheme({
 const AppContent = () => {
   const location = useLocation();
   const showHeader = location.pathname !== "/";
-  const showSidebar = location.pathname !== "/login";
-  const [images, setImages] = useState([]);
   const [groupedResults, setGroupedResults] = useState({});
-
-  useEffect(() => {
-    // Fetch images from PHP endpoint
-    axios
-      .get(
-        "https://dev.duniadalamdigital.com/carifoto/php-service/GetImagesService.php"
-      )
-      .then((response) => {
-        console.log(response.data.images); // Log the images data
-        setImages(response.data.images);
-      })
-      .catch((error) => console.error("Error fetching images:", error));
-  }, []);
 
   const handleUpload = async (files) => {
     const formData = new FormData();
@@ -89,24 +62,13 @@ const AppContent = () => {
 
   return (
     <div className="main-container">
-      {showSidebar && <Sidebar />}
       <Box sx={{ display: "flex", flexDirection: "column", flex: 1 }}>
-        {showHeader && <Header />}
+        <Header />
         <Container maxWidth="md" sx={{ mt: 8 }}>
-          <Routes>
-            <Route exact path="/" element={<Feed images={images} />} />
-            <Route path="/login" element={<Login />} />
-            <Route
-              path="/upload"
-              element={<Upload onUpload={handleUpload} />}
-            />
-            <Route
-              path="/results-multiple"
-              element={<ResultsMultiple groupedResults={groupedResults} />}
-            />
-            <Route path="/results" element={<Results />} />
-            <Route path="/profile" element={<Profile />} />
-          </Routes>
+          <AppRoutes
+            groupedResults={groupedResults}
+            handleUpload={handleUpload}
+          />
         </Container>
         {showHeader && <Footer />}
       </Box>
@@ -117,9 +79,7 @@ const AppContent = () => {
 const App = () => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
-    <Router basename="/carifoto">
-      <AppContent />
-    </Router>
+    <AppContent />
   </ThemeProvider>
 );
 

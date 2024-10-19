@@ -1,0 +1,34 @@
+.menubar {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    /* Ensure background is transparent */
+    box-shadow: none;
+    /* Remove box shadow */
+    position: static;
+    /* Ensure position is static */
+    padding: 0;
+    /* Remove padding */
+}
+
+.menubar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.menubar ul li {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menubar ul li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.menubar .MuiListItem-root {
+    cursor: pointer;
+}

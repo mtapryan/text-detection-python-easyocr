@@ -12,8 +12,7 @@ body,
 .main-container {
   flex: 1;
   display: flex;
-  flex-direction: row;
-  /* Changed to row to accommodate sidebar */
+  flex-direction: column;
 }
 
 /* Footer should be at the bottom */
@@ -90,65 +89,4 @@ body,
 .loading-text {
   color: white;
   font-size: 24px;
-}
-
-.sidebar {
-  flex: 0.3;
-  width: 250px;
-  padding: 10px;
-  background-color: #f0f0f0;
-  height: 100vh;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  /* Make sidebar fixed */
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-}
-
-.sidebar ul li {
-  padding: 10px 0;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.sidebar ul li:hover {
-  background-color: #e0e0e0;
-}
-
-.feed {
-  flex: 0.7;
-  margin-left: 270px;
-  /* Adjust margin to accommodate fixed sidebar */
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.post {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-
-.post-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.post-image {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-.post-caption {
-  margin-top: 10px;
 }

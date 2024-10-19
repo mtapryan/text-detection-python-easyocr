@@ -11,7 +11,7 @@ import {
   DialogContent,
 } from "@mui/material";
 import ImageIcon from "@mui/icons-material/Image";
-import "./../App.css";
+import "./../styles/App.css";
 
 const Upload = ({ onUpload }) => {
   const [multipleImages, setMultipleImages] = useState([]);

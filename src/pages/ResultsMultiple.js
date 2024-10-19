@@ -8,7 +8,7 @@ import {
   CardMedia,
   Button,
 } from "@mui/material";
-import "./../App.css";
+import "./../styles/App.css";
 
 const ResultsMultiple = ({ groupedResults = {} }) => {
   console.log("Grouped Results in ResultsMultiple:", groupedResults);

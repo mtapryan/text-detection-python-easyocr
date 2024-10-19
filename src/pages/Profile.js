@@ -8,6 +8,7 @@ const Profile = () => {
 
   const handleLogout = () => {
     navigate("/");
+    localStorage.removeItem("token");
   };
 
   return (

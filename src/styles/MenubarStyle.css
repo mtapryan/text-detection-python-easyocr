@@ -32,3 +32,17 @@
 .menubar .MuiListItem-root {
     cursor: pointer;
 }
+
+
+.icon-width {
+    min-width: 35px !important;
+}
+
+.icon {
+    color: white;
+}
+
+.icon:hover {
+    background-color: transparent !important;
+    color: #d3d3d3; /* Hover style harus berada di luar */
+}

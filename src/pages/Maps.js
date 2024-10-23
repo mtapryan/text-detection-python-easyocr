@@ -7,18 +7,11 @@ import {
   CircularProgress,
   Grid,
 } from "@mui/material";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import axios from "axios";
 import L from "leaflet";
 import "../styles/MapsStyle.css";
-
-// Custom hook to update the map view
-const UpdateMapView = ({ coordinates }) => {
-  const map = useMap();
-  map.setView(coordinates, 13);
-  return null;
-};
 
 // Custom icon for the marker using an SVG path
 const customIcon = new L.Icon({
@@ -126,6 +119,7 @@ const Maps = () => {
   // Fetch events when the component mounts
   useEffect(() => {
     fetchEvents();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Function to reset the search
@@ -178,7 +172,6 @@ const Maps = () => {
         )}
       </Box>
       <MapContainer center={coordinates} zoom={11} className="map">
-        {/* <UpdateMapView coordinates={coordinates} /> */}
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

@@ -1,10 +1,10 @@
 .feed {
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: 0 auto;
     background-color: #fafafa;
     overflow-y: scroll;
-    height: 100vh;
+    height: 90vh;
     /* Make the feed take the full height of the viewport */
     scroll-snap-type: y mandatory;
     /* Enables smooth vertical scrolling for each post */
@@ -17,7 +17,8 @@
     overflow: hidden;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 100vh;
+    height: 90vh;
+    width: 100%;
     /* Each post will take up the full height of the viewport */
     display: flex;
     flex-direction: column;
@@ -53,6 +54,8 @@
 
 .post-actions {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 10px;
+    margin-top: -60px;
+    margin-bottom: 0px;
 }

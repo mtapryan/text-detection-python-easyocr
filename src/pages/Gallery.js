@@ -18,12 +18,8 @@ import Masonry from "@mui/lab/Masonry";
 import axios from "axios";
 import "../styles/Gallery.css";
 import {
-  ChatBubbleOutline,
   CheckCircle,
   Close,
-  Comment,
-  Favorite,
-  FavoriteBorder,
 } from "@mui/icons-material";
 
 const Gallery = () => {

@@ -20,7 +20,6 @@ import {
   Camera,
   Home,
   Nature,
-  Search,
   ShoppingCart,
 } from "@mui/icons-material";
 
@@ -85,7 +84,15 @@ const AppContent = () => {
     <div className="main-container">
       <Box sx={{ display: "flex", flexDirection: "column", flex: 1 }}>
         <Header />
-        <Container maxWidth="md" sx={{ mt: 8 }}>
+        <Container
+          maxWidth="md"
+          sx={{
+            mt: 8,
+            maxWidth: isMobile ? "600px" : "100vw !important",
+            paddingLeft: "0px !important",
+            paddingRight: "0px !important",
+          }}
+        >
           <AppRoutes
             groupedResults={groupedResults}
             handleUpload={handleUpload}

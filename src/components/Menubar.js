@@ -7,24 +7,19 @@ import {
   useTheme,
   useMediaQuery,
   IconButton,
-  Drawer,
   Badge,
   Popover,
   Box,
   Typography,
   Button,
   Divider,
-  BottomNavigation,
-  BottomNavigationAction,
 } from "@mui/material";
 import {
   Home,
   AccountCircle,
   Nature,
   Camera,
-  Menu,
   ShoppingCart,
-  Search,
 } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import "../styles/MenubarStyle.css"; // Updated import

@@ -1,10 +1,26 @@
 import React, { useEffect, useState } from "react";
 import Post from "../components/Post";
-import { Box, CircularProgress, Typography } from "@mui/material";
+import {
+  Box,
+  CircularProgress,
+  Typography,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { saveAs } from "file-saver"; // Import file-saver
+import capitalizeEachWord from "../utils/CapitalizeEachWord"; // Import the utility function
 import "../styles/PostStyles.css";
 
 const Feed = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const navigate = useNavigate();
+  const token = localStorage.getItem("token");
+
   const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -18,12 +34,6 @@ const Feed = () => {
           page: 0,
           size: 10,
         }
-        // {
-        //   headers: {
-        //     "Content-Type": "application/json",
-        //     Authorization: `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3QiLCJhdWQiOiJodHRwOlwvXC9sb2NhbGhvc3QiLCJpYXQiOjE3MjkyMjYwNzAsImV4cCI6MTcyOTIyOTY3MCwidXNlcklkIjoiZWU4YzI1NGMtODg0ZS0xMWVmLTk5NjItMDAxNjNjZThjZDVjIn0.JakYU7wdXSF2AM3UE6Tn7aSCM0afxI6iqGEAspcnaPc`,
-        //   },
-        // }
       )
       .then((response) => {
         setImages(response.data.data.records);
@@ -34,6 +44,21 @@ const Feed = () => {
         setLoading(false);
       });
   }, []);
+
+  const handleLoveClick = () => {
+    if (!token) {
+      toast.error("Anda harus login terlebih dahulu", {
+        onClose: () => navigate("/login"),
+      });
+    } else {
+      // Handle the love action here
+    }
+  };
+
+  const handleDownload = (imageUrl) => {
+    const fileName = imageUrl.split("/").pop();
+    saveAs(imageUrl, fileName);
+  };
 
   if (loading) {
     return (
@@ -55,15 +80,23 @@ const Feed = () => {
 
   return (
     <Box className="feed">
+      <ToastContainer position="top-center" autoClose={3000} />
       {images.map((image) => (
         <Post
           key={image.id}
-          username={image.username}
+          isMobile={isMobile}
+          username={capitalizeEachWord(image.full_name)} // Capitalize each word
           location={image.location}
           imageUrl={`https://dev.duniadalamdigital.com/carifoto/php-service/${image.image_url}`}
           caption={image.caption}
           profileImage={`https://ui-avatars.com/api/?name=${image.username}`}
           love={image.love} // Pass the love prop
+          onLoveClick={handleLoveClick}
+          onDownload={() =>
+            handleDownload(
+              `https://dev.duniadalamdigital.com/carifoto/php-service/${image.image_url}`
+            )
+          } // Pass the handleDownload function
         />
       ))}
     </Box>

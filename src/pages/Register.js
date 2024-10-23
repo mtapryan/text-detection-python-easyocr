@@ -42,7 +42,7 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { username, fullname, email, phone, password, address, user_type } =
+    const { username, fullname, email, phone, password, address } =
       formData;
 
     // Simple validation

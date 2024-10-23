@@ -39,7 +39,7 @@ const Maps = () => {
   const [events, setEvents] = useState([]); // State for events data
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [coordinates, setCoordinates] = useState([-6.3744575, 106.3146732]); // Default coordinates
+  const [coordinates, setCoordinates] = useState([-6.17525, 106.82705]); // Default coordinates
   const [searchName, setSearchName] = useState(""); // State for event name search
 
   // Function to fetch events from the API based on search name
@@ -177,8 +177,8 @@ const Maps = () => {
           </Typography>
         )}
       </Box>
-      <MapContainer center={coordinates} zoom={13} className="map">
-        <UpdateMapView coordinates={coordinates} />
+      <MapContainer center={coordinates} zoom={11} className="map">
+        {/* <UpdateMapView coordinates={coordinates} /> */}
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

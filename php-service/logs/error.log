@@ -1147,3 +1147,2809 @@
 [2024-10-17 07:26:07] Invalid token
 [2024-10-17 07:26:26] Starting createPost process
 [2024-10-17 07:26:26] Decoding token
+[2024-10-17 14:34:34] Starting getUserInfo process
+[2024-10-17 14:34:34] Decoding token
+[2024-10-17 14:34:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-17 14:34:34] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-17 14:34:38] Starting getSummary process
+[2024-10-17 14:34:38] Decoding token
+[2024-10-17 14:34:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 14:35:41] Fetching all posts
+[2024-10-17 14:36:26] Fetching all posts
+[2024-10-17 15:39:09] Starting getUsers process
+[2024-10-17 15:39:09] Decoding token
+[2024-10-17 15:39:09] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 15:39:46] Starting getUsers process
+[2024-10-17 15:39:46] Decoding token
+[2024-10-17 15:39:46] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 15:39:54] Starting getUsers process
+[2024-10-17 15:39:54] Decoding token
+[2024-10-17 15:39:54] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 15:39:55] Starting getUsers process
+[2024-10-17 15:39:55] Decoding token
+[2024-10-17 15:39:55] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 15:40:08] Fetching all posts
+[2024-10-17 15:40:23] Fetching all posts
+[2024-10-17 15:40:24] Starting getUsers process
+[2024-10-17 15:40:24] Decoding token
+[2024-10-17 15:40:24] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 15:40:32] Starting getUsers process
+[2024-10-17 15:40:32] Decoding token
+[2024-10-17 15:40:32] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 15:40:43] Starting getUsers process
+[2024-10-17 15:40:43] Decoding token
+[2024-10-17 15:40:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 15:41:20] Starting getUsers process
+[2024-10-17 15:41:20] Decoding token
+[2024-10-17 15:41:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-17 15:41:24] Fetching all posts
+[2024-10-17 15:41:52] Starting getUsers process
+[2024-10-17 15:41:52] Decoding token
+[2024-10-17 15:41:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 00:11:54] Fetching all posts
+[2024-10-18 03:57:49] Starting getUserInfo process
+[2024-10-18 03:57:49] Decoding token
+[2024-10-18 03:57:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-18 03:57:49] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-18 03:57:52] Starting getSummary process
+[2024-10-18 03:57:52] Decoding token
+[2024-10-18 03:57:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 04:21:47] Starting getSummary process
+[2024-10-18 04:21:47] Decoding token
+[2024-10-18 04:21:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 04:23:33] Fetching all posts
+[2024-10-18 04:24:46] Fetching all posts
+[2024-10-18 04:26:34] Starting getSummary process
+[2024-10-18 04:26:34] Decoding token
+[2024-10-18 04:26:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 04:26:35] Fetching all posts
+[2024-10-18 04:26:41] Fetching all posts
+[2024-10-18 04:26:51] Fetching all posts
+[2024-10-18 04:27:07] Starting getUsers process
+[2024-10-18 04:27:07] Decoding token
+[2024-10-18 04:27:07] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 04:33:35] Starting getUsers process
+[2024-10-18 04:33:35] Decoding token
+[2024-10-18 04:33:35] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 04:33:59] Starting createPost process
+[2024-10-18 04:33:59] Decoding token
+[2024-10-18 04:34:44] Starting createPost process
+[2024-10-18 04:34:44] Decoding token
+[2024-10-18 04:35:04] Starting createPost process
+[2024-10-18 04:35:04] Decoding token
+[2024-10-18 04:36:23] Starting createPost process
+[2024-10-18 04:36:23] Decoding token
+[2024-10-18 04:37:23] Fetching all posts
+[2024-10-18 04:41:01] Fetching all posts
+[2024-10-18 04:41:09] Fetching all posts
+[2024-10-18 04:41:14] Fetching all posts
+[2024-10-18 05:50:42] Fetching all posts
+[2024-10-18 06:01:14] Fetching all posts
+[2024-10-18 06:01:34] Fetching all posts
+[2024-10-18 06:01:57] Fetching all posts
+[2024-10-18 06:02:57] Fetching all posts
+[2024-10-18 06:03:03] Fetching all posts
+[2024-10-18 06:03:11] Fetching all posts
+[2024-10-18 06:04:28] Fetching all posts
+[2024-10-18 06:07:06] Fetching all posts
+[2024-10-18 06:13:35] Fetching all posts
+[2024-10-18 06:13:38] Fetching all posts
+[2024-10-18 06:13:43] Fetching all posts
+[2024-10-18 06:22:51] Starting createPost process
+[2024-10-18 06:22:51] Decoding token
+[2024-10-18 06:23:02] Starting createPost process
+[2024-10-18 06:23:02] Decoding token
+[2024-10-18 06:23:19] Starting createPost process
+[2024-10-18 06:23:19] Decoding token
+[2024-10-18 06:23:24] Fetching all posts
+[2024-10-18 06:26:35] Fetching all posts
+[2024-10-18 06:27:12] Starting createPost process
+[2024-10-18 06:27:12] Decoding token
+[2024-10-18 06:27:12] Fetching all posts
+[2024-10-18 06:28:13] Starting getUsers process
+[2024-10-18 06:28:13] Decoding token
+[2024-10-18 06:28:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:28:14] Starting getUsers process
+[2024-10-18 06:28:14] Decoding token
+[2024-10-18 06:28:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:28:56] Starting getUsers process
+[2024-10-18 06:28:56] Decoding token
+[2024-10-18 06:28:56] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:29:01] Starting getUsers process
+[2024-10-18 06:29:01] Decoding token
+[2024-10-18 06:29:01] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:29:25] Starting getUsers process
+[2024-10-18 06:29:25] Decoding token
+[2024-10-18 06:29:25] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:29:29] Starting getUsers process
+[2024-10-18 06:29:29] Decoding token
+[2024-10-18 06:29:29] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:29:30] Starting getUsers process
+[2024-10-18 06:29:30] Decoding token
+[2024-10-18 06:29:30] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:29:34] Starting getUsers process
+[2024-10-18 06:29:34] Decoding token
+[2024-10-18 06:29:34] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:29:36] Starting getUsers process
+[2024-10-18 06:29:36] Decoding token
+[2024-10-18 06:29:36] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:29:50] Starting getUsers process
+[2024-10-18 06:29:50] Decoding token
+[2024-10-18 06:29:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:30:00] Starting getUsers process
+[2024-10-18 06:30:00] Decoding token
+[2024-10-18 06:30:00] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:30:16] Starting getUsers process
+[2024-10-18 06:30:16] Decoding token
+[2024-10-18 06:30:16] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:30:19] Starting getUsers process
+[2024-10-18 06:30:19] Decoding token
+[2024-10-18 06:30:19] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:30:23] Starting getUsers process
+[2024-10-18 06:30:23] Decoding token
+[2024-10-18 06:30:23] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:30:47] Starting getUsers process
+[2024-10-18 06:30:47] Decoding token
+[2024-10-18 06:30:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:30:49] Starting getUsers process
+[2024-10-18 06:30:49] Decoding token
+[2024-10-18 06:30:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:30:52] Starting getUsers process
+[2024-10-18 06:30:52] Decoding token
+[2024-10-18 06:30:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-18 06:37:14] Fetching all posts
+[2024-10-18 06:54:03] Fetching all posts
+[2024-10-18 06:54:27] Fetching all posts
+[2024-10-18 07:26:14] Starting getSummary process
+[2024-10-18 07:26:14] Decoding token
+[2024-10-18 07:26:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 02:10:42] Fetching all posts
+[2024-10-19 02:15:57] Fetching all posts
+[2024-10-19 02:15:57] Fetching all posts
+[2024-10-19 02:17:05] Fetching all posts
+[2024-10-19 02:20:15] Fetching all posts
+[2024-10-19 02:28:13] Fetching all posts
+[2024-10-19 02:28:19] Fetching all posts
+[2024-10-19 02:28:19] Fetching all posts
+[2024-10-19 02:31:47] Fetching all posts
+[2024-10-19 02:31:47] Fetching all posts
+[2024-10-19 02:35:18] Fetching all posts
+[2024-10-19 02:35:18] Fetching all posts
+[2024-10-19 02:37:13] Fetching all posts
+[2024-10-19 02:37:13] Fetching all posts
+[2024-10-19 02:44:11] Fetching all posts
+[2024-10-19 02:49:11] Fetching all posts
+[2024-10-19 02:50:58] Fetching all posts
+[2024-10-19 02:51:03] Fetching all posts
+[2024-10-19 02:51:40] Fetching all posts
+[2024-10-19 02:51:40] Fetching all posts
+[2024-10-19 02:51:46] Fetching all posts
+[2024-10-19 02:51:46] Fetching all posts
+[2024-10-19 02:56:32] Fetching all posts
+[2024-10-19 03:14:48] Fetching all posts
+[2024-10-19 03:16:17] Fetching all posts
+[2024-10-19 03:33:47] Fetching all posts
+[2024-10-19 03:33:47] Fetching all posts
+[2024-10-19 03:35:12] Fetching all posts
+[2024-10-19 03:35:12] Fetching all posts
+[2024-10-19 03:35:56] Fetching all posts
+[2024-10-19 03:35:56] Fetching all posts
+[2024-10-19 03:41:17] Fetching all posts
+[2024-10-19 03:41:17] Fetching all posts
+[2024-10-19 03:41:35] Fetching all posts
+[2024-10-19 03:41:35] Fetching all posts
+[2024-10-19 03:41:47] Fetching all posts
+[2024-10-19 03:41:47] Fetching all posts
+[2024-10-19 03:41:48] Fetching all posts
+[2024-10-19 03:41:48] Fetching all posts
+[2024-10-19 03:45:16] Fetching all posts
+[2024-10-19 03:45:16] Fetching all posts
+[2024-10-19 03:45:19] Fetching all posts
+[2024-10-19 03:45:19] Fetching all posts
+[2024-10-19 03:45:28] Fetching all posts
+[2024-10-19 03:45:28] Fetching all posts
+[2024-10-19 03:45:32] Fetching all posts
+[2024-10-19 03:45:32] Fetching all posts
+[2024-10-19 03:45:40] Fetching all posts
+[2024-10-19 03:45:40] Fetching all posts
+[2024-10-19 03:45:40] Fetching all posts
+[2024-10-19 03:45:40] Fetching all posts
+[2024-10-19 03:45:44] Fetching all posts
+[2024-10-19 03:45:44] Fetching all posts
+[2024-10-19 03:51:02] Fetching all posts
+[2024-10-19 03:51:02] Fetching all posts
+[2024-10-19 03:58:59] Fetching all posts
+[2024-10-19 03:58:59] Fetching all posts
+[2024-10-19 03:59:02] Fetching all posts
+[2024-10-19 03:59:02] Fetching all posts
+[2024-10-19 04:10:54] Fetching all posts
+[2024-10-19 04:10:54] Fetching all posts
+[2024-10-19 04:12:57] Fetching all posts
+[2024-10-19 04:12:57] Fetching all posts
+[2024-10-19 04:12:59] Fetching all posts
+[2024-10-19 04:12:59] Fetching all posts
+[2024-10-19 04:14:29] Fetching all posts
+[2024-10-19 04:14:29] Fetching all posts
+[2024-10-19 04:14:47] Fetching all posts
+[2024-10-19 04:14:47] Fetching all posts
+[2024-10-19 04:17:43] Fetching all posts
+[2024-10-19 04:17:43] Fetching all posts
+[2024-10-19 04:20:10] Fetching all posts
+[2024-10-19 04:20:10] Fetching all posts
+[2024-10-19 04:20:20] Fetching all posts
+[2024-10-19 04:20:20] Fetching all posts
+[2024-10-19 04:20:45] Fetching all posts
+[2024-10-19 04:20:45] Fetching all posts
+[2024-10-19 04:20:53] Fetching all posts
+[2024-10-19 04:20:53] Fetching all posts
+[2024-10-19 06:22:36] Fetching all posts
+[2024-10-19 06:22:36] Fetching all posts
+[2024-10-19 06:22:48] Fetching all posts
+[2024-10-19 06:22:48] Fetching all posts
+[2024-10-19 06:25:08] Fetching all posts
+[2024-10-19 06:27:35] Fetching all posts
+[2024-10-19 06:27:35] Fetching all posts
+[2024-10-19 06:27:35] Fetching all posts
+[2024-10-19 06:27:35] Fetching all posts
+[2024-10-19 06:29:12] Fetching all posts
+[2024-10-19 06:29:12] Fetching all posts
+[2024-10-19 06:29:39] Fetching all posts
+[2024-10-19 06:29:39] Fetching all posts
+[2024-10-19 06:29:53] Fetching all posts
+[2024-10-19 06:29:53] Fetching all posts
+[2024-10-19 06:29:58] Fetching all posts
+[2024-10-19 06:29:58] Fetching all posts
+[2024-10-19 06:30:35] Starting getUserInfo process
+[2024-10-19 06:30:35] Decoding token
+[2024-10-19 06:30:35] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-19 06:30:35] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-19 06:30:38] Starting getSummary process
+[2024-10-19 06:30:38] Decoding token
+[2024-10-19 06:30:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 06:30:44] Fetching all posts
+[2024-10-19 06:32:59] Starting createPost process
+[2024-10-19 06:32:59] Decoding token
+[2024-10-19 06:33:00] Fetching all posts
+[2024-10-19 06:39:51] Fetching all posts
+[2024-10-19 06:39:51] Fetching all posts
+[2024-10-19 06:46:16] Fetching all posts
+[2024-10-19 06:46:16] Fetching all posts
+[2024-10-19 06:46:45] Fetching all posts
+[2024-10-19 06:46:45] Fetching all posts
+[2024-10-19 06:52:36] Fetching all posts
+[2024-10-19 06:52:36] Fetching all posts
+[2024-10-19 06:55:23] Fetching all posts
+[2024-10-19 06:55:23] Fetching all posts
+[2024-10-19 06:57:50] Fetching all posts
+[2024-10-19 06:57:50] Fetching all posts
+[2024-10-19 06:58:14] Fetching all posts
+[2024-10-19 06:58:14] Fetching all posts
+[2024-10-19 06:59:47] Fetching all posts
+[2024-10-19 06:59:47] Fetching all posts
+[2024-10-19 07:04:06] Fetching all posts
+[2024-10-19 07:04:06] Fetching all posts
+[2024-10-19 07:04:24] Fetching all posts
+[2024-10-19 07:04:24] Fetching all posts
+[2024-10-19 07:10:35] Fetching all posts
+[2024-10-19 07:10:35] Fetching all posts
+[2024-10-19 07:11:17] Fetching all posts
+[2024-10-19 07:11:17] Fetching all posts
+[2024-10-19 07:11:28] Fetching all posts
+[2024-10-19 07:11:29] Fetching all posts
+[2024-10-19 07:11:29] Fetching all posts
+[2024-10-19 07:11:29] Fetching all posts
+[2024-10-19 07:11:32] Fetching all posts
+[2024-10-19 07:11:32] Fetching all posts
+[2024-10-19 07:11:36] Fetching all posts
+[2024-10-19 07:11:36] Fetching all posts
+[2024-10-19 07:11:37] Fetching all posts
+[2024-10-19 07:11:37] Fetching all posts
+[2024-10-19 07:11:38] Fetching all posts
+[2024-10-19 07:11:38] Fetching all posts
+[2024-10-19 07:18:01] Fetching all posts
+[2024-10-19 07:18:01] Fetching all posts
+[2024-10-19 07:18:01] Fetching all posts
+[2024-10-19 07:18:01] Fetching all posts
+[2024-10-19 07:18:37] Fetching all posts
+[2024-10-19 07:18:37] Fetching all posts
+[2024-10-19 07:18:59] Fetching all posts
+[2024-10-19 07:18:59] Fetching all posts
+[2024-10-19 07:23:00] Fetching all posts
+[2024-10-19 07:23:00] Fetching all posts
+[2024-10-19 07:23:03] Fetching all posts
+[2024-10-19 07:23:03] Fetching all posts
+[2024-10-19 07:23:28] Fetching all posts
+[2024-10-19 07:23:28] Fetching all posts
+[2024-10-19 07:27:20] Fetching all posts
+[2024-10-19 07:27:20] Fetching all posts
+[2024-10-19 07:27:21] Fetching all posts
+[2024-10-19 07:27:21] Fetching all posts
+[2024-10-19 07:27:25] Fetching all posts
+[2024-10-19 07:27:25] Fetching all posts
+[2024-10-19 07:27:51] Fetching all posts
+[2024-10-19 07:27:51] Fetching all posts
+[2024-10-19 07:30:50] Fetching all posts
+[2024-10-19 07:30:50] Fetching all posts
+[2024-10-19 07:32:56] Fetching all posts
+[2024-10-19 07:33:41] Fetching all posts
+[2024-10-19 07:33:41] Fetching all posts
+[2024-10-19 07:33:58] Fetching all posts
+[2024-10-19 07:35:40] Fetching all posts
+[2024-10-19 07:35:51] Fetching all posts
+[2024-10-19 07:36:56] Fetching all posts
+[2024-10-19 07:37:44] Fetching all posts
+[2024-10-19 07:37:45] Fetching all posts
+[2024-10-19 07:38:02] Fetching all posts
+[2024-10-19 07:38:47] Fetching all posts
+[2024-10-19 07:39:00] Fetching all posts
+[2024-10-19 07:39:19] Fetching all posts
+[2024-10-19 07:39:25] Fetching all posts
+[2024-10-19 07:40:14] Fetching all posts
+[2024-10-19 07:42:25] Fetching all posts
+[2024-10-19 07:42:31] Fetching all posts
+[2024-10-19 07:43:06] Fetching all posts
+[2024-10-19 07:43:31] Fetching all posts
+[2024-10-19 07:43:51] Fetching all posts
+[2024-10-19 07:43:58] Fetching all posts
+[2024-10-19 07:46:28] Fetching all posts
+[2024-10-19 07:46:39] Fetching all posts
+[2024-10-19 08:21:27] Fetching all posts
+[2024-10-19 08:21:35] Fetching all posts
+[2024-10-19 08:24:07] Fetching all posts
+[2024-10-19 08:24:21] Fetching all posts
+[2024-10-19 08:25:10] Fetching all posts
+[2024-10-19 08:25:13] Fetching all posts
+[2024-10-19 08:25:13] Fetching all posts
+[2024-10-19 08:27:15] Fetching all posts
+[2024-10-19 08:27:37] Fetching all posts
+[2024-10-19 08:28:24] Fetching all posts
+[2024-10-19 08:28:48] Fetching all posts
+[2024-10-19 08:41:11] Fetching all posts
+[2024-10-19 08:41:56] Fetching all posts
+[2024-10-19 08:42:53] Fetching all posts
+[2024-10-19 08:43:02] Fetching all posts
+[2024-10-19 08:43:10] Fetching all posts
+[2024-10-19 08:43:19] Fetching all posts
+[2024-10-19 08:43:57] Fetching all posts
+[2024-10-19 08:45:24] Fetching all posts
+[2024-10-19 08:47:11] Fetching all posts
+[2024-10-19 08:47:11] Fetching all posts
+[2024-10-19 08:47:17] Fetching all posts
+[2024-10-19 08:47:40] Fetching all posts
+[2024-10-19 08:47:56] Fetching all posts
+[2024-10-19 08:48:10] Fetching all posts
+[2024-10-19 08:48:10] Fetching all posts
+[2024-10-19 08:48:13] Fetching all posts
+[2024-10-19 08:48:32] Fetching all posts
+[2024-10-19 08:48:51] Fetching all posts
+[2024-10-19 08:49:10] Fetching all posts
+[2024-10-19 08:49:26] Fetching all posts
+[2024-10-19 08:50:16] Fetching all posts
+[2024-10-19 08:50:28] Fetching all posts
+[2024-10-19 08:50:42] Fetching all posts
+[2024-10-19 08:50:52] Fetching all posts
+[2024-10-19 08:52:12] Fetching all posts
+[2024-10-19 08:52:12] Fetching all posts
+[2024-10-19 09:13:50] Fetching all posts
+[2024-10-19 09:13:50] Fetching all posts
+[2024-10-19 09:14:11] Fetching all posts
+[2024-10-19 09:14:25] Fetching all posts
+[2024-10-19 09:14:25] Fetching all posts
+[2024-10-19 09:17:22] Fetching all posts
+[2024-10-19 09:17:35] Fetching all posts
+[2024-10-19 09:17:45] Fetching all posts
+[2024-10-19 09:18:08] Fetching all posts
+[2024-10-19 09:18:18] Fetching all posts
+[2024-10-19 09:19:34] Fetching all posts
+[2024-10-19 09:20:06] Fetching all posts
+[2024-10-19 09:20:21] Fetching all posts
+[2024-10-19 09:20:32] Fetching all posts
+[2024-10-19 09:20:38] Fetching all posts
+[2024-10-19 09:20:46] Fetching all posts
+[2024-10-19 09:20:50] Fetching all posts
+[2024-10-19 09:20:50] Fetching all posts
+[2024-10-19 09:21:52] Fetching all posts
+[2024-10-19 09:22:21] Fetching all posts
+[2024-10-19 09:22:43] Fetching all posts
+[2024-10-19 09:22:58] Fetching all posts
+[2024-10-19 09:23:18] Fetching all posts
+[2024-10-19 09:24:11] Fetching all posts
+[2024-10-19 09:24:15] Fetching all posts
+[2024-10-19 09:24:15] Fetching all posts
+[2024-10-19 09:24:52] Fetching all posts
+[2024-10-19 09:28:04] Fetching all posts
+[2024-10-19 09:28:04] Fetching all posts
+[2024-10-19 09:29:40] Fetching all posts
+[2024-10-19 09:29:40] Fetching all posts
+[2024-10-19 09:32:02] Fetching all posts
+[2024-10-19 09:49:08] Fetching all posts
+[2024-10-19 09:49:25] Fetching all posts
+[2024-10-19 09:49:32] Fetching all posts
+[2024-10-19 09:49:32] Fetching all posts
+[2024-10-19 09:49:42] Fetching all posts
+[2024-10-19 09:49:57] Fetching all posts
+[2024-10-19 09:50:08] Fetching all posts
+[2024-10-19 09:50:14] Fetching all posts
+[2024-10-19 09:50:21] Fetching all posts
+[2024-10-19 09:50:31] Fetching all posts
+[2024-10-19 09:50:44] Fetching all posts
+[2024-10-19 09:50:44] Fetching all posts
+[2024-10-19 09:50:47] Fetching all posts
+[2024-10-19 09:50:47] Fetching all posts
+[2024-10-19 09:50:49] Fetching all posts
+[2024-10-19 09:50:49] Fetching all posts
+[2024-10-19 09:51:00] Fetching all posts
+[2024-10-19 09:51:00] Fetching all posts
+[2024-10-19 09:52:31] Fetching all posts
+[2024-10-19 09:52:35] Fetching all posts
+[2024-10-19 09:52:50] Fetching all posts
+[2024-10-19 09:52:50] Fetching all posts
+[2024-10-19 09:58:04] Starting getSummary process
+[2024-10-19 09:58:04] Decoding token
+[2024-10-19 09:58:04] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 09:58:12] Starting getUsers process
+[2024-10-19 09:58:12] Decoding token
+[2024-10-19 09:58:12] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 09:58:13] Starting getUsers process
+[2024-10-19 09:58:13] Decoding token
+[2024-10-19 09:58:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:00:45] Fetching all posts
+[2024-10-19 10:00:45] Fetching all posts
+[2024-10-19 10:01:49] Fetching all posts
+[2024-10-19 10:01:49] Fetching all posts
+[2024-10-19 10:01:58] Fetching all posts
+[2024-10-19 10:01:58] Fetching all posts
+[2024-10-19 10:02:42] Fetching all posts
+[2024-10-19 10:02:42] Fetching all posts
+[2024-10-19 10:03:00] Fetching all posts
+[2024-10-19 10:03:00] Fetching all posts
+[2024-10-19 10:03:09] Fetching all posts
+[2024-10-19 10:03:09] Fetching all posts
+[2024-10-19 10:03:13] Fetching all posts
+[2024-10-19 10:03:13] Fetching all posts
+[2024-10-19 10:03:14] Fetching all posts
+[2024-10-19 10:03:14] Fetching all posts
+[2024-10-19 10:03:40] Invalid credentials for username: alifan.dimas24@gmail.com
+[2024-10-19 10:03:59] Fetching all posts
+[2024-10-19 10:03:59] Fetching all posts
+[2024-10-19 10:04:01] Fetching all posts
+[2024-10-19 10:04:01] Fetching all posts
+[2024-10-19 10:04:18] Fetching all posts
+[2024-10-19 10:04:18] Fetching all posts
+[2024-10-19 10:04:19] Fetching all posts
+[2024-10-19 10:04:19] Fetching all posts
+[2024-10-19 10:04:20] Fetching all posts
+[2024-10-19 10:04:20] Fetching all posts
+[2024-10-19 10:04:21] Fetching all posts
+[2024-10-19 10:04:21] Fetching all posts
+[2024-10-19 10:04:22] Fetching all posts
+[2024-10-19 10:04:22] Fetching all posts
+[2024-10-19 10:04:22] Fetching all posts
+[2024-10-19 10:04:22] Fetching all posts
+[2024-10-19 10:04:24] Fetching all posts
+[2024-10-19 10:04:24] Fetching all posts
+[2024-10-19 10:05:12] Starting getUserInfo process
+[2024-10-19 10:05:12] Decoding token
+[2024-10-19 10:05:12] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-19 10:05:12] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-19 10:05:15] Starting getSummary process
+[2024-10-19 10:05:15] Decoding token
+[2024-10-19 10:05:15] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:05:34] Fetching all posts
+[2024-10-19 10:05:34] Fetching all posts
+[2024-10-19 10:05:57] Fetching all posts
+[2024-10-19 10:05:57] Fetching all posts
+[2024-10-19 10:06:23] Fetching all posts
+[2024-10-19 10:06:23] Fetching all posts
+[2024-10-19 10:06:32] Fetching all posts
+[2024-10-19 10:06:32] Fetching all posts
+[2024-10-19 10:06:41] Fetching all posts
+[2024-10-19 10:06:41] Fetching all posts
+[2024-10-19 10:08:20] Starting getUserInfo process
+[2024-10-19 10:08:20] Decoding token
+[2024-10-19 10:08:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-19 10:08:20] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-19 10:08:22] Starting getSummary process
+[2024-10-19 10:08:22] Decoding token
+[2024-10-19 10:08:22] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:08:28] Fetching all posts
+[2024-10-19 10:08:33] Fetching all posts
+[2024-10-19 10:08:43] Fetching all posts
+[2024-10-19 10:08:43] Fetching all posts
+[2024-10-19 10:09:39] Starting getUsers process
+[2024-10-19 10:09:39] Decoding token
+[2024-10-19 10:09:39] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:09:39] Starting getUsers process
+[2024-10-19 10:09:39] Decoding token
+[2024-10-19 10:09:39] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:09:45] Starting getUsers process
+[2024-10-19 10:09:45] Decoding token
+[2024-10-19 10:09:45] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:09:47] Starting getUsers process
+[2024-10-19 10:09:47] Decoding token
+[2024-10-19 10:09:47] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:09:48] Starting getUsers process
+[2024-10-19 10:09:48] Decoding token
+[2024-10-19 10:09:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:10:37] Starting registration process
+[2024-10-19 10:10:37] Data received: {"email":"alifan.dimas24@gmail.com","fullname":"Dimas","password":"@1234567","username":"dimas2","phone":"089121212","address":"Cisauk","user_type":1003}
+[2024-10-19 10:10:37] Username, email, or phone already exists
+[2024-10-19 10:10:45] Starting registration process
+[2024-10-19 10:10:45] Data received: {"email":"alifan.dimas24123123@gmail.com","fullname":"Dimas","password":"@1234567","username":"dimas2","phone":"089121212","address":"Cisauk","user_type":1003}
+[2024-10-19 10:10:45] User table insertion successful
+[2024-10-19 10:10:45] Login table insertion successful
+[2024-10-19 10:10:46] Starting getUsers process
+[2024-10-19 10:10:46] Decoding token
+[2024-10-19 10:10:46] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:11:39] Fetching all posts
+[2024-10-19 10:11:40] Fetching all posts
+[2024-10-19 10:11:54] Fetching all posts
+[2024-10-19 10:11:54] Fetching all posts
+[2024-10-19 10:11:58] Fetching all posts
+[2024-10-19 10:11:58] Fetching all posts
+[2024-10-19 10:12:01] Fetching all posts
+[2024-10-19 10:12:01] Fetching all posts
+[2024-10-19 10:12:06] Starting getUsers process
+[2024-10-19 10:12:06] Decoding token
+[2024-10-19 10:12:06] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:13:00] Fetching all posts
+[2024-10-19 10:13:00] Fetching all posts
+[2024-10-19 10:16:31] Fetching all posts
+[2024-10-19 10:16:31] Fetching all posts
+[2024-10-19 10:16:50] Fetching all posts
+[2024-10-19 10:16:50] Fetching all posts
+[2024-10-19 10:17:46] Starting getSummary process
+[2024-10-19 10:17:46] Decoding token
+[2024-10-19 10:17:46] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:17:50] Starting getSummary process
+[2024-10-19 10:17:50] Decoding token
+[2024-10-19 10:17:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:21:39] Fetching all posts
+[2024-10-19 10:21:39] Fetching all posts
+[2024-10-19 10:21:41] Fetching all posts
+[2024-10-19 10:21:41] Fetching all posts
+[2024-10-19 10:21:55] Fetching all posts
+[2024-10-19 10:21:59] Fetching all posts
+[2024-10-19 10:22:18] Fetching all posts
+[2024-10-19 10:22:18] Fetching all posts
+[2024-10-19 10:22:24] Fetching all posts
+[2024-10-19 10:22:24] Fetching all posts
+[2024-10-19 10:22:37] Fetching all posts
+[2024-10-19 10:22:37] Fetching all posts
+[2024-10-19 10:23:16] Fetching all posts
+[2024-10-19 10:23:16] Fetching all posts
+[2024-10-19 10:24:02] Fetching all posts
+[2024-10-19 10:24:02] Fetching all posts
+[2024-10-19 10:28:45] Fetching all posts
+[2024-10-19 10:28:45] Fetching all posts
+[2024-10-19 10:28:46] Fetching all posts
+[2024-10-19 10:28:46] Fetching all posts
+[2024-10-19 10:28:47] Fetching all posts
+[2024-10-19 10:28:47] Fetching all posts
+[2024-10-19 10:29:36] Fetching all posts
+[2024-10-19 10:29:36] Fetching all posts
+[2024-10-19 10:29:53] Invalid credentials for username: dimas@mail.com
+[2024-10-19 10:30:02] Invalid credentials for username: dimas2
+[2024-10-19 10:30:08] Invalid credentials for username: dimas2
+[2024-10-19 10:30:18] Invalid credentials for username: dimas2
+[2024-10-19 10:31:38] Fetching all posts
+[2024-10-19 10:31:38] Fetching all posts
+[2024-10-19 10:32:04] Fetching all posts
+[2024-10-19 10:32:04] Fetching all posts
+[2024-10-19 10:32:19] Fetching all posts
+[2024-10-19 10:32:19] Fetching all posts
+[2024-10-19 10:33:59] Fetching all posts
+[2024-10-19 10:33:59] Fetching all posts
+[2024-10-19 10:35:18] Fetching all posts
+[2024-10-19 10:35:18] Fetching all posts
+[2024-10-19 10:35:41] Fetching all posts
+[2024-10-19 10:35:41] Fetching all posts
+[2024-10-19 10:35:51] Fetching all posts
+[2024-10-19 10:35:51] Fetching all posts
+[2024-10-19 10:37:03] Fetching all posts
+[2024-10-19 10:37:04] Fetching all posts
+[2024-10-19 10:37:28] Fetching all posts
+[2024-10-19 10:37:28] Fetching all posts
+[2024-10-19 10:37:34] Fetching all posts
+[2024-10-19 10:37:34] Fetching all posts
+[2024-10-19 10:37:35] Fetching all posts
+[2024-10-19 10:37:35] Fetching all posts
+[2024-10-19 10:38:30] Fetching all posts
+[2024-10-19 10:38:30] Fetching all posts
+[2024-10-19 10:38:32] Fetching all posts
+[2024-10-19 10:38:33] Fetching all posts
+[2024-10-19 10:38:41] Fetching all posts
+[2024-10-19 10:38:41] Fetching all posts
+[2024-10-19 10:39:26] Fetching all posts
+[2024-10-19 10:39:26] Fetching all posts
+[2024-10-19 10:39:45] Fetching all posts
+[2024-10-19 10:39:45] Fetching all posts
+[2024-10-19 10:39:46] Fetching all posts
+[2024-10-19 10:39:46] Fetching all posts
+[2024-10-19 10:39:51] Fetching all posts
+[2024-10-19 10:39:52] Fetching all posts
+[2024-10-19 10:40:34] Fetching all posts
+[2024-10-19 10:40:34] Fetching all posts
+[2024-10-19 10:41:01] Fetching all posts
+[2024-10-19 10:41:01] Fetching all posts
+[2024-10-19 10:46:38] Fetching all posts
+[2024-10-19 10:46:38] Fetching all posts
+[2024-10-19 10:49:56] Fetching all posts
+[2024-10-19 10:49:56] Fetching all posts
+[2024-10-19 10:51:36] Fetching all posts
+[2024-10-19 10:51:36] Fetching all posts
+[2024-10-19 10:52:03] Fetching all posts
+[2024-10-19 10:52:03] Fetching all posts
+[2024-10-19 10:52:33] Invalid credentials for username: dimas@mail.com
+[2024-10-19 10:52:46] Starting getUserInfo process
+[2024-10-19 10:52:46] Decoding token
+[2024-10-19 10:52:46] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-19 10:52:46] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-19 10:52:50] Starting getSummary process
+[2024-10-19 10:52:50] Decoding token
+[2024-10-19 10:52:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:52:58] Starting getUsers process
+[2024-10-19 10:52:58] Decoding token
+[2024-10-19 10:52:58] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:53:29] Starting registration process
+[2024-10-19 10:53:29] Data received: {"email":"dimas@dimas.com","fullname":"dimas","password":"123456","username":"dimas3","phone":"0912312312312","address":"cisauk","user_type":1004}
+[2024-10-19 10:53:29] Username, email, or phone already exists
+[2024-10-19 10:53:37] Starting registration process
+[2024-10-19 10:53:37] Data received: {"email":"dimas@dimas123123.com","fullname":"dimas","password":"123456","username":"dimas3","phone":"0912312312312","address":"cisauk","user_type":1004}
+[2024-10-19 10:53:37] User table insertion successful
+[2024-10-19 10:53:37] Login table insertion successful
+[2024-10-19 10:53:38] Starting getUsers process
+[2024-10-19 10:53:38] Decoding token
+[2024-10-19 10:53:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 10:53:55] Fetching all posts
+[2024-10-19 10:53:56] Fetching all posts
+[2024-10-19 10:54:17] Fetching all posts
+[2024-10-19 10:54:17] Fetching all posts
+[2024-10-19 12:28:26] Fetching all posts
+[2024-10-19 12:28:26] Fetching all posts
+[2024-10-19 12:28:35] Fetching all posts
+[2024-10-19 12:28:35] Fetching all posts
+[2024-10-19 12:28:38] Fetching all posts
+[2024-10-19 12:28:38] Fetching all posts
+[2024-10-19 12:56:03] Fetching all posts
+[2024-10-19 12:56:03] Fetching all posts
+[2024-10-19 12:56:16] Fetching all posts
+[2024-10-19 12:56:16] Fetching all posts
+[2024-10-19 12:56:21] Fetching all posts
+[2024-10-19 12:56:21] Fetching all posts
+[2024-10-19 12:58:01] Fetching all posts
+[2024-10-19 12:58:01] Fetching all posts
+[2024-10-19 12:58:32] Fetching all posts
+[2024-10-19 12:58:32] Fetching all posts
+[2024-10-19 12:58:58] Fetching all posts
+[2024-10-19 12:58:58] Fetching all posts
+[2024-10-19 12:59:01] Fetching all posts
+[2024-10-19 12:59:01] Fetching all posts
+[2024-10-19 12:59:50] Fetching all posts
+[2024-10-19 12:59:53] Fetching all posts
+[2024-10-19 12:59:53] Fetching all posts
+[2024-10-19 13:00:04] Fetching all posts
+[2024-10-19 13:00:04] Fetching all posts
+[2024-10-19 13:00:34] Fetching all posts
+[2024-10-19 13:01:48] Fetching all posts
+[2024-10-19 13:06:01] Starting createPost process
+[2024-10-19 13:06:01] Decoding token
+[2024-10-19 13:06:24] Fetching all posts
+[2024-10-19 13:06:33] Fetching all posts
+[2024-10-19 13:06:33] Fetching all posts
+[2024-10-19 13:07:11] Starting createPost process
+[2024-10-19 13:07:11] Decoding token
+[2024-10-19 13:07:48] Fetching all posts
+[2024-10-19 13:07:55] Fetching all posts
+[2024-10-19 13:07:58] Fetching all posts
+[2024-10-19 13:07:58] Fetching all posts
+[2024-10-19 13:07:59] Starting createEvent process
+[2024-10-19 13:07:59] Decoding token
+[2024-10-19 13:07:59] Unauthorized user type
+[2024-10-19 13:08:17] Starting createEvent process
+[2024-10-19 13:08:17] Decoding token
+[2024-10-19 13:08:17] Unauthorized user type
+[2024-10-19 13:08:33] Starting getUsers process
+[2024-10-19 13:08:33] Decoding token
+[2024-10-19 13:08:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-19 13:09:18] Starting createEvent process
+[2024-10-19 13:09:18] Decoding token
+[2024-10-19 13:09:18] Unauthorized user type
+[2024-10-19 13:09:40] Fetching all posts
+[2024-10-19 13:09:52] Fetching all posts
+[2024-10-19 13:10:00] Fetching all posts
+[2024-10-19 13:10:12] Fetching all posts
+[2024-10-19 13:10:27] Fetching all posts
+[2024-10-19 13:10:32] Fetching all posts
+[2024-10-19 13:10:46] Fetching all posts
+[2024-10-19 13:10:54] Starting createEvent process
+[2024-10-19 13:10:54] Decoding token
+[2024-10-19 13:10:54] Unauthorized user type
+[2024-10-19 13:10:58] Fetching all posts
+[2024-10-19 13:11:02] Fetching all posts
+[2024-10-19 13:11:14] Starting createEvent process
+[2024-10-19 13:11:14] Decoding token
+[2024-10-19 13:11:14] Unauthorized user type
+[2024-10-19 13:11:14] Fetching all posts
+[2024-10-19 13:11:18] Starting getUserInfo process
+[2024-10-19 13:11:18] Decoding token
+[2024-10-19 13:11:18] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-19 13:11:18] Updating login_at for user ID: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-19 13:11:19] Fetching all posts
+[2024-10-19 13:11:33] Fetching all posts
+[2024-10-19 13:11:34] Starting createEvent process
+[2024-10-19 13:11:34] Decoding token
+[2024-10-19 13:11:48] Starting createEvent process
+[2024-10-19 13:11:48] Decoding token
+[2024-10-19 13:11:48] Unauthorized user type
+[2024-10-19 13:13:07] Starting createEvent process
+[2024-10-19 13:13:07] Decoding token
+[2024-10-19 13:13:07] Unauthorized user type
+[2024-10-19 13:13:08] Fetching all posts
+[2024-10-19 13:13:10] Fetching all posts
+[2024-10-19 13:13:10] Fetching all posts
+[2024-10-19 13:13:31] Fetching all posts
+[2024-10-19 13:13:41] Fetching all posts
+[2024-10-19 13:13:58] Fetching all posts
+[2024-10-19 13:14:03] Fetching all posts
+[2024-10-19 13:14:17] Fetching all posts
+[2024-10-19 13:14:28] Fetching all posts
+[2024-10-19 13:14:44] Fetching all posts
+[2024-10-19 13:14:50] Fetching all posts
+[2024-10-19 13:14:54] Fetching all posts
+[2024-10-19 13:15:02] Fetching all posts
+[2024-10-19 13:15:11] Starting createEvent process
+[2024-10-19 13:15:11] Decoding token
+[2024-10-19 13:15:11] Unauthorized user type: 1002
+[2024-10-19 13:15:45] Fetching all posts
+[2024-10-19 13:15:48] Fetching all posts
+[2024-10-19 13:15:58] Fetching all posts
+[2024-10-19 13:16:17] Fetching all posts
+[2024-10-19 13:16:30] Fetching all posts
+[2024-10-19 13:16:34] Fetching all posts
+[2024-10-19 13:16:40] Fetching all posts
+[2024-10-19 13:16:43] Fetching all posts
+[2024-10-19 13:17:47] Starting createEvent process
+[2024-10-19 13:17:47] Decoding token
+[2024-10-19 13:17:47] Unauthorized user type: 1002
+[2024-10-19 13:18:07] Starting createEvent process
+[2024-10-19 13:18:07] Decoding token
+[2024-10-19 13:18:22] Fetching all posts
+[2024-10-19 13:18:38] Starting createEvent process
+[2024-10-19 13:18:38] Decoding token
+[2024-10-19 13:18:38] Fetching all posts
+[2024-10-19 13:18:48] Fetching all posts
+[2024-10-19 13:18:54] Fetching all posts
+[2024-10-19 13:19:08] Fetching all posts
+[2024-10-19 13:19:08] Fetching all posts
+[2024-10-19 13:19:39] Fetching all posts
+[2024-10-19 13:19:44] Fetching all posts
+[2024-10-19 13:19:48] Fetching all posts
+[2024-10-19 13:19:48] Fetching all posts
+[2024-10-19 13:19:55] Starting createEvent process
+[2024-10-19 13:19:55] Decoding token
+[2024-10-19 13:20:28] Fetching all posts
+[2024-10-19 13:20:38] Fetching all posts
+[2024-10-19 13:21:04] Starting createEvent process
+[2024-10-19 13:21:04] Decoding token
+[2024-10-19 13:21:09] Starting createEvent process
+[2024-10-19 13:21:09] Decoding token
+[2024-10-19 13:23:43] Starting createEvent process
+[2024-10-19 13:23:43] Decoding token
+[2024-10-19 13:23:49] Starting createEvent process
+[2024-10-19 13:23:49] Decoding token
+[2024-10-19 13:23:50] Starting createEvent process
+[2024-10-19 13:23:50] Decoding token
+[2024-10-19 13:23:51] Fetching all posts
+[2024-10-19 13:23:51] Fetching all posts
+[2024-10-19 13:23:53] Fetching all posts
+[2024-10-19 13:23:53] Fetching all posts
+[2024-10-19 13:24:08] Starting createEvent process
+[2024-10-19 13:24:08] Decoding token
+[2024-10-19 13:24:08] Unauthorized user type: 1001
+[2024-10-19 13:24:27] Starting createEvent process
+[2024-10-19 13:24:27] Decoding token
+[2024-10-19 13:25:29] Fetching all posts
+[2024-10-19 13:25:31] Fetching all posts
+[2024-10-19 13:26:29] Fetching all posts
+[2024-10-19 13:26:48] Fetching all posts
+[2024-10-19 13:26:48] Starting createEvent process
+[2024-10-19 13:26:48] Decoding token
+[2024-10-19 13:26:48] Unauthorized user type: 1002
+[2024-10-19 13:26:54] Fetching all posts
+[2024-10-19 13:27:00] Fetching all posts
+[2024-10-19 13:27:06] Starting createEvent process
+[2024-10-19 13:27:06] Decoding token
+[2024-10-19 13:27:23] Fetching all posts
+[2024-10-19 13:27:28] Fetching all posts
+[2024-10-19 13:27:51] Fetching all posts
+[2024-10-19 13:28:23] Fetching all posts
+[2024-10-19 13:35:27] Fetching all posts
+[2024-10-19 13:35:27] Fetching all posts
+[2024-10-19 13:35:27] Fetching all posts
+[2024-10-19 13:35:27] Fetching all posts
+[2024-10-19 13:36:07] Starting createEvent process
+[2024-10-19 13:36:07] Decoding token
+[2024-10-19 13:37:08] Starting createEvent process
+[2024-10-19 13:37:08] Decoding token
+[2024-10-19 13:37:08] Unauthorized user type: 1002
+[2024-10-19 13:37:12] Fetching all posts
+[2024-10-19 13:37:12] Fetching all posts
+[2024-10-19 13:37:25] Starting createEvent process
+[2024-10-19 13:37:25] Decoding token
+[2024-10-19 13:37:27] Starting createEvent process
+[2024-10-19 13:37:27] Decoding token
+[2024-10-19 13:37:29] Starting createEvent process
+[2024-10-19 13:37:29] Decoding token
+[2024-10-19 13:38:09] Fetching all posts
+[2024-10-19 13:38:09] Fetching all posts
+[2024-10-19 13:38:10] Fetching all posts
+[2024-10-19 13:38:10] Fetching all posts
+[2024-10-19 13:38:54] Starting createEvent process
+[2024-10-19 13:38:54] Decoding token
+[2024-10-19 13:38:55] Fetching all posts
+[2024-10-19 13:38:55] Fetching all posts
+[2024-10-19 13:39:03] Fetching all posts
+[2024-10-19 13:39:03] Fetching all posts
+[2024-10-19 13:39:04] Fetching all posts
+[2024-10-19 13:39:04] Fetching all posts
+[2024-10-19 13:39:05] Fetching all posts
+[2024-10-19 13:39:05] Fetching all posts
+[2024-10-19 13:39:06] Fetching all posts
+[2024-10-19 13:39:06] Fetching all posts
+[2024-10-19 13:39:14] Starting getUsers process
+[2024-10-19 13:39:14] Decoding token
+[2024-10-19 13:39:14] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf, userType: 1002
+[2024-10-19 13:39:14] Access denied for user ID: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-19 13:39:23] Fetching all posts
+[2024-10-19 13:39:23] Fetching all posts
+[2024-10-19 13:39:26] Fetching all posts
+[2024-10-19 13:39:26] Fetching all posts
+[2024-10-19 13:39:59] Fetching all posts
+[2024-10-19 13:39:59] Fetching all posts
+[2024-10-20 01:55:43] Starting getUserInfo process
+[2024-10-20 01:55:43] Decoding token
+[2024-10-20 01:55:43] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-20 01:55:43] Updating login_at for user ID: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-20 01:55:47] Starting getSummary process
+[2024-10-20 01:55:47] Decoding token
+[2024-10-20 01:55:47] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf, userType: 1002
+[2024-10-20 01:55:52] Starting getUsers process
+[2024-10-20 01:55:52] Decoding token
+[2024-10-20 01:55:52] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf, userType: 1002
+[2024-10-20 01:55:52] Access denied for user ID: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-20 01:55:56] Starting getUsers process
+[2024-10-20 01:55:56] Decoding token
+[2024-10-20 01:55:56] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf, userType: 1002
+[2024-10-20 01:55:56] Access denied for user ID: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-20 01:56:09] Starting createPost process
+[2024-10-20 01:56:09] Decoding token
+[2024-10-20 01:56:40] Starting createPost process
+[2024-10-20 01:56:40] Decoding token
+[2024-10-20 01:56:59] Starting createPost process
+[2024-10-20 01:56:59] Decoding token
+[2024-10-21 00:16:19] Invalid credentials for username: dimas1
+[2024-10-21 00:16:37] Starting getUserInfo process
+[2024-10-21 00:16:37] Decoding token
+[2024-10-21 00:16:37] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-21 00:16:37] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-21 00:16:48] Starting getSummary process
+[2024-10-21 00:16:48] Decoding token
+[2024-10-21 00:16:48] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 00:16:52] Starting getUsers process
+[2024-10-21 00:16:52] Decoding token
+[2024-10-21 00:16:52] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 00:17:03] Starting getUsers process
+[2024-10-21 00:17:03] Decoding token
+[2024-10-21 00:17:03] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 00:17:09] Starting getUsers process
+[2024-10-21 00:17:09] Decoding token
+[2024-10-21 00:17:09] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 00:18:13] Starting createPost process
+[2024-10-21 00:18:13] Decoding token
+[2024-10-21 00:18:23] Fetching all posts
+[2024-10-21 00:20:05] Starting createEvent process
+[2024-10-21 00:20:05] Decoding token
+[2024-10-21 00:20:05] Unauthorized user type: 1001
+[2024-10-21 00:21:23] Starting createEvent process
+[2024-10-21 00:21:23] Decoding token
+[2024-10-21 00:21:23] Unauthorized user type: 1001
+[2024-10-21 00:22:29] Starting createEvent process
+[2024-10-21 00:22:29] Decoding token
+[2024-10-21 00:22:50] Starting getUsers process
+[2024-10-21 00:22:50] Decoding token
+[2024-10-21 00:22:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 00:24:48] Fetching all posts
+[2024-10-21 00:27:56] Starting deletePost process
+[2024-10-21 00:27:56] Decoding token
+[2024-10-21 00:28:25] Starting deletePost process
+[2024-10-21 00:28:25] Decoding token
+[2024-10-21 00:28:35] Starting deletePost process
+[2024-10-21 00:28:35] Decoding token
+[2024-10-21 00:28:55] Starting deletePost process
+[2024-10-21 00:28:55] Decoding token
+[2024-10-21 00:29:11] Starting deletePost process
+[2024-10-21 00:29:11] Decoding token
+[2024-10-21 00:29:11] Image URL not found
+[2024-10-21 00:29:23] Starting deletePost process
+[2024-10-21 00:29:23] Decoding token
+[2024-10-21 00:49:13] Starting deletePost process
+[2024-10-21 00:49:13] Decoding token
+[2024-10-21 00:49:43] Starting deletePost process
+[2024-10-21 00:49:43] Decoding token
+[2024-10-21 00:53:33] Fetching all posts
+[2024-10-21 00:54:00] Starting likePost process
+[2024-10-21 00:54:00] Decoding token
+[2024-10-21 00:54:11] Starting likePost process
+[2024-10-21 00:54:11] Decoding token
+[2024-10-21 00:54:19] Starting likePost process
+[2024-10-21 00:54:19] Decoding token
+[2024-10-21 01:00:13] Starting deleteEvent process
+[2024-10-21 01:00:13] Decoding token
+[2024-10-21 01:00:13] Event image not found
+[2024-10-21 01:02:00] Starting deleteEvent process
+[2024-10-21 01:02:00] Decoding token
+[2024-10-21 01:06:15] Starting createEvent process
+[2024-10-21 01:06:15] Decoding token
+[2024-10-21 01:08:33] Starting updateEvent process
+[2024-10-21 01:08:33] Decoding token
+[2024-10-21 01:11:44] Starting updateEvent process
+[2024-10-21 01:11:44] Decoding token
+[2024-10-21 01:12:23] Starting updateEvent process
+[2024-10-21 01:12:23] Decoding token
+[2024-10-21 01:17:26] Starting updatePost process
+[2024-10-21 01:17:26] Decoding token
+[2024-10-21 01:25:29] Fetching all events
+[2024-10-21 01:25:29] Decoding token
+[2024-10-21 05:56:00] Fetching all posts
+[2024-10-21 05:56:00] Fetching all posts
+[2024-10-21 05:58:50] Fetching all posts
+[2024-10-21 05:58:50] Fetching all posts
+[2024-10-21 06:05:14] Fetching all posts
+[2024-10-21 06:05:14] Fetching all posts
+[2024-10-21 06:05:14] Fetching all posts
+[2024-10-21 06:05:14] Fetching all posts
+[2024-10-21 06:06:30] Fetching all posts
+[2024-10-21 06:06:30] Fetching all posts
+[2024-10-21 06:06:30] Fetching all posts
+[2024-10-21 06:06:30] Fetching all posts
+[2024-10-21 06:07:43] Fetching all posts
+[2024-10-21 06:07:43] Fetching all posts
+[2024-10-21 06:09:38] Fetching all posts
+[2024-10-21 06:09:38] Fetching all posts
+[2024-10-21 06:23:49] Fetching all posts
+[2024-10-21 06:23:49] Fetching all posts
+[2024-10-21 06:25:01] Fetching all posts
+[2024-10-21 06:25:01] Fetching all posts
+[2024-10-21 06:25:56] Fetching all posts
+[2024-10-21 06:25:56] Fetching all posts
+[2024-10-21 06:25:56] Fetching all posts
+[2024-10-21 06:25:56] Fetching all posts
+[2024-10-21 06:26:00] Fetching all posts
+[2024-10-21 06:26:00] Fetching all posts
+[2024-10-21 06:26:03] Fetching all posts
+[2024-10-21 06:26:03] Fetching all posts
+[2024-10-21 06:26:03] Fetching all posts
+[2024-10-21 06:26:03] Fetching all posts
+[2024-10-21 06:26:57] Fetching all posts
+[2024-10-21 06:27:00] Fetching all posts
+[2024-10-21 06:27:00] Fetching all posts
+[2024-10-21 06:27:01] Fetching all posts
+[2024-10-21 06:27:01] Fetching all posts
+[2024-10-21 06:28:49] Fetching all posts
+[2024-10-21 06:29:25] Fetching all posts
+[2024-10-21 06:30:05] Fetching all posts
+[2024-10-21 06:30:10] Fetching all posts
+[2024-10-21 06:30:10] Fetching all posts
+[2024-10-21 06:31:31] Fetching all posts
+[2024-10-21 06:31:31] Fetching all posts
+[2024-10-21 06:32:06] Fetching all posts
+[2024-10-21 06:32:16] Fetching all posts
+[2024-10-21 06:32:16] Fetching all posts
+[2024-10-21 06:32:17] Fetching all posts
+[2024-10-21 06:32:17] Fetching all posts
+[2024-10-21 06:39:26] Fetching all posts
+[2024-10-21 06:39:26] Fetching all posts
+[2024-10-21 06:39:33] Invalid credentials for username: dimas@mail.com
+[2024-10-21 06:51:49] Fetching all posts
+[2024-10-21 06:51:49] Fetching all posts
+[2024-10-21 06:51:50] Fetching all posts
+[2024-10-21 06:51:50] Fetching all posts
+[2024-10-21 06:52:34] Invalid credentials for username: dimas@mail.com
+[2024-10-21 06:52:40] Starting getUserInfo process
+[2024-10-21 06:52:40] Decoding token
+[2024-10-21 06:52:40] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-21 06:52:40] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-21 06:52:43] Starting getSummary process
+[2024-10-21 06:52:43] Decoding token
+[2024-10-21 06:52:43] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 06:52:46] Fetching all posts
+[2024-10-21 06:53:06] Fetching all posts
+[2024-10-21 06:53:38] Fetching all posts
+[2024-10-21 06:53:49] Fetching all posts
+[2024-10-21 06:53:53] Fetching all posts
+[2024-10-21 06:54:00] Fetching all posts
+[2024-10-21 06:54:03] Fetching all posts
+[2024-10-21 06:54:13] Fetching all posts
+[2024-10-21 06:54:45] Fetching all posts
+[2024-10-21 06:54:58] Fetching all posts
+[2024-10-21 06:55:07] Fetching all posts
+[2024-10-21 06:55:32] Fetching all posts
+[2024-10-21 06:55:36] Fetching all posts
+[2024-10-21 06:56:16] Fetching all posts
+[2024-10-21 06:56:30] Fetching all posts
+[2024-10-21 06:56:50] Fetching all posts
+[2024-10-21 06:57:10] Fetching all posts
+[2024-10-21 06:58:55] Fetching all posts
+[2024-10-21 06:59:02] Fetching all posts
+[2024-10-21 06:59:10] Fetching all posts
+[2024-10-21 06:59:23] Fetching all posts
+[2024-10-21 06:59:43] Fetching all posts
+[2024-10-21 07:03:49] Fetching all posts
+[2024-10-21 07:03:49] Fetching all posts
+[2024-10-21 07:03:49] Fetching all posts
+[2024-10-21 07:04:42] Fetching all posts
+[2024-10-21 07:04:42] Fetching all posts
+[2024-10-21 07:05:02] Fetching all posts
+[2024-10-21 07:06:49] Fetching all posts
+[2024-10-21 07:07:07] Fetching all posts
+[2024-10-21 07:07:22] Fetching all posts
+[2024-10-21 07:07:33] Fetching all posts
+[2024-10-21 07:07:40] Fetching all posts
+[2024-10-21 07:07:44] Starting deletePost process
+[2024-10-21 07:07:44] Decoding token
+[2024-10-21 07:08:57] Fetching all posts
+[2024-10-21 07:09:00] Fetching all posts
+[2024-10-21 07:09:02] Starting deletePost process
+[2024-10-21 07:09:02] Decoding token
+[2024-10-21 07:09:06] Fetching all posts
+[2024-10-21 07:09:08] Starting deletePost process
+[2024-10-21 07:09:08] Decoding token
+[2024-10-21 07:09:14] Fetching all posts
+[2024-10-21 07:09:23] Fetching all posts
+[2024-10-21 07:09:27] Fetching all posts
+[2024-10-21 07:09:36] Starting deletePost process
+[2024-10-21 07:09:36] Decoding token
+[2024-10-21 07:09:54] Fetching all posts
+[2024-10-21 07:09:56] Starting deletePost process
+[2024-10-21 07:09:56] Decoding token
+[2024-10-21 07:09:56] Fetching all posts
+[2024-10-21 07:10:34] Starting createPost process
+[2024-10-21 07:10:34] Decoding token
+[2024-10-21 07:10:34] Fetching all posts
+[2024-10-21 07:10:50] Fetching all posts
+[2024-10-21 07:41:55] Starting updatePost process
+[2024-10-21 07:41:55] Decoding token
+[2024-10-21 07:41:55] Image URL not found
+[2024-10-21 07:42:56] Starting updatePost process
+[2024-10-21 07:42:56] Decoding token
+[2024-10-21 07:42:56] Image URL not found
+[2024-10-21 07:46:51] Starting updatePost process
+[2024-10-21 07:46:51] Decoding token
+[2024-10-21 07:47:16] Fetching all posts
+[2024-10-21 07:47:31] Starting updatePost process
+[2024-10-21 07:47:31] Decoding token
+[2024-10-21 07:47:37] Fetching all posts
+[2024-10-21 07:47:43] Fetching all posts
+[2024-10-21 07:47:55] Fetching all posts
+[2024-10-21 07:48:19] Starting createPost process
+[2024-10-21 07:48:19] Decoding token
+[2024-10-21 07:48:19] Fetching all posts
+[2024-10-21 07:48:45] Starting createPost process
+[2024-10-21 07:48:45] Decoding token
+[2024-10-21 07:48:46] Fetching all posts
+[2024-10-21 07:55:10] Fetching all posts
+[2024-10-21 07:57:37] Fetching all posts
+[2024-10-21 08:00:49] Fetching all events
+[2024-10-21 08:00:49] Decoding token
+[2024-10-21 08:01:11] Fetching all events
+[2024-10-21 08:01:11] Decoding token
+[2024-10-21 08:01:55] Fetching all events
+[2024-10-21 08:01:55] Decoding token
+[2024-10-21 08:01:55] Fetching all events
+[2024-10-21 08:01:55] Decoding token
+[2024-10-21 08:02:28] Fetching all events
+[2024-10-21 08:02:28] Decoding token
+[2024-10-21 08:02:40] Fetching all events
+[2024-10-21 08:02:40] Decoding token
+[2024-10-21 08:02:44] Fetching all posts
+[2024-10-21 08:02:53] Fetching all events
+[2024-10-21 08:02:53] Decoding token
+[2024-10-21 08:03:51] Fetching all events
+[2024-10-21 08:03:51] Decoding token
+[2024-10-21 08:03:59] Fetching all events
+[2024-10-21 08:03:59] Decoding token
+[2024-10-21 08:04:20] Fetching all events
+[2024-10-21 08:04:20] Decoding token
+[2024-10-21 08:06:36] Fetching all events
+[2024-10-21 08:06:36] Decoding token
+[2024-10-21 08:07:42] Fetching all events
+[2024-10-21 08:07:42] Decoding token
+[2024-10-21 08:07:54] Fetching all events
+[2024-10-21 08:07:54] Decoding token
+[2024-10-21 08:12:42] Starting updateEvent process
+[2024-10-21 08:12:42] Decoding token
+[2024-10-21 08:12:46] Fetching all events
+[2024-10-21 08:12:46] Decoding token
+[2024-10-21 08:12:55] Starting updateEvent process
+[2024-10-21 08:12:55] Decoding token
+[2024-10-21 08:12:57] Fetching all events
+[2024-10-21 08:12:57] Decoding token
+[2024-10-21 08:13:02] Fetching all events
+[2024-10-21 08:13:02] Decoding token
+[2024-10-21 08:21:48] Starting createEvent process
+[2024-10-21 08:21:48] Decoding token
+[2024-10-21 08:21:49] Fetching all events
+[2024-10-21 08:21:49] Decoding token
+[2024-10-21 08:21:59] Fetching all events
+[2024-10-21 08:21:59] Decoding token
+[2024-10-21 08:23:30] Fetching all events
+[2024-10-21 08:23:30] Decoding token
+[2024-10-21 08:23:39] Fetching all events
+[2024-10-21 08:23:39] Decoding token
+[2024-10-21 08:23:48] Starting deleteEvent process
+[2024-10-21 08:23:48] Decoding token
+[2024-10-21 08:23:48] Fetching all events
+[2024-10-21 08:23:48] Decoding token
+[2024-10-21 08:28:27] Fetching all posts
+[2024-10-21 08:28:27] Fetching all posts
+[2024-10-21 08:28:42] Fetching all posts
+[2024-10-21 08:28:42] Fetching all posts
+[2024-10-21 08:28:45] Fetching all posts
+[2024-10-21 08:28:45] Fetching all posts
+[2024-10-21 08:28:50] Fetching all posts
+[2024-10-21 08:28:50] Fetching all posts
+[2024-10-21 08:28:56] Fetching all posts
+[2024-10-21 08:28:56] Fetching all posts
+[2024-10-21 08:29:00] Fetching all posts
+[2024-10-21 08:29:00] Fetching all posts
+[2024-10-21 08:29:49] Fetching all posts
+[2024-10-21 08:29:49] Fetching all posts
+[2024-10-21 08:30:17] Fetching all posts
+[2024-10-21 08:30:17] Fetching all posts
+[2024-10-21 12:01:47] Fetching all posts
+[2024-10-21 12:01:47] Fetching all posts
+[2024-10-21 12:01:56] Starting getUserInfo process
+[2024-10-21 12:01:56] Decoding token
+[2024-10-21 12:01:56] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-21 12:01:56] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-21 12:01:57] Fetching all posts
+[2024-10-21 12:01:57] Fetching all posts
+[2024-10-21 12:02:01] Fetching all posts
+[2024-10-21 12:02:01] Fetching all posts
+[2024-10-21 12:02:47] Fetching all posts
+[2024-10-21 12:02:47] Fetching all posts
+[2024-10-21 12:03:47] Fetching all posts
+[2024-10-21 12:03:47] Fetching all posts
+[2024-10-21 12:04:43] Fetching all events
+[2024-10-21 12:04:43] Decoding token
+[2024-10-21 12:05:58] Invalid credentials for username: dimas@mail.com
+[2024-10-21 12:06:08] Invalid credentials for username: dimas@mail.com
+[2024-10-21 12:06:17] Starting getUserInfo process
+[2024-10-21 12:06:17] Decoding token
+[2024-10-21 12:06:17] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-21 12:06:17] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-21 12:06:20] Starting getSummary process
+[2024-10-21 12:06:20] Decoding token
+[2024-10-21 12:06:20] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 12:06:25] Fetching all posts
+[2024-10-21 12:06:28] Fetching all events
+[2024-10-21 12:06:28] Decoding token
+[2024-10-21 12:06:38] Fetching all posts
+[2024-10-21 12:06:42] Fetching all events
+[2024-10-21 12:06:42] Decoding token
+[2024-10-21 12:06:44] Fetching all posts
+[2024-10-21 12:06:45] Fetching all events
+[2024-10-21 12:06:45] Decoding token
+[2024-10-21 12:06:47] Fetching all posts
+[2024-10-21 12:06:49] Fetching all events
+[2024-10-21 12:06:49] Decoding token
+[2024-10-21 12:09:25] Starting updateEvent process
+[2024-10-21 12:09:25] Decoding token
+[2024-10-21 12:09:29] Fetching all events
+[2024-10-21 12:09:29] Decoding token
+[2024-10-21 12:09:46] Starting getUserInfo process
+[2024-10-21 12:09:46] Decoding token
+[2024-10-21 12:09:46] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-21 12:09:46] Updating login_at for user ID: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-21 12:10:08] Fetching all events
+[2024-10-21 12:10:08] Decoding token
+[2024-10-21 12:10:17] Starting createEvent process
+[2024-10-21 12:10:17] Decoding token
+[2024-10-21 12:10:17] Fetching all events
+[2024-10-21 12:10:17] Decoding token
+[2024-10-21 12:10:25] Starting deleteEvent process
+[2024-10-21 12:10:25] Decoding token
+[2024-10-21 12:10:25] Fetching all events
+[2024-10-21 12:10:25] Decoding token
+[2024-10-21 12:10:40] Fetching all events
+[2024-10-21 12:10:40] Decoding token
+[2024-10-21 12:12:19] Starting getUsers process
+[2024-10-21 12:12:19] Decoding token
+[2024-10-21 12:12:19] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 12:18:46] Fetching all events
+[2024-10-21 12:18:46] Decoding token
+[2024-10-21 12:19:09] Fetching all events
+[2024-10-21 12:19:09] Decoding token
+[2024-10-21 12:27:15] Starting getUsers process
+[2024-10-21 12:27:15] Decoding token
+[2024-10-21 12:27:15] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-21 12:27:16] Fetching all events
+[2024-10-21 12:27:16] Decoding token
+[2024-10-21 12:27:52] Fetching all events
+[2024-10-21 12:27:52] Decoding token
+[2024-10-21 12:28:03] Fetching all events
+[2024-10-21 12:28:03] Decoding token
+[2024-10-21 12:28:38] Fetching all events
+[2024-10-21 12:28:38] Decoding token
+[2024-10-21 12:39:20] Fetching all events
+[2024-10-21 12:39:20] Decoding token
+[2024-10-21 12:46:31] Starting uploadExcel process
+[2024-10-21 12:46:31] Decoding token
+[2024-10-21 12:47:27] Starting uploadExcel process
+[2024-10-21 12:47:27] Decoding token
+[2024-10-21 12:48:39] Starting uploadExcel process
+[2024-10-21 12:48:39] Decoding token
+[2024-10-21 12:50:02] Starting uploadExcel process
+[2024-10-21 12:50:02] Decoding token
+[2024-10-21 13:01:24] Starting uploadExcel process
+[2024-10-21 13:01:24] Decoding token
+[2024-10-21 13:03:00] Starting updateEvent process
+[2024-10-21 13:03:00] Decoding token
+[2024-10-21 13:03:28] Starting updateEvent process
+[2024-10-21 13:03:28] Decoding token
+[2024-10-21 13:03:37] Fetching all events
+[2024-10-21 13:03:37] Decoding token
+[2024-10-21 13:04:16] Starting uploadExcel process
+[2024-10-21 13:04:16] Decoding token
+[2024-10-21 13:09:32] Fetching all events
+[2024-10-21 13:09:32] Decoding token
+[2024-10-21 13:26:49] Starting deleteEvent process
+[2024-10-21 13:26:49] Decoding token
+[2024-10-21 13:26:49] Event image not found
+[2024-10-21 13:27:05] Starting deleteEvent process
+[2024-10-21 13:27:05] Decoding token
+[2024-10-21 13:27:05] Event image not found
+[2024-10-21 13:30:41] Starting uploadExcel process
+[2024-10-21 13:30:41] Decoding token
+[2024-10-21 13:35:21] Fetching all events
+[2024-10-21 13:35:21] Decoding token
+[2024-10-21 13:37:15] Starting uploadExcel process
+[2024-10-21 13:37:15] Decoding token
+[2024-10-21 13:37:15] Duplicate runner_number found: 1234
+[2024-10-21 13:38:28] Starting uploadExcel process
+[2024-10-21 13:38:28] Decoding token
+[2024-10-21 13:38:55] Starting uploadExcel process
+[2024-10-21 13:38:55] Decoding token
+[2024-10-21 13:38:55] Duplicate runner_number found: 1234
+[2024-10-21 13:39:34] Starting uploadExcel process
+[2024-10-21 13:39:34] Decoding token
+[2024-10-21 13:39:34] Duplicate runner_number found: 1234
+[2024-10-21 13:57:59] Starting getRunners process
+[2024-10-21 13:57:59] Decoding token
+[2024-10-21 23:53:16] Starting getUserInfo process
+[2024-10-21 23:53:16] Decoding token
+[2024-10-21 23:53:16] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-21 23:53:16] Updating login_at for user ID: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-21 23:53:24] Starting getSummary process
+[2024-10-21 23:53:24] Decoding token
+[2024-10-21 23:53:24] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf, userType: 1002
+[2024-10-21 23:53:38] Starting getUsers process
+[2024-10-21 23:53:38] Decoding token
+[2024-10-21 23:53:38] Decoded userId: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf, userType: 1002
+[2024-10-21 23:53:38] Access denied for user ID: 4ebf0474-3ae1-4563-9da2-9f9b269b32bf
+[2024-10-21 23:53:52] Fetching all posts
+[2024-10-21 23:54:02] Fetching all events
+[2024-10-21 23:54:02] Decoding token
+[2024-10-21 23:54:28] Starting getRunners process
+[2024-10-21 23:54:28] Decoding token
+[2024-10-22 00:53:17] Starting create image gallery process
+[2024-10-22 00:53:17] Decoding token
+[2024-10-22 00:53:52] Starting create image gallery process
+[2024-10-22 00:53:52] Decoding token
+[2024-10-22 00:55:25] Starting getUserInfo process
+[2024-10-22 00:55:25] Decoding token
+[2024-10-22 00:55:25] Decoded userId: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 00:55:25] Updating login_at for user ID: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 00:55:33] Starting create image gallery process
+[2024-10-22 00:55:33] Decoding token
+[2024-10-22 00:57:24] Starting create image gallery process
+[2024-10-22 00:57:24] Decoding token
+[2024-10-22 00:59:42] Starting create image gallery process
+[2024-10-22 00:59:42] Decoding token
+[2024-10-22 01:02:42] Starting create image gallery process
+[2024-10-22 01:02:42] Decoding token
+[2024-10-22 01:10:40] Starting updatePost process
+[2024-10-22 01:10:40] Decoding token
+[2024-10-22 01:10:40] Image URL not found
+[2024-10-22 01:10:58] Starting updatePost process
+[2024-10-22 01:10:58] Decoding token
+[2024-10-22 01:10:58] Image URL not found
+[2024-10-22 01:12:20] Starting updatePost process
+[2024-10-22 01:12:20] Decoding token
+[2024-10-22 01:12:20] Image URL not found
+[2024-10-22 01:15:19] Starting update Gallery Image process
+[2024-10-22 01:15:19] Decoding token
+[2024-10-22 01:21:40] Starting delete Image Gallery process
+[2024-10-22 01:21:40] Decoding token
+[2024-10-22 01:21:40] Image URL not found
+[2024-10-22 01:21:50] Starting delete Image Gallery process
+[2024-10-22 01:21:50] Decoding token
+[2024-10-22 01:25:46] Fetching all gallery images
+[2024-10-22 01:36:53] Starting update Gallery Image Price and Publish process
+[2024-10-22 01:36:53] Decoding token
+[2024-10-22 01:40:51] Starting getUserInfo process
+[2024-10-22 01:40:51] Decoding token
+[2024-10-22 01:40:51] Decoded userId: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 01:40:51] Updating login_at for user ID: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 01:41:17] Starting getUserInfo process
+[2024-10-22 01:41:17] Decoding token
+[2024-10-22 01:41:17] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-22 01:41:17] Updating login_at for user ID: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-22 07:17:04] Invalid credentials for username: dimas@mail.com
+[2024-10-22 07:17:08] Starting getUserInfo process
+[2024-10-22 07:17:08] Decoding token
+[2024-10-22 07:17:08] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 07:17:08] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 07:17:11] Starting getSummary process
+[2024-10-22 07:17:11] Decoding token
+[2024-10-22 07:17:11] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-22 07:17:14] Starting getUsers process
+[2024-10-22 07:17:14] Decoding token
+[2024-10-22 07:17:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-22 07:17:42] Fetching all posts
+[2024-10-22 07:17:43] Fetching all events
+[2024-10-22 07:17:43] Decoding token
+[2024-10-22 07:20:54] Starting getRunners process
+[2024-10-22 07:20:54] Decoding token
+[2024-10-22 07:30:41] Starting getRunners process
+[2024-10-22 07:30:41] Decoding token
+[2024-10-22 07:32:11] Starting getRunners process
+[2024-10-22 07:32:11] Decoding token
+[2024-10-22 07:32:11] Starting getRunners process
+[2024-10-22 07:32:11] Decoding token
+[2024-10-22 07:33:51] Starting getRunners process
+[2024-10-22 07:33:51] Decoding token
+[2024-10-22 07:34:26] Starting getRunners process
+[2024-10-22 07:34:26] Decoding token
+[2024-10-22 07:34:39] Starting getRunners process
+[2024-10-22 07:34:39] Decoding token
+[2024-10-22 07:34:43] Starting getRunners process
+[2024-10-22 07:34:43] Decoding token
+[2024-10-22 07:35:29] Starting getRunners process
+[2024-10-22 07:35:29] Decoding token
+[2024-10-22 07:35:35] Starting getRunners process
+[2024-10-22 07:35:35] Decoding token
+[2024-10-22 07:35:38] Starting getRunners process
+[2024-10-22 07:35:38] Decoding token
+[2024-10-22 07:36:30] Starting getRunners process
+[2024-10-22 07:36:30] Decoding token
+[2024-10-22 07:36:35] Starting uploadExcel process
+[2024-10-22 07:36:35] Decoding token
+[2024-10-22 07:36:38] Duplicate runner_number found: 1234
+[2024-10-22 07:37:10] Starting getRunners process
+[2024-10-22 07:37:10] Decoding token
+[2024-10-22 07:37:14] Starting uploadExcel process
+[2024-10-22 07:37:14] Decoding token
+[2024-10-22 07:37:20] Duplicate runner_number found: 1235
+[2024-10-22 07:41:30] Fetching all gallery images
+[2024-10-22 07:45:59] Invalid credentials for username: dimas@mail.com
+[2024-10-22 07:46:05] Starting getUserInfo process
+[2024-10-22 07:46:05] Decoding token
+[2024-10-22 07:46:05] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 07:46:05] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 07:46:09] Starting getSummary process
+[2024-10-22 07:46:09] Decoding token
+[2024-10-22 07:46:09] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-22 07:50:49] Starting getSummary process
+[2024-10-22 07:50:49] Decoding token
+[2024-10-22 07:50:49] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-22 07:55:21] Fetching all gallery images
+[2024-10-22 07:56:27] Fetching all gallery images
+[2024-10-22 07:58:14] Fetching all posts
+[2024-10-22 07:58:14] Fetching all posts
+[2024-10-22 07:58:28] Fetching all posts
+[2024-10-22 07:58:28] Fetching all posts
+[2024-10-22 08:00:50] Fetching all posts
+[2024-10-22 08:00:50] Fetching all posts
+[2024-10-22 08:00:52] Fetching all posts
+[2024-10-22 08:00:52] Fetching all posts
+[2024-10-22 08:32:46] Fetching all posts
+[2024-10-22 08:32:46] Fetching all posts
+[2024-10-22 08:38:15] Fetching all events
+[2024-10-22 08:38:15] Decoding token
+[2024-10-22 08:42:36] Fetching all events
+[2024-10-22 08:42:36] Decoding token
+[2024-10-22 08:42:38] Fetching all events
+[2024-10-22 08:42:38] Decoding token
+[2024-10-22 08:42:49] Fetching all events
+[2024-10-22 08:42:49] Decoding token
+[2024-10-22 08:42:50] Fetching all events
+[2024-10-22 08:42:50] Decoding token
+[2024-10-22 08:43:21] Fetching all events
+[2024-10-22 08:43:21] Decoding token
+[2024-10-22 08:43:29] Fetching all events
+[2024-10-22 08:43:29] Decoding token
+[2024-10-22 08:44:07] Fetching all events
+[2024-10-22 08:44:07] Decoding token
+[2024-10-22 08:44:24] Fetching all events
+[2024-10-22 08:44:24] Decoding token
+[2024-10-22 08:45:05] Fetching all events
+[2024-10-22 08:45:05] Decoding token
+[2024-10-22 08:45:07] Fetching all events
+[2024-10-22 08:45:07] Decoding token
+[2024-10-22 08:45:11] Fetching all events
+[2024-10-22 08:45:11] Decoding token
+[2024-10-22 08:45:11] Fetching all events
+[2024-10-22 08:45:11] Decoding token
+[2024-10-22 08:45:17] Fetching all events
+[2024-10-22 08:45:17] Decoding token
+[2024-10-22 08:45:43] Fetching all events
+[2024-10-22 08:45:43] Decoding token
+[2024-10-22 08:45:52] Fetching all events
+[2024-10-22 08:45:52] Decoding token
+[2024-10-22 08:46:19] Fetching all events
+[2024-10-22 08:46:19] Decoding token
+[2024-10-22 08:46:19] Fetching all events
+[2024-10-22 08:46:19] Decoding token
+[2024-10-22 08:46:20] Fetching all events
+[2024-10-22 08:46:20] Decoding token
+[2024-10-22 08:46:31] Fetching all events
+[2024-10-22 08:46:31] Decoding token
+[2024-10-22 08:46:32] Fetching all events
+[2024-10-22 08:46:32] Decoding token
+[2024-10-22 08:46:37] Fetching all events
+[2024-10-22 08:46:37] Decoding token
+[2024-10-22 08:46:37] Fetching all events
+[2024-10-22 08:46:37] Decoding token
+[2024-10-22 08:47:13] Fetching all events
+[2024-10-22 08:47:13] Decoding token
+[2024-10-22 08:47:13] Fetching all events
+[2024-10-22 08:47:13] Decoding token
+[2024-10-22 08:47:28] Fetching all events
+[2024-10-22 08:47:28] Decoding token
+[2024-10-22 08:47:34] Fetching all events
+[2024-10-22 08:47:34] Decoding token
+[2024-10-22 08:47:39] Fetching all events
+[2024-10-22 08:47:39] Decoding token
+[2024-10-22 08:47:40] Fetching all events
+[2024-10-22 08:47:40] Decoding token
+[2024-10-22 08:47:43] Fetching all events
+[2024-10-22 08:47:43] Decoding token
+[2024-10-22 08:47:44] Fetching all events
+[2024-10-22 08:47:44] Decoding token
+[2024-10-22 08:47:44] Fetching all events
+[2024-10-22 08:47:44] Decoding token
+[2024-10-22 08:47:44] Fetching all events
+[2024-10-22 08:47:44] Decoding token
+[2024-10-22 08:48:14] Fetching all events
+[2024-10-22 08:48:14] Decoding token
+[2024-10-22 08:48:38] Fetching all events
+[2024-10-22 08:48:38] Decoding token
+[2024-10-22 08:49:57] Invalid credentials for username: alifan.dimas24@gmail.com
+[2024-10-22 08:50:12] Starting getUserInfo process
+[2024-10-22 08:50:12] Decoding token
+[2024-10-22 08:50:12] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 08:50:12] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 08:50:15] Starting getSummary process
+[2024-10-22 08:50:15] Decoding token
+[2024-10-22 08:50:15] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-22 08:50:21] Fetching all posts
+[2024-10-22 08:50:22] Fetching all events
+[2024-10-22 08:50:22] Decoding token
+[2024-10-22 08:50:25] Starting getRunners process
+[2024-10-22 08:50:25] Decoding token
+[2024-10-22 08:51:01] Starting updateEvent process
+[2024-10-22 08:51:01] Decoding token
+[2024-10-22 08:51:06] Fetching all events
+[2024-10-22 08:51:06] Decoding token
+[2024-10-22 08:51:07] Fetching all events
+[2024-10-22 08:51:07] Decoding token
+[2024-10-22 08:52:31] Fetching all events
+[2024-10-22 08:52:31] Decoding token
+[2024-10-22 08:52:43] Fetching all events
+[2024-10-22 08:52:43] Decoding token
+[2024-10-22 08:52:51] Fetching all events
+[2024-10-22 08:52:51] Decoding token
+[2024-10-22 08:53:11] Fetching all events
+[2024-10-22 08:53:11] Decoding token
+[2024-10-22 08:54:29] Fetching all events
+[2024-10-22 08:54:29] Decoding token
+[2024-10-22 08:54:33] Fetching all events
+[2024-10-22 08:54:33] Decoding token
+[2024-10-22 08:54:33] Fetching all events
+[2024-10-22 08:54:33] Decoding token
+[2024-10-22 08:55:24] Fetching all events
+[2024-10-22 08:55:24] Decoding token
+[2024-10-22 08:55:41] Fetching all events
+[2024-10-22 08:55:41] Decoding token
+[2024-10-22 08:55:45] Fetching all events
+[2024-10-22 08:55:45] Decoding token
+[2024-10-22 08:55:49] Fetching all events
+[2024-10-22 08:55:49] Decoding token
+[2024-10-22 08:56:07] Fetching all events
+[2024-10-22 08:56:07] Decoding token
+[2024-10-22 08:56:15] Fetching all events
+[2024-10-22 08:56:15] Decoding token
+[2024-10-22 08:56:18] Fetching all events
+[2024-10-22 08:56:18] Decoding token
+[2024-10-22 08:56:28] Fetching all events
+[2024-10-22 08:56:28] Decoding token
+[2024-10-22 08:56:34] Fetching all events
+[2024-10-22 08:56:34] Decoding token
+[2024-10-22 08:56:44] Fetching all events
+[2024-10-22 08:56:44] Decoding token
+[2024-10-22 08:56:53] Fetching all events
+[2024-10-22 08:56:53] Decoding token
+[2024-10-22 08:57:59] Fetching all events
+[2024-10-22 08:57:59] Decoding token
+[2024-10-22 08:58:19] Fetching all events
+[2024-10-22 08:58:19] Decoding token
+[2024-10-22 08:59:16] Fetching all events
+[2024-10-22 08:59:16] Decoding token
+[2024-10-22 08:59:23] Fetching all events
+[2024-10-22 08:59:23] Decoding token
+[2024-10-22 08:59:23] Fetching all events
+[2024-10-22 08:59:23] Decoding token
+[2024-10-22 09:00:43] Fetching all events
+[2024-10-22 09:00:43] Decoding token
+[2024-10-22 09:00:43] Fetching all events
+[2024-10-22 09:00:43] Decoding token
+[2024-10-22 09:00:52] Fetching all events
+[2024-10-22 09:00:52] Decoding token
+[2024-10-22 09:01:03] Fetching all events
+[2024-10-22 09:01:03] Decoding token
+[2024-10-22 09:01:11] Fetching all events
+[2024-10-22 09:01:11] Decoding token
+[2024-10-22 09:01:21] Fetching all events
+[2024-10-22 09:01:21] Decoding token
+[2024-10-22 09:01:33] Fetching all events
+[2024-10-22 09:01:33] Decoding token
+[2024-10-22 09:06:31] Fetching all events
+[2024-10-22 09:06:31] Decoding token
+[2024-10-22 09:06:36] Fetching all events
+[2024-10-22 09:06:36] Decoding token
+[2024-10-22 09:06:40] Fetching all events
+[2024-10-22 09:06:40] Decoding token
+[2024-10-22 09:06:42] Fetching all events
+[2024-10-22 09:06:42] Decoding token
+[2024-10-22 09:06:42] Fetching all events
+[2024-10-22 09:06:42] Decoding token
+[2024-10-22 09:07:12] Fetching all events
+[2024-10-22 09:07:12] Decoding token
+[2024-10-22 09:07:23] Fetching all events
+[2024-10-22 09:07:23] Decoding token
+[2024-10-22 09:08:21] Fetching all events
+[2024-10-22 09:08:21] Decoding token
+[2024-10-22 09:09:34] Fetching all events
+[2024-10-22 09:09:34] Decoding token
+[2024-10-22 09:09:49] Fetching all events
+[2024-10-22 09:09:49] Decoding token
+[2024-10-22 09:09:57] Fetching all events
+[2024-10-22 09:09:57] Decoding token
+[2024-10-22 09:10:25] Fetching all events
+[2024-10-22 09:10:25] Decoding token
+[2024-10-22 09:11:25] Fetching all events
+[2024-10-22 09:11:25] Decoding token
+[2024-10-22 09:12:06] Fetching all events
+[2024-10-22 09:12:06] Decoding token
+[2024-10-22 09:12:17] Fetching all events
+[2024-10-22 09:12:17] Decoding token
+[2024-10-22 09:12:26] Fetching all events
+[2024-10-22 09:12:26] Decoding token
+[2024-10-22 09:12:31] Fetching all events
+[2024-10-22 09:12:31] Decoding token
+[2024-10-22 09:12:34] Fetching all events
+[2024-10-22 09:12:34] Decoding token
+[2024-10-22 09:12:35] Fetching all events
+[2024-10-22 09:12:35] Decoding token
+[2024-10-22 09:12:40] Fetching all events
+[2024-10-22 09:12:40] Decoding token
+[2024-10-22 09:12:41] Fetching all events
+[2024-10-22 09:12:41] Decoding token
+[2024-10-22 09:12:43] Fetching all events
+[2024-10-22 09:12:43] Decoding token
+[2024-10-22 09:13:34] Fetching all events
+[2024-10-22 09:13:34] Decoding token
+[2024-10-22 09:13:36] Fetching all events
+[2024-10-22 09:13:36] Decoding token
+[2024-10-22 09:13:39] Fetching all events
+[2024-10-22 09:13:39] Decoding token
+[2024-10-22 09:13:40] Fetching all events
+[2024-10-22 09:13:40] Decoding token
+[2024-10-22 09:15:09] Fetching all events
+[2024-10-22 09:15:09] Decoding token
+[2024-10-22 09:15:12] Fetching all events
+[2024-10-22 09:15:12] Decoding token
+[2024-10-22 09:15:20] Fetching all events
+[2024-10-22 09:15:20] Decoding token
+[2024-10-22 09:15:24] Fetching all events
+[2024-10-22 09:15:24] Decoding token
+[2024-10-22 09:15:29] Fetching all events
+[2024-10-22 09:15:29] Decoding token
+[2024-10-22 09:15:34] Fetching all posts
+[2024-10-22 09:15:34] Fetching all posts
+[2024-10-22 09:17:36] Fetching all events
+[2024-10-22 09:17:36] Decoding token
+[2024-10-22 09:17:36] Fetching all events
+[2024-10-22 09:17:37] Decoding token
+[2024-10-22 09:17:39] Fetching all posts
+[2024-10-22 09:17:39] Fetching all posts
+[2024-10-22 09:19:11] Fetching all gallery images
+[2024-10-22 09:19:52] Fetching all gallery images
+[2024-10-22 09:19:59] Fetching all gallery images
+[2024-10-22 09:20:15] Fetching all gallery images
+[2024-10-22 09:20:33] Fetching all posts
+[2024-10-22 09:20:33] Fetching all posts
+[2024-10-22 09:20:34] Fetching all gallery images
+[2024-10-22 09:20:34] Fetching all gallery images
+[2024-10-22 09:20:56] Fetching all posts
+[2024-10-22 09:20:56] Fetching all posts
+[2024-10-22 09:21:01] Fetching all gallery images
+[2024-10-22 09:21:01] Fetching all gallery images
+[2024-10-22 09:21:26] Fetching all posts
+[2024-10-22 09:21:26] Fetching all posts
+[2024-10-22 09:21:37] Fetching all gallery images
+[2024-10-22 09:21:37] Fetching all gallery images
+[2024-10-22 09:21:44] Fetching all events
+[2024-10-22 09:21:44] Decoding token
+[2024-10-22 09:21:44] Fetching all events
+[2024-10-22 09:21:44] Decoding token
+[2024-10-22 09:22:24] Fetching all events
+[2024-10-22 09:22:24] Decoding token
+[2024-10-22 09:22:26] Fetching all events
+[2024-10-22 09:22:26] Decoding token
+[2024-10-22 09:22:31] Fetching all events
+[2024-10-22 09:22:31] Decoding token
+[2024-10-22 09:22:38] Fetching all events
+[2024-10-22 09:22:38] Decoding token
+[2024-10-22 09:23:10] Fetching all events
+[2024-10-22 09:23:10] Decoding token
+[2024-10-22 09:23:21] Fetching all events
+[2024-10-22 09:23:21] Decoding token
+[2024-10-22 09:25:51] Fetching all events
+[2024-10-22 09:25:51] Decoding token
+[2024-10-22 09:25:51] Fetching all events
+[2024-10-22 09:25:51] Decoding token
+[2024-10-22 09:26:03] Fetching all events
+[2024-10-22 09:26:03] Decoding token
+[2024-10-22 09:26:07] Fetching all events
+[2024-10-22 09:26:07] Decoding token
+[2024-10-22 09:26:09] Fetching all events
+[2024-10-22 09:26:09] Decoding token
+[2024-10-22 09:26:17] Fetching all events
+[2024-10-22 09:26:17] Decoding token
+[2024-10-22 09:26:24] Fetching all events
+[2024-10-22 09:26:24] Decoding token
+[2024-10-22 09:26:29] Fetching all gallery images
+[2024-10-22 09:26:29] Fetching all gallery images
+[2024-10-22 09:28:31] Fetching all events
+[2024-10-22 09:28:31] Decoding token
+[2024-10-22 09:28:33] Fetching all gallery images
+[2024-10-22 09:28:46] Fetching all gallery images
+[2024-10-22 09:36:07] Fetching all posts
+[2024-10-22 09:36:32] Fetching all posts
+[2024-10-22 09:36:44] Fetching all posts
+[2024-10-22 09:36:46] Fetching all gallery images
+[2024-10-22 09:36:47] Fetching all posts
+[2024-10-22 09:36:49] Fetching all events
+[2024-10-22 09:36:49] Decoding token
+[2024-10-22 09:36:59] Fetching all gallery images
+[2024-10-22 09:40:08] Fetching all posts
+[2024-10-22 09:40:34] Fetching all events
+[2024-10-22 09:40:34] Decoding token
+[2024-10-22 09:40:37] Fetching all posts
+[2024-10-22 09:49:54] Fetching all posts
+[2024-10-22 09:50:04] Fetching all posts
+[2024-10-22 09:50:06] Fetching all events
+[2024-10-22 09:50:06] Decoding token
+[2024-10-22 09:50:08] Starting getRunners process
+[2024-10-22 09:50:08] Decoding token
+[2024-10-22 09:50:14] Fetching all posts
+[2024-10-22 09:53:11] Fetching all events
+[2024-10-22 09:53:11] Decoding token
+[2024-10-22 09:53:13] Starting getRunners process
+[2024-10-22 09:53:13] Decoding token
+[2024-10-22 09:53:26] Starting updateEvent process
+[2024-10-22 09:53:26] Decoding token
+[2024-10-22 09:53:27] Fetching all events
+[2024-10-22 09:53:27] Decoding token
+[2024-10-22 09:53:28] Fetching all posts
+[2024-10-22 09:54:07] Fetching all events
+[2024-10-22 09:54:07] Decoding token
+[2024-10-22 09:58:16] Starting createEvent process
+[2024-10-22 09:58:16] Decoding token
+[2024-10-22 09:58:16] Fetching all events
+[2024-10-22 09:58:16] Decoding token
+[2024-10-22 09:58:20] Fetching all posts
+[2024-10-22 09:59:38] Fetching all posts
+[2024-10-22 09:59:38] Fetching all posts
+[2024-10-22 09:59:40] Fetching all events
+[2024-10-22 09:59:40] Decoding token
+[2024-10-22 09:59:40] Fetching all events
+[2024-10-22 09:59:40] Decoding token
+[2024-10-22 09:59:46] Fetching all events
+[2024-10-22 09:59:46] Decoding token
+[2024-10-22 09:59:46] Fetching all events
+[2024-10-22 09:59:46] Decoding token
+[2024-10-22 10:00:26] Fetching all events
+[2024-10-22 10:00:26] Decoding token
+[2024-10-22 10:00:28] Fetching all events
+[2024-10-22 10:00:28] Decoding token
+[2024-10-22 10:00:28] Fetching all events
+[2024-10-22 10:00:28] Decoding token
+[2024-10-22 10:00:47] Fetching all events
+[2024-10-22 10:00:47] Decoding token
+[2024-10-22 10:00:53] Fetching all events
+[2024-10-22 10:00:53] Decoding token
+[2024-10-22 10:03:31] Fetching all events
+[2024-10-22 10:03:31] Decoding token
+[2024-10-22 10:03:48] Fetching all events
+[2024-10-22 10:03:48] Decoding token
+[2024-10-22 10:03:52] Fetching all events
+[2024-10-22 10:03:52] Decoding token
+[2024-10-22 10:03:54] Fetching all events
+[2024-10-22 10:03:54] Decoding token
+[2024-10-22 10:03:57] Fetching all events
+[2024-10-22 10:03:57] Decoding token
+[2024-10-22 10:03:57] Fetching all events
+[2024-10-22 10:03:57] Decoding token
+[2024-10-22 10:04:19] Fetching all events
+[2024-10-22 10:04:19] Decoding token
+[2024-10-22 10:04:19] Fetching all events
+[2024-10-22 10:04:19] Decoding token
+[2024-10-22 10:04:24] Fetching all events
+[2024-10-22 10:04:24] Decoding token
+[2024-10-22 10:04:24] Fetching all events
+[2024-10-22 10:04:24] Decoding token
+[2024-10-22 10:04:34] Fetching all events
+[2024-10-22 10:04:34] Decoding token
+[2024-10-22 10:04:34] Fetching all events
+[2024-10-22 10:04:34] Decoding token
+[2024-10-22 10:04:41] Fetching all events
+[2024-10-22 10:04:41] Decoding token
+[2024-10-22 10:04:41] Fetching all events
+[2024-10-22 10:04:41] Decoding token
+[2024-10-22 10:04:48] Fetching all events
+[2024-10-22 10:04:48] Decoding token
+[2024-10-22 10:04:48] Fetching all events
+[2024-10-22 10:04:48] Decoding token
+[2024-10-22 10:05:04] Fetching all events
+[2024-10-22 10:05:04] Decoding token
+[2024-10-22 10:05:07] Fetching all events
+[2024-10-22 10:05:07] Decoding token
+[2024-10-22 10:05:07] Fetching all events
+[2024-10-22 10:05:07] Decoding token
+[2024-10-22 10:05:20] Fetching all events
+[2024-10-22 10:05:20] Decoding token
+[2024-10-22 10:05:22] Fetching all events
+[2024-10-22 10:05:22] Decoding token
+[2024-10-22 10:05:22] Fetching all events
+[2024-10-22 10:05:22] Decoding token
+[2024-10-22 10:05:28] Fetching all events
+[2024-10-22 10:05:28] Decoding token
+[2024-10-22 10:05:29] Fetching all events
+[2024-10-22 10:05:29] Decoding token
+[2024-10-22 10:05:31] Fetching all events
+[2024-10-22 10:05:31] Decoding token
+[2024-10-22 10:05:31] Fetching all events
+[2024-10-22 10:05:31] Decoding token
+[2024-10-22 10:06:01] Fetching all events
+[2024-10-22 10:06:01] Decoding token
+[2024-10-22 10:06:04] Fetching all events
+[2024-10-22 10:06:04] Decoding token
+[2024-10-22 10:06:04] Fetching all events
+[2024-10-22 10:06:04] Decoding token
+[2024-10-22 10:06:14] Fetching all events
+[2024-10-22 10:06:14] Decoding token
+[2024-10-22 10:06:16] Fetching all events
+[2024-10-22 10:06:16] Decoding token
+[2024-10-22 10:06:16] Fetching all events
+[2024-10-22 10:06:16] Decoding token
+[2024-10-22 10:06:54] Fetching all posts
+[2024-10-22 10:06:56] Fetching all gallery images
+[2024-10-22 10:07:09] Fetching all gallery images
+[2024-10-22 10:07:12] Fetching all gallery images
+[2024-10-22 10:07:12] Fetching all gallery images
+[2024-10-22 10:07:15] Fetching all posts
+[2024-10-22 10:07:15] Fetching all posts
+[2024-10-22 10:07:20] Fetching all gallery images
+[2024-10-22 10:07:21] Fetching all gallery images
+[2024-10-22 10:07:21] Fetching all posts
+[2024-10-22 10:07:21] Fetching all posts
+[2024-10-22 10:07:22] Fetching all events
+[2024-10-22 10:07:22] Decoding token
+[2024-10-22 10:07:22] Fetching all events
+[2024-10-22 10:07:22] Decoding token
+[2024-10-22 10:07:41] Fetching all gallery images
+[2024-10-22 10:07:41] Fetching all gallery images
+[2024-10-22 10:08:13] Fetching all posts
+[2024-10-22 10:08:13] Fetching all posts
+[2024-10-22 10:08:14] Fetching all gallery images
+[2024-10-22 10:08:14] Fetching all gallery images
+[2024-10-22 10:08:16] Fetching all events
+[2024-10-22 10:08:16] Decoding token
+[2024-10-22 10:08:16] Fetching all events
+[2024-10-22 10:08:16] Decoding token
+[2024-10-22 10:08:48] Fetching all gallery images
+[2024-10-22 10:08:48] Fetching all gallery images
+[2024-10-22 10:08:48] Fetching all posts
+[2024-10-22 10:08:48] Fetching all posts
+[2024-10-22 10:08:58] Fetching all events
+[2024-10-22 10:08:58] Decoding token
+[2024-10-22 10:08:58] Fetching all events
+[2024-10-22 10:08:58] Decoding token
+[2024-10-22 10:09:36] Fetching all gallery images
+[2024-10-22 10:09:36] Fetching all gallery images
+[2024-10-22 10:09:37] Fetching all posts
+[2024-10-22 10:09:37] Fetching all posts
+[2024-10-22 10:09:38] Fetching all gallery images
+[2024-10-22 10:09:38] Fetching all gallery images
+[2024-10-22 13:22:32] Starting create image gallery process
+[2024-10-22 13:22:32] Decoding token
+[2024-10-22 13:46:11] Starting insert bank method process
+[2024-10-22 13:46:11] Decoding token
+[2024-10-22 13:48:29] Starting update bank method process
+[2024-10-22 13:48:29] Decoding token
+[2024-10-22 13:50:25] Starting update bank method process
+[2024-10-22 13:50:25] Decoding token
+[2024-10-22 13:50:43] Starting update bank method process
+[2024-10-22 13:50:43] Decoding token
+[2024-10-22 13:50:46] Starting delete bank method process
+[2024-10-22 13:50:46] Decoding token
+[2024-10-22 13:50:54] Starting insert bank method process
+[2024-10-22 13:50:54] Decoding token
+[2024-10-22 14:14:08] Starting insert bank list process
+[2024-10-22 14:14:08] Decoding token
+[2024-10-22 14:18:04] Starting update bank list process
+[2024-10-22 14:18:04] Decoding token
+[2024-10-22 14:20:09] Starting delete bank list process
+[2024-10-22 14:20:09] Decoding token
+[2024-10-22 14:20:17] Starting insert bank list process
+[2024-10-22 14:20:17] Decoding token
+[2024-10-22 14:27:04] Fetching all bank methods
+[2024-10-22 14:27:04] Decoding token
+[2024-10-22 14:30:56] Fetching all bank lists
+[2024-10-22 14:30:56] Decoding token
+[2024-10-22 14:46:36] Fetching all posts
+[2024-10-22 14:46:36] Fetching all posts
+[2024-10-22 14:46:38] Fetching all gallery images
+[2024-10-22 14:46:38] Fetching all gallery images
+[2024-10-22 14:48:57] Fetching all posts
+[2024-10-22 14:48:57] Fetching all posts
+[2024-10-22 14:49:31] Fetching all gallery images
+[2024-10-22 14:49:53] Fetching all gallery images
+[2024-10-22 14:49:53] Fetching all gallery images
+[2024-10-22 14:50:16] Fetching all posts
+[2024-10-22 14:50:16] Fetching all posts
+[2024-10-22 14:50:34] Fetching all posts
+[2024-10-22 14:50:34] Fetching all posts
+[2024-10-22 14:50:55] Fetching all posts
+[2024-10-22 14:50:58] Fetching all gallery images
+[2024-10-22 14:50:58] Fetching all gallery images
+[2024-10-22 14:51:07] Fetching all posts
+[2024-10-22 14:51:11] Fetching all posts
+[2024-10-22 14:51:11] Fetching all posts
+[2024-10-22 14:51:12] Fetching all events
+[2024-10-22 14:51:12] Decoding token
+[2024-10-22 14:51:12] Fetching all events
+[2024-10-22 14:51:12] Decoding token
+[2024-10-22 14:51:13] Fetching all events
+[2024-10-22 14:51:13] Decoding token
+[2024-10-22 14:51:13] Unauthorized user type: 1003
+[2024-10-22 14:51:17] Fetching all gallery images
+[2024-10-22 14:51:17] Fetching all gallery images
+[2024-10-22 14:51:58] Fetching all posts
+[2024-10-22 14:51:58] Fetching all posts
+[2024-10-22 14:51:59] Fetching all gallery images
+[2024-10-22 14:51:59] Fetching all gallery images
+[2024-10-22 14:52:21] Fetching all events
+[2024-10-22 14:52:21] Decoding token
+[2024-10-22 14:52:21] Fetching all events
+[2024-10-22 14:52:21] Decoding token
+[2024-10-22 14:52:57] Fetching all events
+[2024-10-22 14:52:57] Decoding token
+[2024-10-22 14:53:03] Fetching all events
+[2024-10-22 14:53:03] Decoding token
+[2024-10-22 14:53:21] Fetching all events
+[2024-10-22 14:53:21] Decoding token
+[2024-10-22 14:53:33] Fetching all events
+[2024-10-22 14:53:33] Decoding token
+[2024-10-22 14:53:41] Fetching all posts
+[2024-10-22 14:53:42] Fetching all posts
+[2024-10-22 14:54:34] Fetching all events
+[2024-10-22 14:55:28] Fetching all gallery images
+[2024-10-22 14:55:28] Fetching all gallery images
+[2024-10-22 14:57:00] Fetching all gallery images
+[2024-10-22 14:57:23] Fetching all gallery images
+[2024-10-22 14:58:07] Starting getUserInfo process
+[2024-10-22 14:58:07] Decoding token
+[2024-10-22 14:58:07] Decoded userId: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 14:58:07] Updating login_at for user ID: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 14:58:34] Fetching all gallery images
+[2024-10-22 14:58:34] Fetching all gallery images
+[2024-10-22 15:01:28] Starting create image gallery process
+[2024-10-22 15:01:28] Decoding token
+[2024-10-22 15:01:44] Fetching all gallery images
+[2024-10-22 15:02:49] Starting getUserInfo process
+[2024-10-22 15:02:49] Decoding token
+[2024-10-22 15:02:49] Decoded userId: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 15:02:49] Updating login_at for user ID: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 15:05:04] Starting getUserInfo process
+[2024-10-22 15:05:04] Decoding token
+[2024-10-22 15:05:04] Decoded userId: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 15:05:04] Updating login_at for user ID: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 15:05:40] Starting getUserInfo process
+[2024-10-22 15:05:40] Decoding token
+[2024-10-22 15:05:40] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-22 15:05:40] Updating login_at for user ID: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-22 15:05:54] Fetching all posts
+[2024-10-22 15:05:55] Fetching all gallery images
+[2024-10-22 15:06:03] Starting getUserInfo process
+[2024-10-22 15:06:03] Decoding token
+[2024-10-22 15:06:03] Decoded userId: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 15:06:03] Updating login_at for user ID: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-22 15:06:25] Fetching all gallery images
+[2024-10-22 15:09:23] Fetching all posts
+[2024-10-22 15:09:23] Fetching all posts
+[2024-10-22 15:09:25] Fetching all gallery images
+[2024-10-22 15:09:25] Fetching all gallery images
+[2024-10-22 15:10:02] Fetching all gallery images
+[2024-10-22 15:10:03] Fetching all gallery images
+[2024-10-22 15:10:07] Fetching all gallery images
+[2024-10-22 15:11:08] Fetching all gallery images
+[2024-10-22 15:11:17] Fetching all gallery images
+[2024-10-22 15:12:00] Fetching all gallery images
+[2024-10-22 15:12:22] Fetching all gallery images
+[2024-10-22 15:12:37] Fetching all gallery images
+[2024-10-22 15:13:55] Fetching all gallery images
+[2024-10-22 15:14:02] Fetching all gallery images
+[2024-10-22 15:14:06] Fetching all gallery images
+[2024-10-22 15:15:27] Fetching all gallery images
+[2024-10-22 15:15:46] Fetching all gallery images
+[2024-10-22 15:15:50] Fetching all gallery images
+[2024-10-22 15:15:51] Fetching all gallery images
+[2024-10-22 15:15:52] Fetching all gallery images
+[2024-10-22 15:15:52] Fetching all gallery images
+[2024-10-22 15:16:34] Fetching all gallery images
+[2024-10-22 15:16:35] Fetching all gallery images
+[2024-10-22 15:16:38] Fetching all gallery images
+[2024-10-22 15:16:39] Fetching all gallery images
+[2024-10-22 15:16:44] Fetching all gallery images
+[2024-10-22 15:16:47] Fetching all gallery images
+[2024-10-22 15:16:51] Fetching all gallery images
+[2024-10-22 15:16:55] Fetching all gallery images
+[2024-10-22 15:17:00] Fetching all gallery images
+[2024-10-22 15:17:05] Fetching all gallery images
+[2024-10-22 15:17:11] Fetching all gallery images
+[2024-10-22 15:17:16] Fetching all gallery images
+[2024-10-22 15:17:20] Fetching all gallery images
+[2024-10-22 15:17:20] Fetching all gallery images
+[2024-10-22 15:17:36] Fetching all gallery images
+[2024-10-22 15:17:40] Fetching all gallery images
+[2024-10-22 15:18:00] Fetching all gallery images
+[2024-10-22 15:18:05] Fetching all gallery images
+[2024-10-22 15:20:01] Fetching all gallery images
+[2024-10-22 15:20:07] Fetching all gallery images
+[2024-10-22 15:21:35] Starting getUserInfo process
+[2024-10-22 15:21:35] Decoding token
+[2024-10-22 15:21:35] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 15:21:35] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 15:21:38] Starting getSummary process
+[2024-10-22 15:21:38] Decoding token
+[2024-10-22 15:21:38] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-22 15:21:41] Fetching all events
+[2024-10-22 15:21:49] Fetching all events
+[2024-10-22 15:22:18] Fetching all events
+[2024-10-22 15:25:56] Starting create image gallery process
+[2024-10-22 15:25:56] Decoding token
+[2024-10-22 15:28:05] Starting create image gallery process
+[2024-10-22 15:28:05] Decoding token
+[2024-10-22 15:29:46] Fetching all posts
+[2024-10-22 15:31:27] Fetching all events
+[2024-10-22 15:31:33] Fetching all posts
+[2024-10-22 15:31:34] Starting create image gallery process
+[2024-10-22 15:31:34] Decoding token
+[2024-10-22 15:31:41] Fetching all events
+[2024-10-22 15:32:03] Starting getRunners process
+[2024-10-22 15:32:03] Decoding token
+[2024-10-22 15:32:10] Fetching all events
+[2024-10-22 15:32:14] Starting getRunners process
+[2024-10-22 15:32:14] Decoding token
+[2024-10-22 15:32:26] Fetching all events
+[2024-10-22 15:32:27] Starting getRunners process
+[2024-10-22 15:32:27] Decoding token
+[2024-10-22 15:32:32] Starting updateEvent process
+[2024-10-22 15:32:32] Decoding token
+[2024-10-22 15:32:41] Starting uploadExcel process
+[2024-10-22 15:32:41] Decoding token
+[2024-10-22 15:32:47] Starting getRunners process
+[2024-10-22 15:32:47] Decoding token
+[2024-10-22 15:33:03] Starting create image gallery process
+[2024-10-22 15:33:03] Decoding token
+[2024-10-22 15:33:30] Fetching all gallery images
+[2024-10-22 15:34:10] Fetching all gallery images
+[2024-10-22 15:34:46] Fetching all gallery images
+[2024-10-22 15:35:46] Fetching all gallery images
+[2024-10-22 15:36:20] Fetching all gallery images
+[2024-10-22 15:36:25] Fetching all gallery images
+[2024-10-22 15:36:25] Fetching all gallery images
+[2024-10-22 15:38:50] Fetching all posts
+[2024-10-22 15:39:22] Fetching all posts
+[2024-10-22 15:39:22] Fetching all posts
+[2024-10-22 15:39:23] Fetching all gallery images
+[2024-10-22 15:39:23] Fetching all gallery images
+[2024-10-22 15:39:23] Fetching all events
+[2024-10-22 15:39:23] Fetching all events
+[2024-10-22 15:39:41] Fetching all posts
+[2024-10-22 15:39:44] Fetching all gallery images
+[2024-10-22 15:39:44] Fetching all gallery images
+[2024-10-22 15:41:24] Fetching all events
+[2024-10-22 15:41:33] Fetching all events
+[2024-10-22 15:41:36] Starting getRunners process
+[2024-10-22 15:41:36] Decoding token
+[2024-10-22 15:41:54] Starting create image gallery process
+[2024-10-22 15:41:54] Decoding token
+[2024-10-22 15:41:54] File upload error: 4
+[2024-10-22 15:41:54] Image upload failed for file: 
+[2024-10-22 15:43:37] Starting create image gallery process
+[2024-10-22 15:43:37] Decoding token
+[2024-10-22 15:43:37] File upload error: 4
+[2024-10-22 15:43:37] Image upload failed for file: 
+[2024-10-22 15:45:12] Starting getRunners process
+[2024-10-22 15:45:12] Decoding token
+[2024-10-22 15:45:58] Starting delete Image Gallery process
+[2024-10-22 15:45:58] Decoding token
+[2024-10-22 15:46:02] Starting delete Image Gallery process
+[2024-10-22 15:46:02] Decoding token
+[2024-10-22 15:46:05] Starting delete Image Gallery process
+[2024-10-22 15:46:05] Decoding token
+[2024-10-22 15:46:09] Starting delete Image Gallery process
+[2024-10-22 15:46:09] Decoding token
+[2024-10-22 15:46:14] Starting create image gallery process
+[2024-10-22 15:46:14] Decoding token
+[2024-10-22 15:46:14] Processing file: 
+[2024-10-22 15:46:14] File upload error: 4
+[2024-10-22 15:46:25] Starting create image gallery process
+[2024-10-22 15:46:25] Decoding token
+[2024-10-22 15:46:25] Processing file: menjangan-island-titelbild.jpg
+[2024-10-22 15:46:37] Fetching all posts
+[2024-10-22 15:46:55] Fetching all posts
+[2024-10-22 15:47:01] Fetching all events
+[2024-10-22 15:47:04] Fetching all posts
+[2024-10-22 15:47:06] Fetching all gallery images
+[2024-10-22 15:47:14] Fetching all events
+[2024-10-22 15:48:22] Starting create image gallery process
+[2024-10-22 15:48:22] Decoding token
+[2024-10-22 15:48:22] Invalid token signature
+[2024-10-22 15:48:22] Invalid token
+[2024-10-22 15:48:34] Starting create image gallery process
+[2024-10-22 15:48:34] Decoding token
+[2024-10-22 15:48:34] Invalid token signature
+[2024-10-22 15:48:34] Invalid token
+[2024-10-22 15:51:03] Starting getRunners process
+[2024-10-22 15:51:03] Decoding token
+[2024-10-22 15:52:22] Starting create image gallery process
+[2024-10-22 15:52:22] Decoding token
+[2024-10-22 15:52:22] Invalid token signature
+[2024-10-22 15:52:22] Invalid token
+[2024-10-22 15:53:23] Starting create image gallery process
+[2024-10-22 15:53:23] Decoding token
+[2024-10-22 15:53:23] Token header: {"typ":"JWT","alg":"HS256"}
+[2024-10-22 15:53:23] Token payload: {"iss":"http:\/\/localhost","aud":"http:\/\/localhost","iat":1729612325,"exp":1729615925,"userId":"7355b509-b30c-4d56-bdd6-a38eab90c1e6"}
+[2024-10-22 15:53:23] Token signature: tI83zx3nFwAOzfBN2WkIHa0buTmyrmoLXObJ9lpWarQ
+[2024-10-22 15:53:23] Computed signature: 3t3grN8CxnPqK42aHO0aZ-zGmx2uEhPeRFYr1AobBsg
+[2024-10-22 15:53:23] Invalid token signature
+[2024-10-22 15:53:23] Invalid token
+[2024-10-22 15:53:24] Fetching all events
+[2024-10-22 15:53:26] Starting getRunners process
+[2024-10-22 15:53:26] Decoding token
+[2024-10-22 15:53:26] Starting create image gallery process
+[2024-10-22 15:53:26] Decoding token
+[2024-10-22 15:53:26] Token header: {"typ":"JWT","alg":"HS256"}
+[2024-10-22 15:53:26] Token payload: {"iss":"http:\/\/localhost","aud":"http:\/\/localhost","iat":1729612325,"exp":1729615925,"userId":"7355b509-b30c-4d56-bdd6-a38eab90c1e6"}
+[2024-10-22 15:53:26] Token signature: tI83zx3nFwAOzfBN2WkIHa0buTmyrmoLXObJ9lpWarQ
+[2024-10-22 15:53:26] Computed signature: 3t3grN8CxnPqK42aHO0aZ-zGmx2uEhPeRFYr1AobBsg
+[2024-10-22 15:53:26] Invalid token signature
+[2024-10-22 15:53:26] Invalid token
+[2024-10-22 15:53:44] Starting getRunners process
+[2024-10-22 15:53:44] Decoding token
+[2024-10-22 15:53:49] Starting getRunners process
+[2024-10-22 15:53:49] Decoding token
+[2024-10-22 15:53:51] Fetching all events
+[2024-10-22 15:53:53] Fetching all events
+[2024-10-22 15:55:01] Starting create image gallery process
+[2024-10-22 15:55:01] Decoding token
+[2024-10-22 15:55:01] Invalid token signature
+[2024-10-22 15:55:01] Invalid token
+[2024-10-22 15:55:04] Fetching all events
+[2024-10-22 15:55:05] Starting create image gallery process
+[2024-10-22 15:55:05] Decoding token
+[2024-10-22 15:55:05] Invalid token signature
+[2024-10-22 15:55:05] Invalid token
+[2024-10-22 15:55:25] Starting create image gallery process
+[2024-10-22 15:55:25] Decoding token
+[2024-10-22 15:55:56] Fetching all events
+[2024-10-22 15:55:59] Fetching all events
+[2024-10-22 15:56:13] Starting create image gallery process
+[2024-10-22 15:56:13] Decoding token
+[2024-10-22 15:56:13] File upload error: 1
+[2024-10-22 15:56:13] Image upload failed for file: faisal-2.png
+[2024-10-22 15:56:27] Fetching all events
+[2024-10-22 15:56:53] Fetching all posts
+[2024-10-22 15:56:59] Starting create image gallery process
+[2024-10-22 15:56:59] Decoding token
+[2024-10-22 15:57:21] Fetching all posts
+[2024-10-22 15:58:59] Fetching all posts
+[2024-10-22 15:59:09] Fetching all posts
+[2024-10-22 15:59:13] Fetching all posts
+[2024-10-22 15:59:18] Fetching all posts
+[2024-10-22 16:01:57] Fetching all posts
+[2024-10-22 16:02:11] Fetching all posts
+[2024-10-22 16:09:21] Fetching all posts
+[2024-10-22 16:09:21] Fetching all posts
+[2024-10-22 16:09:22] Fetching all gallery images
+[2024-10-22 16:09:22] Fetching all gallery images
+[2024-10-22 16:09:31] Fetching all gallery images
+[2024-10-22 16:09:31] Fetching all gallery images
+[2024-10-22 16:10:25] Fetching all posts
+[2024-10-22 16:10:25] Fetching all gallery images
+[2024-10-22 16:10:27] Fetching all gallery images
+[2024-10-22 16:10:33] Fetching all gallery images
+[2024-10-22 16:10:34] Fetching all posts
+[2024-10-22 16:11:08] Fetching all gallery images
+[2024-10-22 16:11:13] Fetching all gallery images
+[2024-10-22 16:11:21] Fetching all gallery images
+[2024-10-22 16:11:22] Fetching all gallery images
+[2024-10-22 16:11:25] Fetching all gallery images
+[2024-10-22 16:11:58] Fetching all posts
+[2024-10-22 16:13:59] Fetching all posts
+[2024-10-22 16:14:19] Fetching all gallery images
+[2024-10-22 16:14:22] Fetching all gallery images
+[2024-10-22 16:14:22] Fetching all gallery images
+[2024-10-22 16:15:41] Fetching all posts
+[2024-10-22 16:15:46] Fetching all posts
+[2024-10-22 16:16:44] Fetching all posts
+[2024-10-22 16:16:46] Fetching all posts
+[2024-10-22 16:16:50] Fetching all posts
+[2024-10-22 16:16:54] Fetching all posts
+[2024-10-22 16:17:32] Fetching all gallery images
+[2024-10-22 16:17:57] Fetching all gallery images
+[2024-10-22 16:18:00] Fetching all gallery images
+[2024-10-22 16:18:11] Fetching all gallery images
+[2024-10-22 16:20:04] Fetching all posts
+[2024-10-22 16:20:04] Decoding token
+[2024-10-22 16:20:36] Fetching all posts
+[2024-10-22 16:20:36] Decoding token
+[2024-10-22 16:20:38] Fetching all posts
+[2024-10-22 16:20:38] Decoding token
+[2024-10-22 16:20:38] Fetching all posts
+[2024-10-22 16:20:38] Decoding token
+[2024-10-22 16:20:45] Fetching all posts
+[2024-10-22 16:20:45] Decoding token
+[2024-10-22 16:20:45] Fetching all posts
+[2024-10-22 16:20:45] Decoding token
+[2024-10-22 16:20:50] Fetching all posts
+[2024-10-22 16:20:50] Decoding token
+[2024-10-22 16:22:24] Fetching all posts
+[2024-10-22 16:22:24] Decoding token
+[2024-10-22 16:22:24] Invalid token format
+[2024-10-22 16:22:24] Invalid token
+[2024-10-22 16:22:24] Fetching all posts
+[2024-10-22 16:22:24] Decoding token
+[2024-10-22 16:22:24] Invalid token format
+[2024-10-22 16:22:24] Invalid token
+[2024-10-22 16:22:26] Fetching all posts
+[2024-10-22 16:22:26] Decoding token
+[2024-10-22 16:22:26] Invalid token format
+[2024-10-22 16:22:26] Invalid token
+[2024-10-22 16:22:26] Fetching all posts
+[2024-10-22 16:22:26] Decoding token
+[2024-10-22 16:22:26] Invalid token format
+[2024-10-22 16:22:26] Invalid token
+[2024-10-22 16:22:47] Fetching all posts
+[2024-10-22 16:22:47] Decoding token
+[2024-10-22 16:22:47] Invalid token format
+[2024-10-22 16:22:47] Fetching all posts
+[2024-10-22 16:22:47] Decoding token
+[2024-10-22 16:22:47] Invalid token format
+[2024-10-22 16:22:55] Fetching all posts
+[2024-10-22 16:22:55] Decoding token
+[2024-10-22 16:22:59] Fetching all posts
+[2024-10-22 16:22:59] Decoding token
+[2024-10-22 16:22:59] Fetching all posts
+[2024-10-22 16:22:59] Decoding token
+[2024-10-22 16:23:07] Fetching all posts
+[2024-10-22 16:23:07] Decoding token
+[2024-10-22 16:23:10] Fetching all events
+[2024-10-22 16:23:14] Fetching all posts
+[2024-10-22 16:23:14] Decoding token
+[2024-10-22 16:25:14] Fetching all gallery images
+[2024-10-22 16:25:14] Decoding token
+[2024-10-22 16:25:16] Fetching all gallery images
+[2024-10-22 16:25:16] Decoding token
+[2024-10-22 16:25:16] Invalid token format
+[2024-10-22 16:26:55] Fetching all gallery images
+[2024-10-22 16:26:55] Decoding token
+[2024-10-22 16:26:55] Fetching all gallery images
+[2024-10-22 16:26:55] Decoding token
+[2024-10-22 16:26:56] Fetching all posts
+[2024-10-22 16:26:56] Decoding token
+[2024-10-22 16:27:29] Fetching all gallery images
+[2024-10-22 16:27:29] Decoding token
+[2024-10-22 16:27:29] Invalid token format
+[2024-10-22 16:30:44] Fetching all gallery images
+[2024-10-22 16:30:48] Fetching all gallery images
+[2024-10-22 16:30:48] Decoding token
+[2024-10-22 16:30:54] Fetching all gallery images
+[2024-10-22 16:30:54] Fetching all gallery images
+[2024-10-22 16:30:58] Fetching all posts
+[2024-10-22 16:30:58] Decoding token
+[2024-10-22 16:30:58] Invalid token format
+[2024-10-22 16:30:58] Fetching all posts
+[2024-10-22 16:30:58] Decoding token
+[2024-10-22 16:30:58] Invalid token format
+[2024-10-22 16:31:03] Fetching all gallery images
+[2024-10-22 16:31:03] Fetching all gallery images
+[2024-10-22 16:31:06] Fetching all posts
+[2024-10-22 16:31:06] Decoding token
+[2024-10-22 16:31:06] Invalid token format
+[2024-10-22 16:31:06] Fetching all posts
+[2024-10-22 16:31:06] Decoding token
+[2024-10-22 16:31:06] Invalid token format
+[2024-10-22 16:31:07] Fetching all gallery images
+[2024-10-22 16:31:07] Fetching all gallery images
+[2024-10-22 16:31:16] Fetching all posts
+[2024-10-22 16:31:16] Decoding token
+[2024-10-22 16:31:18] Fetching all gallery images
+[2024-10-22 16:31:18] Decoding token
+[2024-10-22 16:31:40] Fetching all posts
+[2024-10-22 16:31:40] Decoding token
+[2024-10-22 16:31:50] Starting getUserInfo process
+[2024-10-22 16:31:50] Decoding token
+[2024-10-22 16:31:50] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 16:31:50] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-22 16:31:53] Starting getSummary process
+[2024-10-22 16:31:53] Decoding token
+[2024-10-22 16:31:53] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-22 16:31:55] Fetching all posts
+[2024-10-22 16:31:55] Decoding token
+[2024-10-22 16:32:26] Fetching all posts
+[2024-10-22 16:32:26] Decoding token
+[2024-10-22 16:32:45] Fetching all events
+[2024-10-22 16:33:09] Fetching all events
+[2024-10-22 16:33:34] Fetching all events
+[2024-10-22 16:34:34] Starting create image gallery process
+[2024-10-22 16:34:34] Decoding token
+[2024-10-22 16:36:02] Starting create image gallery process
+[2024-10-22 16:36:02] Decoding token
+[2024-10-23 17:46:08] Fetching all posts
+[2024-10-23 17:46:08] Decoding token
+[2024-10-23 17:46:08] Invalid token format
+[2024-10-23 17:46:08] Fetching all posts
+[2024-10-23 17:46:08] Decoding token
+[2024-10-23 17:46:08] Invalid token format
+[2024-10-23 17:47:10] Fetching all posts
+[2024-10-23 17:47:10] Decoding token
+[2024-10-23 17:47:10] Invalid token format
+[2024-10-23 17:47:10] Fetching all posts
+[2024-10-23 17:47:10] Decoding token
+[2024-10-23 17:47:10] Invalid token format
+[2024-10-23 17:54:07] Fetching all posts
+[2024-10-23 17:54:07] Decoding token
+[2024-10-23 17:54:07] Invalid token format
+[2024-10-23 17:54:07] Fetching all posts
+[2024-10-23 17:54:07] Decoding token
+[2024-10-23 17:54:07] Invalid token format
+[2024-10-23 18:13:13] Fetching all posts
+[2024-10-23 18:13:13] Decoding token
+[2024-10-23 18:13:13] Invalid token format
+[2024-10-23 18:13:13] Fetching all posts
+[2024-10-23 18:13:13] Decoding token
+[2024-10-23 18:13:13] Invalid token format
+[2024-10-23 18:15:03] Fetching all posts
+[2024-10-23 18:15:03] Decoding token
+[2024-10-23 18:15:03] Invalid token format
+[2024-10-23 18:15:03] Fetching all posts
+[2024-10-23 18:15:03] Decoding token
+[2024-10-23 18:15:03] Invalid token format
+[2024-10-23 18:17:26] Fetching all posts
+[2024-10-23 18:17:26] Fetching all posts
+[2024-10-23 18:17:26] Decoding token
+[2024-10-23 18:17:26] Decoding token
+[2024-10-23 18:17:26] Invalid token format
+[2024-10-23 18:17:26] Invalid token format
+[2024-10-23 18:26:55] Fetching all posts
+[2024-10-23 18:26:55] Decoding token
+[2024-10-23 18:26:55] Invalid token format
+[2024-10-23 18:26:55] Fetching all posts
+[2024-10-23 18:26:55] Decoding token
+[2024-10-23 18:26:55] Invalid token format
+[2024-10-23 18:28:20] Fetching all posts
+[2024-10-23 18:28:20] Fetching all posts
+[2024-10-23 18:28:20] Decoding token
+[2024-10-23 18:28:20] Decoding token
+[2024-10-23 18:28:20] Invalid token format
+[2024-10-23 18:28:20] Invalid token format
+[2024-10-23 18:29:55] Fetching all posts
+[2024-10-23 18:29:55] Decoding token
+[2024-10-23 18:29:55] Invalid token format
+[2024-10-23 18:29:58] Fetching all posts
+[2024-10-23 18:29:58] Decoding token
+[2024-10-23 18:29:58] Invalid token format
+[2024-10-23 18:30:06] Fetching all posts
+[2024-10-23 18:30:06] Decoding token
+[2024-10-23 18:30:06] Invalid token format
+[2024-10-23 18:30:06] Fetching all posts
+[2024-10-23 18:30:06] Decoding token
+[2024-10-23 18:30:06] Invalid token format
+[2024-10-23 18:30:56] Fetching all posts
+[2024-10-23 18:30:56] Decoding token
+[2024-10-23 18:30:56] Invalid token format
+[2024-10-23 18:37:05] Fetching all posts
+[2024-10-23 18:37:05] Decoding token
+[2024-10-23 18:37:05] Invalid token format
+[2024-10-23 18:37:05] Fetching all posts
+[2024-10-23 18:37:05] Decoding token
+[2024-10-23 18:37:05] Invalid token format
+[2024-10-23 18:37:22] Fetching all posts
+[2024-10-23 18:37:22] Decoding token
+[2024-10-23 18:37:22] Invalid token format
+[2024-10-23 18:37:28] Fetching all posts
+[2024-10-23 18:37:28] Decoding token
+[2024-10-23 18:37:28] Invalid token format
+[2024-10-23 18:37:28] Fetching all posts
+[2024-10-23 18:37:28] Decoding token
+[2024-10-23 18:37:28] Invalid token format
+[2024-10-23 18:40:25] Fetching all posts
+[2024-10-23 18:40:25] Decoding token
+[2024-10-23 18:40:25] Invalid token format
+[2024-10-23 18:40:25] Fetching all posts
+[2024-10-23 18:40:25] Decoding token
+[2024-10-23 18:40:25] Invalid token format
+[2024-10-23 18:40:34] Fetching all posts
+[2024-10-23 18:40:34] Decoding token
+[2024-10-23 18:40:34] Invalid token format
+[2024-10-23 18:41:05] Fetching all posts
+[2024-10-23 18:41:05] Decoding token
+[2024-10-23 18:41:05] Invalid token format
+[2024-10-23 18:41:05] Fetching all posts
+[2024-10-23 18:41:05] Decoding token
+[2024-10-23 18:41:05] Invalid token format
+[2024-10-23 18:41:54] Fetching all posts
+[2024-10-23 18:41:54] Decoding token
+[2024-10-23 18:41:54] Invalid token format
+[2024-10-23 18:41:58] Fetching all posts
+[2024-10-23 18:41:58] Decoding token
+[2024-10-23 18:41:58] Invalid token format
+[2024-10-23 18:41:58] Fetching all posts
+[2024-10-23 18:41:58] Decoding token
+[2024-10-23 18:41:58] Invalid token format
+[2024-10-23 18:42:02] Fetching all posts
+[2024-10-23 18:42:02] Decoding token
+[2024-10-23 18:42:02] Invalid token format
+[2024-10-23 18:42:02] Fetching all posts
+[2024-10-23 18:42:02] Decoding token
+[2024-10-23 18:42:02] Invalid token format
+[2024-10-23 18:42:12] Fetching all posts
+[2024-10-23 18:42:12] Decoding token
+[2024-10-23 18:42:12] Invalid token format
+[2024-10-23 18:42:26] Fetching all posts
+[2024-10-23 18:42:26] Fetching all posts
+[2024-10-23 18:42:26] Decoding token
+[2024-10-23 18:42:26] Decoding token
+[2024-10-23 18:42:26] Invalid token format
+[2024-10-23 18:42:26] Invalid token format
+[2024-10-23 18:42:39] Fetching all posts
+[2024-10-23 18:42:39] Decoding token
+[2024-10-23 18:42:39] Invalid token format
+[2024-10-23 18:42:39] Fetching all posts
+[2024-10-23 18:42:39] Decoding token
+[2024-10-23 18:42:39] Invalid token format
+[2024-10-23 18:42:48] Fetching all posts
+[2024-10-23 18:42:48] Decoding token
+[2024-10-23 18:42:48] Invalid token format
+[2024-10-23 18:42:59] Fetching all posts
+[2024-10-23 18:42:59] Decoding token
+[2024-10-23 18:42:59] Invalid token format
+[2024-10-23 18:42:59] Fetching all posts
+[2024-10-23 18:42:59] Decoding token
+[2024-10-23 18:42:59] Invalid token format
+[2024-10-23 18:44:01] Fetching all posts
+[2024-10-23 18:44:01] Decoding token
+[2024-10-23 18:44:01] Invalid token format
+[2024-10-23 18:44:10] Fetching all posts
+[2024-10-23 18:44:10] Decoding token
+[2024-10-23 18:44:10] Invalid token format
+[2024-10-23 18:44:10] Fetching all posts
+[2024-10-23 18:44:10] Decoding token
+[2024-10-23 18:44:10] Invalid token format
+[2024-10-23 18:51:20] Fetching all posts
+[2024-10-23 18:51:20] Decoding token
+[2024-10-23 18:51:20] Invalid token format
+[2024-10-23 18:51:21] Fetching all posts
+[2024-10-23 18:51:21] Decoding token
+[2024-10-23 18:51:21] Invalid token format
+[2024-10-23 18:52:26] Fetching all posts
+[2024-10-23 18:52:26] Decoding token
+[2024-10-23 18:52:26] Invalid token format
+[2024-10-23 18:52:26] Fetching all posts
+[2024-10-23 18:52:26] Decoding token
+[2024-10-23 18:52:26] Invalid token format
+[2024-10-23 18:59:51] Fetching all posts
+[2024-10-23 18:59:51] Decoding token
+[2024-10-23 18:59:51] Invalid token format
+[2024-10-23 18:59:51] Fetching all posts
+[2024-10-23 18:59:51] Decoding token
+[2024-10-23 18:59:51] Invalid token format
+[2024-10-23 19:02:32] Fetching all posts
+[2024-10-23 19:02:32] Decoding token
+[2024-10-23 19:02:32] Invalid token format
+[2024-10-23 19:02:32] Fetching all posts
+[2024-10-23 19:02:32] Decoding token
+[2024-10-23 19:02:32] Invalid token format
+[2024-10-23 19:02:44] Fetching all posts
+[2024-10-23 19:02:44] Decoding token
+[2024-10-23 19:02:44] Invalid token format
+[2024-10-23 19:02:44] Fetching all posts
+[2024-10-23 19:02:44] Decoding token
+[2024-10-23 19:02:44] Invalid token format
+[2024-10-23 19:04:29] Fetching all posts
+[2024-10-23 19:04:29] Decoding token
+[2024-10-23 19:04:29] Invalid token format
+[2024-10-23 19:04:32] Fetching all posts
+[2024-10-23 19:04:32] Decoding token
+[2024-10-23 19:04:32] Invalid token format
+[2024-10-23 19:04:33] Fetching all posts
+[2024-10-23 19:04:33] Decoding token
+[2024-10-23 19:04:33] Invalid token format
+[2024-10-23 19:04:39] Fetching all posts
+[2024-10-23 19:04:39] Decoding token
+[2024-10-23 19:04:39] Invalid token format
+[2024-10-23 19:04:39] Fetching all posts
+[2024-10-23 19:04:39] Decoding token
+[2024-10-23 19:04:39] Invalid token format
+[2024-10-23 19:06:56] Fetching all posts
+[2024-10-23 19:06:56] Decoding token
+[2024-10-23 19:06:56] Invalid token format
+[2024-10-23 19:07:04] Fetching all posts
+[2024-10-23 19:07:04] Decoding token
+[2024-10-23 19:07:04] Invalid token format
+[2024-10-23 19:07:04] Fetching all posts
+[2024-10-23 19:07:04] Decoding token
+[2024-10-23 19:07:04] Invalid token format
+[2024-10-23 19:07:04] Fetching all posts
+[2024-10-23 19:07:04] Decoding token
+[2024-10-23 19:07:04] Invalid token format
+[2024-10-23 19:08:18] Fetching all posts
+[2024-10-23 19:08:18] Fetching all posts
+[2024-10-23 19:08:18] Decoding token
+[2024-10-23 19:08:18] Decoding token
+[2024-10-23 19:08:18] Invalid token format
+[2024-10-23 19:08:18] Invalid token format
+[2024-10-23 19:08:19] Fetching all posts
+[2024-10-23 19:08:19] Decoding token
+[2024-10-23 19:08:19] Invalid token format
+[2024-10-23 19:10:08] Fetching all posts
+[2024-10-23 19:10:08] Decoding token
+[2024-10-23 19:10:08] Invalid token format
+[2024-10-23 19:10:14] Fetching all posts
+[2024-10-23 19:10:14] Decoding token
+[2024-10-23 19:10:14] Invalid token format
+[2024-10-23 19:10:14] Fetching all posts
+[2024-10-23 19:10:14] Decoding token
+[2024-10-23 19:10:14] Invalid token format
+[2024-10-23 19:10:15] Fetching all posts
+[2024-10-23 19:10:15] Decoding token
+[2024-10-23 19:10:15] Invalid token format
+[2024-10-23 19:10:15] Fetching all posts
+[2024-10-23 19:10:15] Decoding token
+[2024-10-23 19:10:15] Invalid token format
+[2024-10-23 19:10:18] Fetching all posts
+[2024-10-23 19:10:18] Decoding token
+[2024-10-23 19:10:18] Invalid token format
+[2024-10-23 19:10:18] Fetching all posts
+[2024-10-23 19:10:18] Decoding token
+[2024-10-23 19:10:18] Invalid token format
+[2024-10-23 19:10:25] Fetching all posts
+[2024-10-23 19:10:25] Decoding token
+[2024-10-23 19:10:25] Invalid token format
+[2024-10-23 19:10:26] Fetching all posts
+[2024-10-23 19:10:26] Decoding token
+[2024-10-23 19:10:26] Invalid token format
+[2024-10-23 19:13:03] Fetching all posts
+[2024-10-23 19:13:03] Decoding token
+[2024-10-23 19:13:03] Invalid token format
+[2024-10-23 19:13:03] Fetching all posts
+[2024-10-23 19:13:03] Decoding token
+[2024-10-23 19:13:03] Invalid token format
+[2024-10-23 19:13:06] Fetching all posts
+[2024-10-23 19:13:06] Decoding token
+[2024-10-23 19:13:06] Invalid token format
+[2024-10-23 19:13:08] Fetching all posts
+[2024-10-23 19:13:08] Decoding token
+[2024-10-23 19:13:08] Invalid token format
+[2024-10-23 19:13:08] Fetching all posts
+[2024-10-23 19:13:08] Decoding token
+[2024-10-23 19:13:08] Invalid token format
+[2024-10-23 19:15:27] Fetching all posts
+[2024-10-23 19:15:27] Decoding token
+[2024-10-23 19:15:27] Invalid token format
+[2024-10-23 19:15:27] Fetching all posts
+[2024-10-23 19:15:27] Decoding token
+[2024-10-23 19:15:27] Invalid token format
+[2024-10-23 19:18:57] Fetching all posts
+[2024-10-23 19:18:57] Decoding token
+[2024-10-23 19:18:57] Invalid token format
+[2024-10-23 19:18:57] Fetching all posts
+[2024-10-23 19:18:57] Decoding token
+[2024-10-23 19:18:57] Invalid token format
+[2024-10-23 19:19:39] Fetching all posts
+[2024-10-23 19:19:39] Decoding token
+[2024-10-23 19:19:39] Invalid token format
+[2024-10-23 19:19:47] Fetching all posts
+[2024-10-23 19:19:47] Decoding token
+[2024-10-23 19:19:47] Invalid token format
+[2024-10-23 19:19:47] Fetching all posts
+[2024-10-23 19:19:47] Decoding token
+[2024-10-23 19:19:47] Invalid token format
+[2024-10-23 19:22:09] Fetching all posts
+[2024-10-23 19:22:09] Decoding token
+[2024-10-23 19:22:09] Invalid token format
+[2024-10-23 19:22:32] Fetching all posts
+[2024-10-23 19:22:32] Decoding token
+[2024-10-23 19:22:32] Invalid token format
+[2024-10-23 19:22:32] Fetching all posts
+[2024-10-23 19:22:32] Decoding token
+[2024-10-23 19:22:32] Invalid token format
+[2024-10-23 19:23:12] Fetching all posts
+[2024-10-23 19:23:12] Decoding token
+[2024-10-23 19:23:12] Invalid token format
+[2024-10-23 19:23:12] Fetching all posts
+[2024-10-23 19:23:12] Decoding token
+[2024-10-23 19:23:12] Invalid token format
+[2024-10-23 19:26:46] Fetching all posts
+[2024-10-23 19:26:46] Fetching all posts
+[2024-10-23 19:26:46] Decoding token
+[2024-10-23 19:26:46] Decoding token
+[2024-10-23 19:26:46] Invalid token format
+[2024-10-23 19:26:46] Invalid token format
+[2024-10-23 19:26:49] Fetching all posts
+[2024-10-23 19:26:49] Decoding token
+[2024-10-23 19:26:49] Invalid token format
+[2024-10-23 19:26:49] Fetching all posts
+[2024-10-23 19:26:49] Decoding token
+[2024-10-23 19:26:49] Invalid token format
+[2024-10-23 19:27:02] Fetching all posts
+[2024-10-23 19:27:02] Decoding token
+[2024-10-23 19:27:02] Invalid token format
+[2024-10-23 19:27:02] Fetching all posts
+[2024-10-23 19:27:02] Decoding token
+[2024-10-23 19:27:02] Invalid token format
+[2024-10-23 19:30:14] Fetching all posts
+[2024-10-23 19:30:14] Decoding token
+[2024-10-23 19:30:14] Invalid token format
+[2024-10-23 19:30:14] Fetching all posts
+[2024-10-23 19:30:14] Decoding token
+[2024-10-23 19:30:14] Invalid token format
+[2024-10-23 19:39:47] Fetching all posts
+[2024-10-23 19:39:47] Decoding token
+[2024-10-23 19:39:47] Invalid token format
+[2024-10-23 20:15:54] Starting getUserInfo process
+[2024-10-23 20:15:54] Decoding token
+[2024-10-23 20:15:54] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-23 20:15:54] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-23 20:15:57] Starting getSummary process
+[2024-10-23 20:15:57] Decoding token
+[2024-10-23 20:15:57] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-23 20:27:25] Starting getUserInfo process
+[2024-10-23 20:27:25] Decoding token
+[2024-10-23 20:27:25] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-23 20:27:25] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-23 20:27:32] Starting getSummary process
+[2024-10-23 20:27:32] Decoding token
+[2024-10-23 20:27:32] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-23 20:33:16] Fetching all posts
+[2024-10-23 20:33:16] Decoding token
+[2024-10-23 20:33:16] Invalid token format
+[2024-10-23 20:44:20] Invalid credentials for username: ryan11@gmail.com
+[2024-10-23 20:44:33] Starting getUserInfo process
+[2024-10-23 20:44:33] Decoding token
+[2024-10-23 20:44:33] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-23 20:44:33] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-23 20:44:37] Starting getSummary process
+[2024-10-23 20:44:37] Decoding token
+[2024-10-23 20:44:37] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c, userType: 1001
+[2024-10-23 20:45:03] Fetching all posts
+[2024-10-23 20:45:03] Decoding token
+[2024-10-23 20:45:03] Invalid token format
+[2024-10-24 05:19:28] Fetching all posts
+[2024-10-24 05:19:28] Decoding token
+[2024-10-24 05:19:28] Invalid token format
+[2024-10-24 21:36:36] Fetching all posts
+[2024-10-24 21:36:36] Fetching all posts
+[2024-10-24 21:36:36] Decoding token
+[2024-10-24 21:36:36] Decoding token
+[2024-10-24 21:36:36] Invalid token format
+[2024-10-24 21:36:36] Invalid token format
+[2024-10-24 21:37:09] Fetching all posts
+[2024-10-24 21:37:09] Decoding token
+[2024-10-24 21:37:09] Invalid token format
+[2024-10-24 21:37:09] Fetching all posts
+[2024-10-24 21:37:09] Decoding token
+[2024-10-24 21:37:09] Invalid token format
+[2024-10-24 21:39:30] Fetching all posts
+[2024-10-24 21:39:30] Decoding token
+[2024-10-24 21:39:30] Invalid token format
+[2024-10-24 21:39:30] Fetching all posts
+[2024-10-24 21:39:30] Decoding token
+[2024-10-24 21:39:30] Invalid token format
+[2024-10-24 21:40:36] Fetching all posts
+[2024-10-24 21:40:36] Decoding token
+[2024-10-24 21:40:36] Invalid token format
+[2024-10-24 21:40:36] Fetching all posts
+[2024-10-24 21:40:36] Decoding token
+[2024-10-24 21:40:36] Invalid token format
+[2024-10-24 21:40:37] Fetching all gallery images
+[2024-10-24 21:40:37] Fetching all gallery images
+[2024-10-24 21:41:14] Fetching all posts
+[2024-10-24 21:41:14] Fetching all posts
+[2024-10-24 21:41:14] Decoding token
+[2024-10-24 21:41:14] Decoding token
+[2024-10-24 21:41:14] Invalid token format
+[2024-10-24 21:41:14] Invalid token format
+[2024-10-24 21:43:41] Starting getUserInfo process
+[2024-10-24 21:43:41] Decoding token
+[2024-10-24 21:43:41] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-24 21:43:41] Updating login_at for user ID: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-24 22:19:24] Starting registration process
+[2024-10-24 22:19:24] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:19:24] User table insertion successful
+[2024-10-24 22:19:24] Login table insertion successful
+[2024-10-24 22:20:03] Starting registration process
+[2024-10-24 22:20:03] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:20:03] Username, email, or phone already exists
+[2024-10-24 22:27:34] Starting account deletion process
+[2024-10-24 22:27:34] Data received: {"username":"ryan@mail.com"}
+[2024-10-24 22:27:34] Account deletion successful
+[2024-10-24 22:29:51] Starting account deletion process
+[2024-10-24 22:29:51] Data received: {"id":"c4836385-7bcb-4b0e-9dfc-a5ba8dcbd5a9"}
+[2024-10-24 22:29:51] Account deletion successful
+[2024-10-24 22:30:50] Starting registration process
+[2024-10-24 22:30:50] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:30:50] User table insertion successful
+[2024-10-24 22:30:50] Login table insertion successful
+[2024-10-24 22:31:06] Starting registration process
+[2024-10-24 22:31:06] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:31:06] Username, email, or phone already exists
+[2024-10-24 22:31:08] Starting registration process
+[2024-10-24 22:31:08] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:31:08] Username, email, or phone already exists
+[2024-10-24 22:31:37] Starting registration process
+[2024-10-24 22:31:37] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:31:37] Username, email, or phone already exists
+[2024-10-24 22:34:17] Starting registration process
+[2024-10-24 22:34:17] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:34:17] Username, email, or phone already exists
+[2024-10-24 22:35:29] Starting registration process
+[2024-10-24 22:35:29] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:35:29] Username, email, or phone already exists
+[2024-10-24 22:35:34] Starting registration process
+[2024-10-24 22:35:34] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:35:34] Username, email, or phone already exists
+[2024-10-24 22:35:43] Starting registration process
+[2024-10-24 22:35:43] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:35:43] Username, email, or phone already exists
+[2024-10-24 22:35:57] Starting registration process
+[2024-10-24 22:35:57] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:35:57] Username, email, or phone already exists
+[2024-10-24 22:36:03] Starting registration process
+[2024-10-24 22:36:03] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:36:03] Username, email, or phone already exists
+[2024-10-24 22:36:34] Starting registration process
+[2024-10-24 22:36:34] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:36:34] Username, email, or phone already exists
+[2024-10-24 22:36:37] Starting registration process
+[2024-10-24 22:36:37] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:36:37] Username, email, or phone already exists
+[2024-10-24 22:37:07] Starting registration process
+[2024-10-24 22:37:07] Data received: {"username":"ryan@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:37:07] Username, email, or phone already exists
+[2024-10-24 22:38:32] Starting registration process
+[2024-10-24 22:38:32] Data received: {"username":"dimas@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:38:32] Username, email, or phone already exists
+[2024-10-24 22:39:04] Starting registration process
+[2024-10-24 22:39:04] Data received: {"username":"dimas@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:39:04] Username, email, or phone already exists
+[2024-10-24 22:39:21] Starting registration process
+[2024-10-24 22:39:21] Data received: {"username":"dimas@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:39:21] Username, email, or phone already exists
+[2024-10-24 22:40:26] Starting registration process
+[2024-10-24 22:40:26] Data received: {"username":"dimas@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:40:26] Username, email, or phone already exists
+[2024-10-24 22:40:55] Starting registration process
+[2024-10-24 22:40:55] Data received: {"username":"dimas@mail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:40:55] Username, email, or phone already exists
+[2024-10-24 22:41:42] Starting account deletion process
+[2024-10-24 22:41:42] Data received: {"id":"fa0e329d-0dd2-43dc-bc46-15e0a031463f"}
+[2024-10-24 22:41:42] Account deletion successful
+[2024-10-24 22:42:10] Starting registration process
+[2024-10-24 22:42:10] Data received: {"username":"mtapryan@gmail.com","fullname":"Muhammad Apryan","email":"mtapryan@gmail.com","phone":"081387880595","password":"123456","address":"Jl. Rinjani 1 Blok G\/18 No.9","user_type":1004}
+[2024-10-24 22:42:10] User table insertion successful
+[2024-10-24 22:42:10] Login table insertion successful
+[2024-10-24 22:48:47] Fetching all posts
+[2024-10-24 22:48:47] Decoding token
+[2024-10-24 22:48:47] Invalid token format
+[2024-10-24 22:48:47] Fetching all posts
+[2024-10-24 22:48:47] Decoding token
+[2024-10-24 22:48:47] Invalid token format
+[2024-10-24 22:49:44] Fetching all posts
+[2024-10-24 22:49:44] Decoding token
+[2024-10-24 22:49:44] Invalid token format
+[2024-10-24 22:49:44] Fetching all posts
+[2024-10-24 22:49:44] Decoding token
+[2024-10-24 22:49:44] Invalid token format
+[2024-10-24 23:15:14] Starting getUserInfo process
+[2024-10-24 23:15:14] Decoding token
+[2024-10-24 23:15:14] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-24 23:15:14] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-24 23:15:14] Fetching all posts
+[2024-10-24 23:15:14] Decoding token
+[2024-10-24 23:15:14] Invalid token format
+[2024-10-24 23:15:14] Fetching all posts
+[2024-10-24 23:15:14] Decoding token
+[2024-10-24 23:15:14] Invalid token format
+[2024-10-24 23:16:41] Fetching all posts
+[2024-10-24 23:16:41] Fetching all posts
+[2024-10-24 23:16:41] Decoding token
+[2024-10-24 23:16:41] Decoding token
+[2024-10-24 23:16:41] Invalid token format
+[2024-10-24 23:16:41] Invalid token format
+[2024-10-24 23:17:13] Starting getUserInfo process
+[2024-10-24 23:17:13] Decoding token
+[2024-10-24 23:17:13] Decoded userId: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-24 23:17:13] Updating login_at for user ID: ee8c254c-884e-11ef-9962-00163ce8cd5c
+[2024-10-24 23:17:13] Fetching all posts
+[2024-10-24 23:17:13] Decoding token
+[2024-10-24 23:17:13] Invalid token format
+[2024-10-24 23:17:13] Fetching all posts
+[2024-10-24 23:17:13] Decoding token
+[2024-10-24 23:17:13] Invalid token format
+[2024-10-24 23:19:39] Fetching all posts
+[2024-10-24 23:19:39] Decoding token
+[2024-10-24 23:19:39] Invalid token format
+[2024-10-24 23:19:39] Fetching all posts
+[2024-10-24 23:19:39] Decoding token
+[2024-10-24 23:19:39] Invalid token format
+[2024-10-24 23:19:48] Starting getUserInfo process
+[2024-10-24 23:19:48] Decoding token
+[2024-10-24 23:19:48] Decoded userId: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-24 23:19:48] Updating login_at for user ID: 734eb84f-e205-4562-9379-4c7d69c59ece
+[2024-10-24 23:19:48] Fetching all posts
+[2024-10-24 23:19:48] Decoding token
+[2024-10-24 23:19:48] Invalid token format
+[2024-10-24 23:19:48] Fetching all posts
+[2024-10-24 23:19:48] Decoding token
+[2024-10-24 23:19:48] Invalid token format
+[2024-10-24 23:22:22] Fetching all posts
+[2024-10-24 23:22:22] Decoding token
+[2024-10-24 23:22:22] Invalid token format
+[2024-10-24 23:22:22] Fetching all posts
+[2024-10-24 23:22:22] Decoding token
+[2024-10-24 23:22:22] Invalid token format
+[2024-10-24 23:22:29] Starting getUserInfo process
+[2024-10-24 23:22:29] Decoding token
+[2024-10-24 23:22:29] Decoded userId: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-24 23:22:29] Updating login_at for user ID: 7355b509-b30c-4d56-bdd6-a38eab90c1e6
+[2024-10-24 23:22:29] Fetching all posts
+[2024-10-24 23:22:29] Decoding token
+[2024-10-24 23:22:29] Invalid token format
+[2024-10-24 23:22:29] Fetching all posts
+[2024-10-24 23:22:29] Decoding token
+[2024-10-24 23:22:29] Invalid token format
+[2024-10-24 23:23:34] Fetching all posts
+[2024-10-24 23:23:34] Decoding token
+[2024-10-24 23:23:34] Invalid token format
+[2024-10-24 23:23:34] Fetching all posts
+[2024-10-24 23:23:34] Decoding token
+[2024-10-24 23:23:34] Invalid token format

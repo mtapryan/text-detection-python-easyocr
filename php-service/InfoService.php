@@ -1,5 +1,9 @@
 <?php
-header("Access-Control-Allow-Origin: http://localhost:3000");
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
 header("Access-Control-Allow-Credentials: true");
@@ -36,9 +40,10 @@ class InfoService {
         $userId = $decoded['userId'];
         $this->logger->log("Decoded userId: $userId");
 
-        $sql = "SELECT l.username, l.email, l.phone, l.created_at, l.login_at, l.user_type, r.description_role 
+        $sql = "SELECT l.username, l.email, l.phone, l.created_at, l.login_at, l.user_type, r.description_role, u.user_id 
                 FROM login l 
                 LEFT JOIN role r ON l.user_type = r.code_role 
+                LEFT JOIN user u ON l.id = u.user_id 
                 WHERE l.id = ?";
         if($stmt = mysqli_prepare($this->link, $sql)){
             mysqli_stmt_bind_param($stmt, "s", $userId);

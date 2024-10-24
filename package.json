@@ -18,6 +18,8 @@
     "leaflet": "^1.9.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
     "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",

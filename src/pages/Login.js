@@ -7,13 +7,16 @@ import {
   Typography,
   Container,
   Alert,
-  Divider,
   Grid,
   Link,
   InputLabel,
+  // Divider,
 } from "@mui/material";
+// import { Facebook, Google } from "@mui/icons-material";
+// import { GoogleLogin } from "react-google-login";
+// import FacebookLogin from "react-facebook-login";
 import axios from "axios";
-import { Facebook, Google } from "@mui/icons-material";
+import fotocapLogo from "../assets/fotocap2-horizontal.png";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -40,46 +43,100 @@ const Login = () => {
       );
 
       const data = response.data;
-
+      console.log("[data Login] : ", data);
       if (data.status === "success") {
-        localStorage.setItem("token", data?.data?.token);
-        navigate("/upload");
+        const responseInfo = await axios.get(
+          `https://dev.duniadalamdigital.com/carifoto/php-service/InfoService.php`,
+          {
+            headers: {
+              "Content-Type": "application/json",
+              "Authorization": `Bearer ${data?.data?.token}`,
+            },
+          }
+        );
+        const dataInfo = responseInfo.data;
+        console.log("[data Info] : ", dataInfo);
+        if (dataInfo.status === "success") {
+          localStorage.setItem("info", JSON.stringify(dataInfo?.data));
+          localStorage.setItem("token", data?.data?.token);
+          navigate("/");
+        } else {
+          setError("Salah username, email atau password");
+        }
       } else {
-        setError("Invalid username or password");
+        setError("Salah username, email atau password");
       }
     } catch (error) {
-      console.error("Error during login:", error);
-      setError("Failed to fetch");
+      console.error("[Error Login] : ", error);
+      setError("Kesalahan Sistem atau Server");
     }
   };
 
-  // Handle Google Login
-  const handleGoogleLogin = async () => {
-    // const provider = new firebase.auth.GoogleAuthProvider();
-    // try {
-    //   const result = await firebase.auth().signInWithPopup(provider);
-    //   // Setelah login sukses, bisa redirect
-    //   navigate("/dashboard");
-    // } catch (error) {
-    //   setError("Google login failed. Please try again.");
-    // }
-  };
+  /* const handleGoogleLoginSuccess = async (response) => {
+    console.log("Google login success:", response);
+    const { tokenId } = response;
+    try {
+      const res = await axios.post(
+        `https://dev.duniadalamdigital.com/carifoto/php-service/GoogleLoginService.php`,
+        { tokenId },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+      const data = res.data;
+      if (data.status === "success") {
+        localStorage.setItem("info", data?.data);
+        localStorage.setItem("token", data?.data?.token);
+        navigate("/");
+      } else {
+        setError("Google login failed");
+      }
+    } catch (error) {
+      console.error("[Error Google Login] : ", error);
+      setError("Kesalahan Sistem atau Server");
+    }
+  }; */
 
-  // Handle Facebook Login
-  const handleFacebookLogin = async () => {
-    // const provider = new firebase.auth.FacebookAuthProvider();
-    // try {
-    //   const result = await firebase.auth().signInWithPopup(provider);
-    //   // Setelah login sukses, bisa redirect
-    //   navigate("/dashboard");
-    // } catch (error) {
-    //   setError("Facebook login failed. Please try again.");
-    // }
-  };
+  /* const handleGoogleLoginFailure = (response) => {
+    console.error("Google login failed:", response);
+    setError("Google login failed");
+  }; */
 
-  // Handle Forgot Password
+  /* const handleFacebookLoginSuccess = async (response) => {
+    console.log("Facebook login success:", response);
+    const { accessToken, userID } = response;
+    try {
+      const res = await axios.post(
+        `https://dev.duniadalamdigital.com/carifoto/php-service/FacebookLoginService.php`,
+        { accessToken, userID },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+      const data = res.data;
+      if (data.status === "success") {
+        localStorage.setItem("info", data?.data);
+        localStorage.setItem("token", data?.data?.token);
+        navigate("/");
+      } else {
+        setError("Facebook login failed");
+      }
+    } catch (error) {
+      console.error("[Error Facebook Login] : ", error);
+      setError("Kesalahan Sistem atau Server");
+    }
+  }; */
+
+  /* const handleFacebookLoginFailure = (response) => {
+    console.error("Facebook login failed:", response);
+    setError("Facebook login failed");
+  }; */
+
   const handleForgotPassword = () => {
-    // Arahkan pengguna ke halaman pemulihan kata sandi
     navigate("/forgot-password");
   };
 
@@ -91,14 +148,21 @@ const Login = () => {
     <Container maxWidth="xs">
       <Box
         sx={{
-          marginTop: 20,
+          marginTop: 10,
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
         }}
       >
-        <Typography component="h1" variant="h5" fontWeight="bold">
-          LOGIN
+        <Box
+          component="img"
+          src={fotocapLogo}
+          alt="FotoCap Logo"
+          sx={{ height: 50, mt: 2, mb: 2 }}
+          onClick={() => navigate("/")}
+        />
+        <Typography variant="h7" sx={{ fontWeight: "bold" }}>
+          {`Ayo, temukan foto terbaikmu disini`}
         </Typography>
 
         <Box
@@ -122,6 +186,14 @@ const Login = () => {
             autoFocus
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            inputProps={{
+              required: true,
+              "data-required-error": "Mohon tidak kosong kolom ini",
+            }}
+            onInvalid={(e) =>
+              e.target.setCustomValidity(e.target.dataset.requiredError)
+            }
+            onInput={(e) => e.target.setCustomValidity("")}
           />
           <InputLabel
             htmlFor="password"
@@ -139,6 +211,14 @@ const Login = () => {
             autoComplete="current-password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            inputProps={{
+              required: true,
+              "data-required-error": "Mohon tidak kosong kolom ini",
+            }}
+            onInvalid={(e) =>
+              e.target.setCustomValidity(e.target.dataset.requiredError)
+            }
+            onInput={(e) => e.target.setCustomValidity("")}
           />
 
           {error && <Alert severity="error">{error}</Alert>}
@@ -153,39 +233,57 @@ const Login = () => {
             Login
           </Button>
 
-          {/* Login with Google and Facebook */}
-          <Divider sx={{ my: 2 }}>OR</Divider>
-          <Button
-            fullWidth
-            variant="outlined"
-            color="primary"
-            startIcon={<Google />}
-            sx={{ mb: 1 }}
-            onClick={handleGoogleLogin} // Assuming handleGoogleLogin function
-          >
-            Login with Google
-          </Button>
+          {/* <Divider sx={{ my: 2 }}>OR</Divider> */}
 
-          <Button
-            fullWidth
-            variant="outlined"
-            color="primary"
-            startIcon={<Facebook />}
-            onClick={handleFacebookLogin} // Assuming handleFacebookLogin function
-          >
-            Login with Facebook
-          </Button>
+          {/* <GoogleLogin
+            clientId="YOUR_GOOGLE_CLIENT_ID"
+            buttonText="Login with Google"
+            onSuccess={handleGoogleLoginSuccess}
+            onFailure={handleGoogleLoginFailure}
+            cookiePolicy={"single_host_origin"}
+            render={(renderProps) => (
+              <Button
+                fullWidth
+                variant="outlined"
+                color="primary"
+                startIcon={<Google />}
+                sx={{ mb: 1 }}
+                onClick={renderProps.onClick}
+                disabled={renderProps.disabled}
+              >
+                Login Google
+              </Button>
+            )}
+          />
 
-          {/* Register Link */}
+          <FacebookLogin
+            appId="YOUR_FACEBOOK_APP_ID"
+            autoLoad={false}
+            fields="name,email,picture"
+            callback={handleFacebookLoginSuccess}
+            onFailure={handleFacebookLoginFailure}
+            render={(renderProps) => (
+              <Button
+                fullWidth
+                variant="outlined"
+                color="primary"
+                startIcon={<Facebook />}
+                onClick={renderProps.onClick}
+              >
+                Login Facebook
+              </Button>
+            )}
+          /> */}
+
           <Grid container sx={{ mt: 2 }}>
             <Grid item xs>
               <Link href="#" variant="body2" onClick={handleForgotPassword}>
-                Forgot password?
+                {`Lupa password?`}
               </Link>
             </Grid>
             <Grid item>
               <Link href="" variant="body2" onClick={handleRegsiter}>
-                {"Don't have an account? Register"}
+                {"Belum punya akun? Daftar disini"}
               </Link>
             </Grid>
           </Grid>

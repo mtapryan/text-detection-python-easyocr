@@ -25,6 +25,7 @@ const ProfilePage = () => {
   const handleLogout = () => {
     navigate("/");
     localStorage.removeItem("token");
+    localStorage.removeItem("info");
   };
   const handleTabChange = (event, newValue) => {
     setCurrentTab(newValue);

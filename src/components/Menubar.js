@@ -20,15 +20,19 @@ import {
   Nature,
   Camera,
   ShoppingCart,
+  UploadFile,
 } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import "../styles/MenubarStyle.css"; // Updated import
 
 const Menubar = () => {
   const navigate = useNavigate();
-  const token = localStorage.getItem("token");
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const token = localStorage.getItem("token");
+  const role = localStorage.getItem("info");
+  const parseRole = JSON.parse(role);
+  const typeRole = parseRole?.user_type;
   const [anchorEl, setAnchorEl] = useState(null);
 
   // Handle opening the popover
@@ -85,16 +89,40 @@ const Menubar = () => {
         </ListItemIcon>
         <ListItemText primary="Lokasi" />
       </ListItem>
-      <IconButton
-        aria-describedby={id}
+      <ListItem
+        button
         className="icon"
-        onClick={handleClick}
-        sx={{ position: "relative" }}
+        onClick={() => (token ? navigate("/profile") : navigate("/login"))}
       >
-        <Badge badgeContent={4} color="warning">
-          <ShoppingCart sx={{ color: "white" }} />
-        </Badge>
-      </IconButton>
+        <ListItemIcon className="icon-width">
+          <AccountCircle className="icon" />
+        </ListItemIcon>
+        <ListItemText primary={token ? "Akun" : "Login"} />
+      </ListItem>
+      {token && typeRole === 1003 ? (
+        <ListItem button className="icon" onClick={() => navigate("/upload")}>
+          <ListItemIcon className="icon-width">
+            <UploadFile className="icon" />
+          </ListItemIcon>
+          <ListItemText primary={"Upload"} />
+        </ListItem>
+      ) : (
+        <></>
+      )}
+      {token && typeRole === 1004 ? (
+        <IconButton
+          aria-describedby={id}
+          className="icon"
+          onClick={handleClick}
+          sx={{ position: "relative" }}
+        >
+          <Badge badgeContent={4} color="warning">
+            <ShoppingCart sx={{ color: "white" }} />
+          </Badge>
+        </IconButton>
+      ) : (
+        <></>
+      )}
       <Popover
         id={id}
         open={open}
@@ -146,16 +174,6 @@ const Menubar = () => {
           </Button>
         </Box>
       </Popover>
-      <ListItem
-        button
-        className="icon"
-        onClick={() => (token ? navigate("/profile") : navigate("/login"))}
-      >
-        <ListItemIcon className="icon-width">
-          <AccountCircle className="icon" />
-        </ListItemIcon>
-        <ListItemText primary={token ? "Akun" : "Login"} />
-      </ListItem>
     </List>
   );
 
